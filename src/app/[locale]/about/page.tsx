@@ -9,12 +9,12 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.gakuranwiki.wiki'
   const path = '/about'
 
   return {
-    title: 'About Lucid Blocks Wiki - Your Ultimate Steam Game Resource',
-    description: 'Learn about Lucid Blocks Wiki, a community-driven resource hub providing comprehensive guides, crafting tips, creature info, and strategies for the Lucid Blocks Steam game.',
+    title: 'About Gakuran Wiki - Your Ultimate Roblox Game Resource',
+    description: 'Learn about Gakuran Wiki, a community-driven resource hub providing comprehensive guides, code status, PvP tips, fighting styles, and controls for the Gakuran Roblox game.',
     robots: {
       index: false,
       follow: true,
@@ -30,23 +30,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale,
       url: locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`,
-      siteName: 'Lucid Blocks Wiki',
-      title: 'About Lucid Blocks Wiki',
-      description: 'Learn about our mission to provide the best Lucid Blocks game resources and guides.',
+      siteName: 'Gakuran Wiki',
+      title: 'About Gakuran Wiki',
+      description: 'Learn about our mission to provide the best Gakuran game resources and guides.',
       images: [
         {
-          url: `${siteUrl}/og-image.jpg`,
+          url: `${siteUrl}/images/hero.webp`,
           width: 1200,
           height: 630,
-          alt: 'Lucid Blocks Wiki',
+          alt: 'Gakuran Wiki',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'About Lucid Blocks Wiki',
-      description: 'Learn about our mission to provide the best Lucid Blocks game resources.',
-      images: [`${siteUrl}/og-image.jpg`],
+      title: 'About Gakuran Wiki',
+      description: 'Learn about our mission to provide the best Gakuran game resources.',
+      images: [`${siteUrl}/images/hero.webp`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
   }
@@ -59,10 +59,10 @@ export default function About() {
       <section className="relative py-20 px-4 border-b border-border">
         <div className="container mx-auto max-w-4xl text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            About Lucid Blocks Wiki
+            About Gakuran Wiki
           </h1>
           <p className="text-slate-300 text-lg mb-2">
-            Your community-driven resource center for Lucid Blocks
+            Your community-driven resource center for Gakuran
           </p>
         </div>
       </section>
@@ -71,15 +71,15 @@ export default function About() {
       <section className="py-12 px-4">
         <div className="container mx-auto max-w-4xl">
           <div className="prose prose-invert prose-slate max-w-none">
-            <h2>Welcome to Lucid Blocks Wiki</h2>
+            <h2>Welcome to Gakuran Wiki</h2>
             <p>
-              Lucid Blocks Wiki is an <strong>unofficial, fan-made resource website</strong> dedicated to helping players
-              master the Steam game "Lucid Blocks". We are a community-driven platform that provides comprehensive guides,
-              crafting tips, biome information, creature details, and strategic insights to enhance your gaming experience.
+              Gakuran Wiki is an <strong>unofficial, fan-made resource website</strong> dedicated to helping players
+              master the Roblox game "Gakuran". We are a community-driven platform that provides comprehensive guides,
+              code status, PvP tips, fighting style notes, and combat insights to enhance your gaming experience.
             </p>
             <p>
-              Whether you're a new player just starting your survival journey or a seasoned veteran looking to optimize your strategies,
-              Lucid Blocks Wiki is here to support you every step of the way.
+              Whether you're a new player just learning the controls or a seasoned brawler looking to sharpen your PvP,
+              Gakuran Wiki is here to support you every step of the way.
             </p>
           </div>
         </div>
@@ -91,21 +91,21 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>Our Mission</h2>
             <p>
-              Our mission is simple: <strong>to empower Lucid Blocks players with accurate, up-to-date information
+              Our mission is simple: <strong>to empower Gakuran players with accurate, up-to-date information
               and powerful tools</strong> that help them succeed in the game. We strive to:
             </p>
             <ul>
               <li><strong>Provide reliable information:</strong> Keep our content updated with the latest game changes, new items, and balance updates</li>
-              <li><strong>Build useful tools:</strong> Develop guides, crafting calculators, and planners that help players make informed decisions</li>
+              <li><strong>Build useful tools:</strong> Develop guides, code trackers, and PvP planners that help players make informed decisions</li>
               <li><strong>Foster community:</strong> Create a welcoming space where players can learn, share strategies, and grow together</li>
               <li><strong>Stay accessible:</strong> Keep all resources free and easy to use for players of all skill levels</li>
             </ul>
 
             <h2>Our Vision</h2>
             <p>
-              We envision Lucid Blocks Wiki as the <strong>go-to destination</strong> for every Lucid Blocks player seeking
+              We envision Gakuran Wiki as the <strong>go-to destination</strong> for every Gakuran player seeking
               to improve their gameplay. We want to be the resource that players trust and rely on, whether they need
-              crafting guides, want to explore new biomes, or are looking for advanced survival tactics.
+              code updates, want to master PvP combos, or are looking for the right fighting style.
             </p>
           </div>
         </div>
@@ -118,51 +118,51 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-6">
             {/* Feature Card 1 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🔨</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Crafting Guides</h3>
+              <div className="text-2xl mb-3">🎫</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Codes & Code Status</h3>
               <p className="text-slate-300">
-                Comprehensive crafting recipes and Apotheosis fusion guides to help you create powerful items.
-                Master the art of item synthesis!
+                Track active codes, expired codes, and whether Gakuran has a verified redeem system.
+                Never miss a working code!
               </p>
             </div>
 
             {/* Feature Card 2 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🌍</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Biome Information</h3>
+              <div className="text-2xl mb-3">⚔️</div>
+              <h3 className="text-xl font-semibold text-white mb-2">PvP & Combat Guide</h3>
               <p className="text-slate-300">
-                Detailed guides on all biomes, their unique features, resources, and dangers.
-                Explore every corner of the surreal world safely.
+                Learn spacing, blocking, punishing, and combo practice for school-town brawls.
+                Hold your own against older players.
               </p>
             </div>
 
             {/* Feature Card 3 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🦋</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Creature Database</h3>
+              <div className="text-2xl mb-3">🥋</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Fighting Styles</h3>
               <p className="text-slate-300">
-                Complete information on all creatures, their behaviors, drops, and how to deal with them.
-                Know your friends from your foes.
+                Compare fighting styles, their tools, mobility, and which ones fit your playstyle.
+                Pick the right style before you fight.
               </p>
             </div>
 
             {/* Feature Card 4 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🎯</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Achievement Guides</h3>
+              <div className="text-2xl mb-3">🎮</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Controls & Keybinds</h3>
               <p className="text-slate-300">
-                Step-by-step guides to unlock all 19 achievements in the game.
-                Complete your collection with our detailed walkthroughs.
+                Core controls for PC, mobile, and controller play on Roblox.
+                Reference the keybinds for movement, camera, and chat.
               </p>
             </div>
 
             {/* Feature Card 5 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">📚</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Survival Strategies</h3>
+              <div className="text-2xl mb-3">🗺️</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Map & Locations</h3>
               <p className="text-slate-300">
-                Essential survival tips, building strategies, and exploration guides.
-                Learn how to thrive in the surreal sandbox world.
+                Important map areas, hangout spots, training points, and where PvP overlaps with RP.
+                Know where to go first.
               </p>
             </div>
 
@@ -171,8 +171,8 @@ export default function About() {
               <div className="text-2xl mb-3">🌍</div>
               <h3 className="text-xl font-semibold text-white mb-2">Multilingual Support</h3>
               <p className="text-slate-300">
-                Content available in multiple languages including English, Russian, Portuguese,
-                German, Spanish, Japanese, Korean, and French.
+                Content available in multiple languages for Gakuran players worldwide,
+                so you can learn the brawl in your own language.
               </p>
             </div>
           </div>
@@ -185,7 +185,7 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>Community-Driven</h2>
             <p>
-              Lucid Blocks Wiki is built <strong>by the community, for the community</strong>. We welcome contributions,
+              Gakuran Wiki is built <strong>by the community, for the community</strong>. We welcome contributions,
               feedback, and suggestions from players of all skill levels. Our content is constantly evolving based on:
             </p>
             <ul>
@@ -195,7 +195,7 @@ export default function About() {
               <li><strong>Meta shifts:</strong> We track gameplay trends and update guides based on real player experiences</li>
             </ul>
             <p>
-              <strong>Want to contribute?</strong> Whether you've discovered a new crafting recipe, found a hidden biome,
+              <strong>Want to contribute?</strong> Whether you've discovered a new code, found a strong PvP combo,
               or have suggestions for new guides, we'd love to hear from you! Reach out through our contact channels below.
             </p>
           </div>
@@ -208,21 +208,21 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>About the Team</h2>
             <p>
-              Lucid Blocks Wiki is maintained by a dedicated team of passionate gamers and developers who love
-              Lucid Blocks as much as you do. We're players first, constantly testing strategies, exploring game
+              Gakuran Wiki is maintained by a dedicated team of passionate gamers and developers who love
+              Gakuran as much as you do. We're players first, constantly testing strategies, exploring game
               mechanics, and staying updated with the latest discoveries.
             </p>
             <p>
               Our team combines expertise in:
             </p>
             <ul>
-              <li><strong>Game analysis:</strong> Deep understanding of Lucid Blocks mechanics and strategies</li>
+              <li><strong>Game analysis:</strong> Deep understanding of Gakuran mechanics and strategies</li>
               <li><strong>Web development:</strong> Building fast, user-friendly tools and interfaces</li>
               <li><strong>Content creation:</strong> Writing clear, helpful guides and tutorials</li>
               <li><strong>Community management:</strong> Listening to player feedback and fostering a positive environment</li>
             </ul>
             <p className="text-slate-400 italic text-sm">
-              Project Codename: "Dreamscape" – Navigating the surreal together.
+              Project Codename: "Nishikata" – Surviving the school brawl together.
             </p>
           </div>
         </div>
@@ -234,15 +234,15 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>Important Disclaimer</h2>
             <p className="text-yellow-400/90">
-              <strong>Lucid Blocks Wiki is an unofficial fan-made website.</strong> We are NOT affiliated with,
-              endorsed by, or associated with the developers of Lucid Blocks or any official entities.
+              <strong>Gakuran Wiki is an unofficial fan-made website.</strong> We are NOT affiliated with,
+              endorsed by, or associated with the developers of Gakuran or any official entities.
             </p>
             <p>
               All game content, trademarks, characters, and assets are the property of their respective owners.
               We use game-related content under fair use principles for informational and educational purposes only.
             </p>
             <p>
-              Lucid Blocks Wiki is a non-profit, community resource created by fans, for fans.
+              Gakuran Wiki is a non-profit, community resource created by fans, for fans.
             </p>
           </div>
         </div>
@@ -259,26 +259,26 @@ export default function About() {
             <div className="not-prose grid md:grid-cols-2 gap-4 my-6">
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">General Inquiries</h3>
-                <a href="mailto:contact@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  contact@lucidblocks.wiki
+                <a href="mailto:contact@gakuranwiki.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  contact@gakuranwiki.wiki
                 </a>
               </div>
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">Bug Reports</h3>
-                <a href="mailto:support@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  support@lucidblocks.wiki
+                <a href="mailto:support@gakuranwiki.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  support@gakuranwiki.wiki
                 </a>
               </div>
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">Content Submissions</h3>
-                <a href="mailto:contribute@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  contribute@lucidblocks.wiki
+                <a href="mailto:contribute@gakuranwiki.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  contribute@gakuranwiki.wiki
                 </a>
               </div>
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">Partnerships</h3>
-                <a href="mailto:partnerships@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  partnerships@lucidblocks.wiki
+                <a href="mailto:partnerships@gakuranwiki.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  partnerships@gakuranwiki.wiki
                 </a>
               </div>
             </div>
@@ -294,7 +294,7 @@ export default function About() {
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Join Our Community</h2>
           <p className="text-slate-300 mb-6 max-w-2xl mx-auto">
-            Stay updated with the latest guides, tips, and Lucid Blocks news.
+            Stay updated with the latest guides, tips, and Gakuran news.
             Bookmark this site and check back regularly for new content!
           </p>
           <Link

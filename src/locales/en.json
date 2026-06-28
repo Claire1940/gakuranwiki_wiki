@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Gakuran Wiki - Codes, PvP Guide & Fighting Styles",
+      "description": "Gakuran Wiki covers Roblox codes, PvP guide, fighting styles, controls, map notes, updates, and beginner tips for the Japanese school brawler.",
+      "keywords": "Gakuran, Roblox, codes, PvP guide, fighting styles, controls, map, updates",
+      "ogTitle": "Gakuran Wiki - Codes, PvP Guide & Fighting Styles",
+      "ogDescription": "Gakuran Wiki covers Roblox codes, PvP guide, fighting styles, controls, map notes, updates, and beginner tips for the Japanese school brawler.",
+      "twitterTitle": "Gakuran Wiki - Codes, PvP Guide & Fighting Styles",
+      "twitterDescription": "Gakuran Wiki covers Roblox codes, PvP guide, fighting styles, controls, map, and updates."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
+    "badge": "Roblox School Brawler RP",
+    "title": "Gakuran Wiki",
+    "description": "Fight, roleplay, and explore a Japanese school-town in Gakuran. Learn PvP basics, controls, fighting styles, map notes, updates, and code status before you join the brawl.",
+    "getFreeCodesCTA": "Get Free Codes",
     "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "828.5K+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "3.77K",
+        "label": "Current CCU"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "93%",
+        "label": "Like Ratio"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "Roblox",
+        "label": "Platform"
       }
     }
   },
@@ -785,26 +785,25 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Join the Brawl in Gakuran?",
+    "description": "Launch Gakuran on Roblox, check the latest code status, and jump into the Japanese school-town brawl.",
+    "joinCommunity": "Join Roblox Community",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Gakuran Wiki",
+    "description": "Your complete resource hub for Gakuran codes, PvP guide, fighting styles, controls, map notes, and updates.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "robloxGame": "Play on Roblox",
+    "robloxCommunity": "Roblox Community",
+    "discord": "Discord (via Roblox)",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Gakuran Wiki. Not affiliated with the developers of Gakuran.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

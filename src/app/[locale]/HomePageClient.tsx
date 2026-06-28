@@ -1324,21 +1324,21 @@ export default function HomePageClient({
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href="https://www.roblox.com/communities/416091513/Gakuran"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
                   >
-                    <MessageCircle className="w-4 h-4" /> Discord{" "}
+                    <MessageCircle className="w-4 h-4" /> Roblox Community{" "}
                     <ExternalLink className="w-3 h-3" />
                   </a>
                   <a
-                    href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                    href="https://www.roblox.com/games/128736949265057/Gakuran"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
                   >
-                    Steam Community <ExternalLink className="w-3 h-3" />
+                    Play on Roblox <ExternalLink className="w-3 h-3" />
                   </a>
                 </div>
               </div>
@@ -1399,42 +1399,32 @@ export default function HomePageClient({
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href="https://www.roblox.com/games/128736949265057/Gakuran"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
+                  >
+                    {t.footer.robloxGame}
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.roblox.com/communities/416091513/Gakuran"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
+                  >
+                    {t.footer.robloxCommunity}
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.roblox.com/games/128736949265057/Gakuran"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.discord}
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://x.com/lucidblocks"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
-                  >
-                    {t.footer.twitter}
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://steamcommunity.com/app/3495730"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
-                  >
-                    {t.footer.steamCommunity}
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
-                  >
-                    {t.footer.steamStore}
                   </a>
                 </li>
               </ul>
