@@ -35,6 +35,21 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Zap: LucideIcons.Zap,
   Map: LucideIcons.Map,
 
+  // Gakuran 模块图标（Part5 深化：模块5-8 卡片各不相同）
+  Flame: LucideIcons.Flame,
+  Hand: LucideIcons.Hand,
+  Footprints: LucideIcons.Footprints,
+  Move: LucideIcons.Move,
+  Target: LucideIcons.Target,
+  ShieldAlert: LucideIcons.ShieldAlert,
+  School: LucideIcons.School,
+  DoorOpen: LucideIcons.DoorOpen,
+  Trophy: LucideIcons.Trophy,
+  Dumbbell: LucideIcons.Dumbbell,
+  Music: LucideIcons.Music,
+  Route: LucideIcons.Route,
+  Heart: LucideIcons.Heart,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,

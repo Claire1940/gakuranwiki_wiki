@@ -301,53 +301,50 @@
     },
     "gakuranFightingStyles": {
       "title": "Gakuran Fighting Styles Tier List",
-      "subtitle": "An overview of the fighting styles players use in Gakuran, grouped by what each style is known for in PvP.",
+      "subtitle": "Compare the current Gakuran fighting styles for pressure, beginner comfort, mobility, and PvP usefulness.",
       "tiers": [
         {
           "tier": "S",
-          "label": "Versatile All-Rounders",
+          "label": "Best PvP Pressure",
           "styles": [
             {
-              "name": "Boxing",
-              "focus": "Punch pressure",
-              "description": "A straightforward striking style favored for fast punches and steady pressure in close fights."
-            },
-            {
+              "icon": "Flame",
               "name": "Muay Thai",
-              "focus": "Strikes and clinch",
-              "description": "Known for elbows, knees, and clinch tools that give players strong close-range options."
+              "role": "Aggressive close-range striker",
+              "bestFor": "Forward pressure, kick-based melee, and fast punishes in crowded school fights.",
+              "strengths": ["Strong pressure tools", "Good brawling tempo", "Useful in school hotspot fights"],
+              "weaknesses": ["Needs clean spacing", "Punishes reckless chasing"],
+              "practice": "Drill dash-in attacks, block timing, and short punish windows before forcing long trades."
             }
           ]
         },
         {
           "tier": "A",
-          "label": "Solid Pick",
+          "label": "Reliable Beginner Pick",
           "styles": [
             {
-              "name": "Karate",
-              "focus": "Disciplined striking",
-              "description": "A balanced striking style with clean hits and reliable spacing for new and returning players."
-            },
-            {
-              "name": "Kickboxing",
-              "focus": "Hands and kicks",
-              "description": "Blends hand combinations with kicks for flexible mid-range combat."
+              "icon": "Hand",
+              "name": "Boxing",
+              "role": "Straightforward punch-combo style",
+              "bestFor": "New players who want readable combos, simple pressure, and consistent close-range trading.",
+              "strengths": ["Beginner friendly", "Clean punch chains", "Easy to practice in basic PvP"],
+              "weaknesses": ["Short-range commitment", "Needs good block discipline"],
+              "practice": "Practice light attacks into safe disengage routes instead of charging into every fight."
             }
           ]
         },
         {
           "tier": "B",
-          "label": "Starter Friendly",
+          "label": "Flashy Specialist",
           "styles": [
             {
-              "name": "Brawling",
-              "focus": "Simple and direct",
-              "description": "An easy entry style that helps new players learn movement, blocking, and basic combos."
-            },
-            {
+              "icon": "Sparkles",
               "name": "Hakari",
-              "focus": "Community-discussed",
-              "description": "A style players talk about often; check the live game and Trello for its current moves and availability."
+              "role": "Flashy off-meta PvP style",
+              "bestFor": "Players who prefer style expression, surprise factor, and a less standard fighting route.",
+              "strengths": ["Distinct style identity", "Useful for creative players", "Good surprise value"],
+              "weaknesses": ["Less beginner friendly", "Requires stronger matchup awareness"],
+              "practice": "Learn when to disengage, bait blocks, and avoid copying pure pressure routes from Muay Thai or Boxing."
             }
           ]
         }
@@ -356,114 +353,165 @@
     },
     "gakuranCombatGuide": {
       "title": "Gakuran Combat Guide",
-      "subtitle": "Learn Gakuran combat basics, spacing, blocking, punishing, combo practice, and how to survive open PvP encounters.",
+      "subtitle": "Learn stance control, spacing, blocking, punishes, combo practice, and survival habits for open school PvP in Gakuran.",
       "faqs": [
         {
-          "question": "What are the basic Gakuran combat inputs?",
-          "answer": "Gakuran combat uses light and heavy strikes, blocking, and dashes. Open the in-experience Help menu and the Gakuran Trello to read the exact inputs for your current fighting style."
+          "icon": "Footprints",
+          "question": "Start With Combat Stance",
+          "answer": "Enter combat stance before committing to attacks so your movement, blocks, and punishes stay ready.",
+          "details": [
+            "Use combat stance when approaching a fight instead of opening with random swings.",
+            "Keep the camera on the opponent and avoid fighting with your back against doorways or corners.",
+            "Leave enough space to dash out after a blocked attack."
+          ],
+          "controls": [
+            { "action": "Combat stance", "pc": "R", "controller": "In-experience Help menu" },
+            { "action": "Light attack", "pc": "M1 / click", "controller": "R2" },
+            { "action": "Heavy attack", "pc": "M2", "controller": "Y" }
+          ]
         },
         {
-          "question": "How do I space and block in Gakuran PvP?",
-          "answer": "Stay at the edge of your attack range, keep moving, and hold block when opponents commit to a swing. Good spacing lets you hit first and avoid taking trades."
+          "icon": "Move",
+          "question": "Use Spacing Before Combos",
+          "answer": "Spacing decides whether your combo starts cleanly or you whiff into a bad trade.",
+          "details": [
+            "Dash in only when the opponent has already missed, blocked too early, or moved predictably.",
+            "Do not chase forever in straight lines; cut angles around corners, stairs, and school entrances.",
+            "Reset after a missed heavy attack instead of swinging again into a punish."
+          ],
+          "controls": [
+            { "action": "Run / sprint", "pc": "Double tap W", "controller": "L3" },
+            { "action": "Dodge / dash", "pc": "Q", "controller": "B" }
+          ]
         },
         {
-          "question": "How do I punish mistakes in Gakuran?",
-          "answer": "Wait for a missed swing or a blocked combo, then counter with your own string. Punishing is about timing your response right after the opponent overextends."
+          "icon": "Shield",
+          "question": "Block, Parry, Then Punish",
+          "answer": "Blocking keeps you alive long enough to punish mistakes instead of giving away free knockdowns.",
+          "details": [
+            "Block when the opponent is already in range and likely to start a chain.",
+            "Punish after the opponent commits to a whiffed or blocked attack.",
+            "Avoid panic blocking from too far away because it gives away your timing."
+          ],
+          "controls": [
+            { "action": "Block / parry", "pc": "F", "controller": "L2" }
+          ]
         },
         {
-          "question": "How should I practice combos in Gakuran?",
-          "answer": "Pick one fighting style, learn its basic three-to-four hit string in a safe area, then repeat it until it feels natural before adding movement and blocking."
+          "icon": "Target",
+          "question": "Practice Short Combos First",
+          "answer": "Short, repeatable strings beat long fantasy combos that only work in edited clips.",
+          "details": [
+            "Begin with light attacks, a safe pause, then reposition.",
+            "Add heavy attacks only after you can confirm the first hits.",
+            "Practice one style at a time: Boxing for punch chains, Muay Thai for pressure, Hakari for timing and style control."
+          ],
+          "controls": [
+            { "action": "Carry", "pc": "B", "controller": "X" },
+            { "action": "Execute / grab", "pc": "V", "controller": "L1 + X" }
+          ]
         },
         {
-          "question": "How do I survive group fights in Gakuran?",
-          "answer": "Avoid getting surrounded, use the environment to break line of sight, and focus on one opponent at a time. Retreat and reset when your health drops low."
-        },
-        {
-          "question": "What is the best way to start open PvP in Gakuran?",
-          "answer": "Enter with full health, keep an exit route open, and engage opponents one at a time. Learn one style well before switching between multiple fighting styles."
+          "icon": "ShieldAlert",
+          "question": "Survive Group Fights",
+          "answer": "Social RP and PvP overlap in Gakuran, so treat crowds as danger zones instead of safe hangouts.",
+          "details": [
+            "Do not tunnel one target when multiple players are circling.",
+            "Use open space to avoid getting boxed into hallways.",
+            "Leave fights early when stamina, position, or camera control turns bad."
+          ],
+          "controls": [
+            { "action": "Map marker", "pc": "P", "controller": "In-experience Help menu" }
+          ]
         }
       ]
     },
     "gakuranMapGuide": {
       "title": "Gakuran Map and School RP Guide",
-      "subtitle": "Explore the Gakuran school-life setting, important map areas, social roleplay routes, and where PvP overlaps with the roleplay experience.",
+      "subtitle": "Explore the Gakuran school-life setting, key hangout areas, roleplay routes, and where peaceful RP turns into hallway warfare.",
       "areas": [
         {
-          "name": "Nishikata High School",
-          "type": "Main School Hub",
-          "description": "The central school building where players gather, socialize, and start most school-life roleplay scenes."
+          "icon": "School",
+          "name": "School Building",
+          "type": "Roleplay Hub",
+          "risk": "Medium",
+          "description": "Use classrooms and hallways for school-life RP, meetups, introductions, and low-pressure exploration.",
+          "tip": "Start here first if you want to understand the social flow before looking for fights."
         },
         {
-          "name": "School Courtyard",
-          "type": "Social Hangout",
-          "description": "An open area outside the school where players meet, form groups, and look for roleplay or sparring partners."
+          "icon": "DoorOpen",
+          "name": "Hallways and Entrances",
+          "type": "Traffic Zone",
+          "risk": "High",
+          "description": "Watch player movement, learn where groups gather, and avoid standing still near choke points.",
+          "tip": "Keep an exit behind you because doorways turn into ambush funnels in crowded servers."
         },
         {
+          "icon": "Trophy",
+          "name": "Basketball Court",
+          "type": "Activity Spot",
+          "risk": "Medium",
+          "description": "Use the court for casual hangouts, pickup activity, and meeting other players before roaming.",
+          "tip": "Good for social players who still want quick access to nearby PvP."
+        },
+        {
+          "icon": "Dumbbell",
+          "name": "Gym / Workout Area",
+          "type": "Training Space",
+          "risk": "Medium",
+          "description": "Practice movement habits, test spacing, and use the area as a warm-up stop before open fights.",
+          "tip": "Treat it as a staging point before switching from RP into combat."
+        },
+        {
+          "icon": "Music",
+          "name": "Music Room",
+          "type": "Social Room",
+          "risk": "Low",
+          "description": "Use the room for quieter roleplay, group scenes, and calmer school-life moments.",
+          "tip": "Best for players who want the slice-of-life side before looking for PvP."
+        },
+        {
+          "icon": "Route",
           "name": "Town Streets",
-          "type": "Exploration Route",
-          "description": "The streets around the school connect key locations and are a common place to run into other players."
+          "type": "Open PvP Route",
+          "risk": "High",
+          "description": "Roam between school areas, follow groups, and look for public fights or gang movement.",
+          "tip": "Stay mobile, avoid being surrounded, and do not start a fight without an escape path."
         },
         {
-          "name": "Training Spots",
-          "type": "Practice Area",
-          "description": "Quieter corners where new players practice fighting styles and combos away from the busiest crowds."
-        },
-        {
-          "name": "PvP Hotspots",
-          "type": "Combat Zone",
-          "description": "Open areas where players gather for fights; expect more combat here and plan an exit route before joining."
-        },
-        {
-          "name": "Hangout Spots",
-          "type": "Roleplay Area",
-          "description": "Casual locations for school-life roleplay, photos, and conversation when you want a break from combat."
+          "icon": "MessageCircle",
+          "name": "Discord Crews and Gang Routes",
+          "type": "Community Route",
+          "risk": "High",
+          "description": "Follow gang activity, server chatter, events, and group coordination from the official Discord.",
+          "tip": "Join community routes only after learning basic controls and PvP survival."
         }
       ]
     },
     "gakuranUpdates": {
       "title": "Gakuran Updates, Release Date and Player Stats",
-      "subtitle": "Track Gakuran release status, update checks, visits, likes, CCU, genre, and other player-facing stats.",
+      "subtitle": "Check the release status, update signals, Roblox IDs, genre, CCU, rating, visits, and player-facing activity markers for Gakuran.",
       "stats": [
-        {
-          "value": "828.5K+",
-          "label": "Total Visits"
-        },
-        {
-          "value": "3.77K",
-          "label": "Current CCU"
-        },
-        {
-          "value": "93%",
-          "label": "Like Ratio"
-        },
-        {
-          "value": "Roblox",
-          "label": "Platform"
-        }
+        { "icon": "Eye", "value": "828.5K+", "label": "Total Visits" },
+        { "icon": "Users", "value": "3.77K", "label": "Current CCU" },
+        { "icon": "Heart", "value": "93%", "label": "Like Ratio" },
+        { "icon": "Star", "value": "6,252", "label": "Favorites" }
       ],
       "info": [
-        {
-          "label": "Genre",
-          "value": "Action / Battlegrounds & Fighting"
-        },
-        {
-          "label": "Setting",
-          "value": "Japanese school-town"
-        },
-        {
-          "label": "Direction",
-          "value": "School-life roleplay with a fighting-heavy community"
-        },
-        {
-          "label": "Platform",
-          "value": "Roblox (PC, mobile, console)"
-        },
-        {
-          "label": "Code System",
-          "value": "No public redeem system listed yet"
-        }
+        { "label": "Official Title", "value": "(学乱) Gakuran", "details": "Roblox experience published by the (学乱) Gakuran community." },
+        { "label": "Place ID", "value": "128736949265057", "details": "Primary Roblox experience page identifier." },
+        { "label": "Universe ID", "value": "9199655655", "details": "Universe identifier used by Roblox metadata tools." },
+        { "label": "Release Date", "value": "June 22, 2026", "details": "RoMonitor lists this as the experience release date." },
+        { "label": "Latest Update", "value": "June 24, 2026", "details": "Roblox page snapshot lists the experience as updated on this date." },
+        { "label": "Genre", "value": "Action / Battlegrounds & Fighting", "details": "Categorized as an action fighting experience." },
+        { "label": "Setting", "value": "Japanese school slice-of-life", "details": "The experience is framed as a Japanese school setting in a school-town." },
+        { "label": "Platform", "value": "Roblox (PC, mobile, console)", "details": "Playable across PC, mobile, and console through Roblox." },
+        { "label": "Roblox Active", "value": "1,886 active", "details": "Roblox page snapshot for active players." },
+        { "label": "Voice Chat", "value": "Not supported", "details": "Roblox page snapshot lists voice chat as unsupported." },
+        { "label": "Camera", "value": "Not supported", "details": "Roblox page snapshot lists camera as unsupported." },
+        { "label": "Codes Status", "value": "None yet", "details": "No Gakuran codes listed on Creator Exchange." }
       ],
-      "updateNote": "We follow the official Roblox page, community channels, and update posts to keep Gakuran stats current."
+      "updateNote": "We follow the official Roblox page, community channels, and update posts to keep these Gakuran stats current."
     }
   },
   "faq": {

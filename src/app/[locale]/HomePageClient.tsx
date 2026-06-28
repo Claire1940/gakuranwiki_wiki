@@ -2,6 +2,7 @@
 
 import { useState, Suspense, lazy } from "react";
 import {
+  AlertTriangle,
   ArrowRight,
   BookOpen,
   Check,
@@ -10,6 +11,7 @@ import {
   ExternalLink,
   Gift,
   Keyboard,
+  Lightbulb,
   Link as LinkIcon,
   Map as MapIcon,
   Swords,
@@ -686,48 +688,85 @@ export default function HomePageClient({
 
           <div className="scroll-reveal space-y-5 md:space-y-6 mb-6 md:mb-8">
             {t.modules.gakuranFightingStyles.tiers.map(
-              (tier: any, index: number) => (
-                <div
-                  key={index}
-                  className="p-5 md:p-6 bg-white/5 border border-border rounded-xl"
-                >
-                  <div className="flex items-center gap-3 mb-4">
-                    <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme))] text-white text-lg font-bold">
-                      {tier.tier}
-                    </span>
-                    <h3 className="font-bold text-lg text-[hsl(var(--nav-theme-light))]">
-                      <LinkedTitle
-                        linkData={
-                          moduleLinkMap[`gakuranFightingStyles::tiers::${index}`]
-                        }
-                        locale={locale}
-                      >
-                        {tier.label}
-                      </LinkedTitle>
-                    </h3>
-                  </div>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                    {tier.styles.map((style: any, si: number) => (
-                      <div
-                        key={si}
-                        className="p-4 bg-white/5 border border-border rounded-lg"
-                      >
-                        <div className="flex items-center justify-between gap-2 mb-1.5">
-                          <p className="font-semibold text-sm md:text-base">
-                            {style.name}
-                          </p>
-                          <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
-                            {style.focus}
-                          </span>
-                        </div>
-                        <p className="text-xs md:text-sm text-muted-foreground">
-                          {style.description}
-                        </p>
+              (tier: any, index: number) => {
+                const style = tier.styles[0];
+                return (
+                  <div
+                    key={index}
+                    className="p-5 md:p-6 bg-white/5 border border-border rounded-xl"
+                  >
+                    <div className="flex items-center gap-3 mb-4">
+                      <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme))] text-white text-xl font-bold">
+                        {tier.tier}
+                      </span>
+                      <div>
+                        <h3 className="font-bold text-lg text-[hsl(var(--nav-theme-light))]">
+                          <LinkedTitle
+                            linkData={
+                              moduleLinkMap[`gakuranFightingStyles::tiers::${index}`]
+                            }
+                            locale={locale}
+                          >
+                            {tier.label}
+                          </LinkedTitle>
+                        </h3>
+                        <p className="text-sm text-muted-foreground">{style.role}</p>
                       </div>
-                    ))}
+                    </div>
+
+                    <div className="flex items-start gap-3 mb-4 p-4 bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.2)] rounded-lg">
+                      <DynamicIcon
+                        name={style.icon}
+                        className="h-6 w-6 mt-0.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]"
+                      />
+                      <div>
+                        <p className="font-semibold text-base mb-1">{style.name}</p>
+                        <p className="text-sm text-muted-foreground">{style.bestFor}</p>
+                      </div>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
+                      <div className="p-3 rounded-lg border border-emerald-500/30 bg-emerald-500/[0.06]">
+                        <p className="text-xs uppercase tracking-wider text-emerald-400 mb-2 font-semibold">
+                          Strengths
+                        </p>
+                        <ul className="space-y-1.5">
+                          {style.strengths.map((s: string, i: number) => (
+                            <li key={i} className="flex items-start gap-2 text-sm">
+                              <Check className="w-4 h-4 text-emerald-400 mt-0.5 flex-shrink-0" />
+                              <span>{s}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                      <div className="p-3 rounded-lg border border-amber-500/30 bg-amber-500/[0.06]">
+                        <p className="text-xs uppercase tracking-wider text-amber-400 mb-2 font-semibold">
+                          Watch Out For
+                        </p>
+                        <ul className="space-y-1.5">
+                          {style.weaknesses.map((w: string, i: number) => (
+                            <li key={i} className="flex items-start gap-2 text-sm">
+                              <AlertTriangle className="w-4 h-4 text-amber-400 mt-0.5 flex-shrink-0" />
+                              <span>{w}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div className="flex items-start gap-2 text-sm text-muted-foreground">
+                      <DynamicIcon
+                        name="Target"
+                        className="w-4 h-4 mt-0.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]"
+                      />
+                      <span>
+                        <span className="font-medium text-foreground">Practice: </span>
+                        {style.practice}
+                      </span>
+                    </div>
                   </div>
-                </div>
-              ),
+                );
+              },
             )}
           </div>
 
@@ -765,22 +804,61 @@ export default function HomePageClient({
               (faq: any, index: number) => (
                 <div
                   key={index}
-                  className="border border-border rounded-xl overflow-hidden"
+                  className="border border-border rounded-xl overflow-hidden bg-white/[0.02]"
                 >
                   <button
                     onClick={() =>
                       setFaqExpanded(faqExpanded === index ? null : index)
                     }
-                    className="w-full flex items-center justify-between p-5 text-left hover:bg-white/5 transition-colors"
+                    className="w-full flex items-center gap-3 p-5 text-left hover:bg-white/5 transition-colors"
                   >
-                    <span className="font-semibold pr-4">{faq.question}</span>
+                    <span className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                      <DynamicIcon
+                        name={faq.icon}
+                        className="h-5 w-5 text-[hsl(var(--nav-theme-light))]"
+                      />
+                    </span>
+                    <span className="font-semibold pr-4 flex-1">{faq.question}</span>
                     <ChevronDown
                       className={`w-5 h-5 flex-shrink-0 transition-transform ${faqExpanded === index ? "rotate-180" : ""}`}
                     />
                   </button>
                   {faqExpanded === index && (
-                    <div className="px-5 pb-5 text-muted-foreground text-sm">
-                      {faq.answer}
+                    <div className="px-5 pb-5 pt-1">
+                      <p className="text-muted-foreground text-sm mb-4">{faq.answer}</p>
+                      <ul className="space-y-2 mb-4">
+                        {faq.details.map((d: string, i: number) => (
+                          <li
+                            key={i}
+                            className="flex items-start gap-2 text-sm text-muted-foreground"
+                          >
+                            <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                            <span>{d}</span>
+                          </li>
+                        ))}
+                      </ul>
+                      <div className="overflow-hidden rounded-lg border border-border">
+                        <table className="w-full text-sm">
+                          <thead>
+                            <tr className="bg-[hsl(var(--nav-theme)/0.08)] text-left">
+                              <th className="px-3 py-2 font-semibold">Action</th>
+                              <th className="px-3 py-2 font-semibold">PC</th>
+                              <th className="px-3 py-2 font-semibold">Controller</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {faq.controls.map((c: any, ci: number) => (
+                              <tr key={ci} className="border-t border-border">
+                                <td className="px-3 py-2 font-medium">{c.action}</td>
+                                <td className="px-3 py-2 text-muted-foreground">{c.pc}</td>
+                                <td className="px-3 py-2 text-muted-foreground">
+                                  {c.controller}
+                                </td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
                     </div>
                   )}
                 </div>
@@ -811,30 +889,50 @@ export default function HomePageClient({
           </div>
 
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {t.modules.gakuranMapGuide.areas.map((area: any, index: number) => (
-              <div
-                key={index}
-                className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
-              >
-                <div className="flex items-center gap-2 mb-3">
-                  <MapIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+            {t.modules.gakuranMapGuide.areas.map((area: any, index: number) => {
+              const riskStyles: Record<string, string> = {
+                High: "text-amber-300 border-amber-500/40 bg-amber-500/10",
+                Medium: "text-sky-300 border-sky-500/40 bg-sky-500/10",
+                Low: "text-emerald-300 border-emerald-500/40 bg-emerald-500/10",
+              };
+              const riskClass = riskStyles[area.risk] || riskStyles.Medium;
+              return (
+                <div
+                  key={index}
+                  className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors flex flex-col"
+                >
+                  <div className="flex items-center justify-between gap-2 mb-3">
+                    <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                      <DynamicIcon
+                        name={area.icon}
+                        className="h-5 w-5 text-[hsl(var(--nav-theme-light))]"
+                      />
+                    </span>
+                    <span
+                      className={`text-xs px-2 py-1 rounded-full border font-medium ${riskClass}`}
+                    >
+                      {area.risk} PvP Risk
+                    </span>
+                  </div>
+                  <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] w-fit mb-2">
                     {area.type}
                   </span>
+                  <h3 className="font-bold mb-2">
+                    <LinkedTitle
+                      linkData={moduleLinkMap[`gakuranMapGuide::areas::${index}`]}
+                      locale={locale}
+                    >
+                      {area.name}
+                    </LinkedTitle>
+                  </h3>
+                  <p className="text-sm text-muted-foreground mb-3">{area.description}</p>
+                  <div className="mt-auto flex items-start gap-2 pt-3 border-t border-border text-sm">
+                    <Lightbulb className="w-4 h-4 mt-0.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                    <span className="text-muted-foreground">{area.tip}</span>
+                  </div>
                 </div>
-                <h3 className="font-bold mb-2">
-                  <LinkedTitle
-                    linkData={moduleLinkMap[`gakuranMapGuide::areas::${index}`]}
-                    locale={locale}
-                  >
-                    {area.name}
-                  </LinkedTitle>
-                </h3>
-                <p className="text-sm text-muted-foreground">
-                  {area.description}
-                </p>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
@@ -869,7 +967,10 @@ export default function HomePageClient({
                 key={index}
                 className="p-5 md:p-6 bg-white/5 border border-border rounded-xl text-center"
               >
-                <TrendingUp className="w-5 h-5 text-[hsl(var(--nav-theme-light))] mx-auto mb-2" />
+                <DynamicIcon
+                  name={stat.icon}
+                  className="w-6 h-6 text-[hsl(var(--nav-theme-light))] mx-auto mb-2"
+                />
                 <p className="text-2xl md:text-3xl font-bold text-[hsl(var(--nav-theme-light))]">
                   {stat.value}
                 </p>
@@ -882,13 +983,18 @@ export default function HomePageClient({
 
           {/* Info list */}
           <div className="scroll-reveal p-5 md:p-6 bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.3)] rounded-xl mb-4">
-            <dl className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3">
+            <dl className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
               {t.modules.gakuranUpdates.info.map((item: any, index: number) => (
                 <div key={index} className="flex flex-col">
                   <dt className="text-xs uppercase tracking-wider text-muted-foreground">
                     {item.label}
                   </dt>
                   <dd className="text-sm md:text-base font-medium">{item.value}</dd>
+                  {item.details && (
+                    <p className="text-xs text-muted-foreground mt-0.5">
+                      {item.details}
+                    </p>
+                  )}
                 </div>
               ))}
             </dl>
