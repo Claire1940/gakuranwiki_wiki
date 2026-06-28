@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Gakuran Wiki - Codes, PvP Guide & Fighting Styles",
+  "short_name": "Gakuran",
+  "description": "Gakuran Wiki covers Roblox codes, PvP guide, fighting styles, controls, map notes, updates, and beginner tips for the Japanese school brawler.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#dc2626",
+  "background_color": "#0a0d16",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
