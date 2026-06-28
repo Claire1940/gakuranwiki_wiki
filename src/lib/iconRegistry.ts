@@ -28,6 +28,13 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // Gakuran 主题图标
+  Gift: LucideIcons.Gift,
+  Link: LucideIcons.Link,
+  Swords: LucideIcons.Swords,
+  Zap: LucideIcons.Zap,
+  Map: LucideIcons.Map,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,
