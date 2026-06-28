@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Nuevo mapa de Gakuran: Guía de recorrido y configuración de combate 2026",
+  description: "Explora el nuevo mapa de Gakuran en Roblox. Conoce las ubicaciones clave del campus escolar, puntos críticos de combate PvP, controles predeterminados y estrategias de estilos de lucha.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/DC2626/fff?text=Gakuran+New+Map+Guide",
+  date: "2026-06-28",
+  author: "Equipo de la Wiki de Gakuran",
+  keywords: "Gakuran, nuevo mapa, guía de combate, Roblox, estilos de lucha, Nishikata High"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **El nuevo mapa de Gakuran** introduce un diseño detallado de una escuela secundaria japonesa de mediados de los 2000, con zonas seguras para el juego de rol y puntos críticos de PvP de alto riesgo.
+- **La estrategia de combate** depende en gran medida del control de la postura, el espaciamiento y el uso de las paredes del entorno para atrapar a los oponentes.
+- **Los mejores estilos de lucha**, como el Muay Thai y el Boxeo, ofrecen el mejor rendimiento para las peleas en los pasillos y en las canchas.
+- **Los códigos activos** no están disponibles actualmente, ya que el juego no cuenta con un sistema público de canje de códigos.
+- **Los recursos oficiales**, como el Trello y el Discord de Gakuran, son esenciales para seguir las futuras expansiones del mapa.
+</Callout>
+
+<Section icon={Map} title="Descripción general del nuevo mapa de Gakuran y recorrido por el diseño">
+
+Bienvenido al patio de recreo de peleas escolares de Gakuran, donde el lanzamiento del **nuevo mapa de Gakuran** ha cambiado por completo la forma en que los jugadores abordan las peleas de bandas territoriales y el juego de rol de la vida cotidiana. Este entorno actualizado presenta un entorno de campus japonés altamente detallado, con aulas de varios niveles, una cancha de baloncesto totalmente funcional y calles urbanas circundantes. Navegar por este diseño requiere una comprensión sólida de cómo se conectan las diferentes zonas, dónde tienden a reunirse los grupos y qué áreas conllevan el mayor riesgo de encuentros PvP en el mundo abierto.
+
+Para ofrecerte un desglose visual rápido de cómo está estructurado el campus, los desarrolladores han dividido el entorno en tres distritos principales. Cada distrito tiene un propósito distinto, equilibrando el juego de rol estudiantil pacífico con mecánicas brutales de lucha callejera.
+
+<CardGrid cols={3}>
+  <Card title="El Campus Escolar">
+    - **Zona de Riesgo Medio**
+    - Incluye aulas, pasillos y la sala de música.
+    - Perfecto para el juego de rol y reuniones casuales de jugadores.
+  </Card>
+  <Card title="Las Calles del Pueblo">
+    - **Zona de Alto Riesgo**
+    - Conecta la escuela con las tiendas locales y el 7-Eleven.
+    - Aquí ocurren peleas de bandas de alta velocidad y riñas abiertas.
+  </Card>
+  <Card title="Los Terrenos de Actividad">
+    - **Zona de Riesgo Variable**
+    - Incluye la cancha de baloncesto y el gimnasio de entrenamiento.
+    - Se utiliza para minijuegos deportivos y práctica de combate.
+  </Card>
+</CardGrid>
+
+Ya sea que busques pasar el rato en un aula tranquila o dominar la tabla de clasificación de lucha callejera local, saber a dónde ir es la mitad de la batalla. La siguiente tabla enumera las ubicaciones clave en todo el campus junto con sus niveles de riesgo PvP designados.
+
+| Ubicación | Tipo de Zona | Riesgo PvP | Actividad Principal |
+| :--- | :--- | :--- | :--- |
+| **Edificio Escolar** | Centro de Rol | Medio | Aulas, reuniones sociales, exploración |
+| **Pasillos y Entradas** | Zona de Tráfico | Alto | Peleas en puntos de estrangulamiento, emboscadas grupales |
+| **Cancha de Baloncesto** | Punto de Actividad | Medio | Partidos improvisados, reuniones casuales, 1v1s |
+| **Gimnasio y Área de Entrenamiento** | Espacio de Entrenamiento | Medio | Práctica de movimiento, calentamiento de sparring |
+| **Sala de Música** | Sala Social | Bajo | Juego de rol tranquilo, reuniones pacíficas |
+| **Calles del Pueblo** | Mundo Abierto | Alto | Patrullaje de bandas, peleas callejeras a gran escala |
+| **Exterior del 7-Eleven** | Punto Crítico | Crítico | Combates de boxeo, peleas de alto riesgo |
+
+<Callout type="info" title="Detalles del Entorno del Mapa">
+El mapa del campus de Gakuran está meticulosamente modelado a partir de una escuela secundaria japonesa de mediados de los 2000, capturando la atmósfera nostálgica del anime de delincuentes y la cultura de la lucha callejera. Vigila siempre tu entorno, ya que los espacios seguros de juego de rol pueden transformarse instantáneamente en zonas de combate.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo empezar a jugar en el nuevo mapa de Gakuran">
+
+Entrar al campus por primera vez puede ser abrumador, especialmente cuando jugadores experimentados ya patrullan los pasillos buscando su próximo objetivo. Para sobrevivir a tu primer día en Nishikata High, sigue esta secuencia de incorporación paso a paso para configurar tu personaje, unirte a la comunidad oficial y localizar enlaces de referencia clave antes de comprometerte con peleas de alto riesgo.
+
+<Steps>
+  <Step num="1" title="Únete al grupo de Roblox">
+    Antes de iniciar el juego, únete al grupo oficial de la comunidad de Roblox (学乱) Gakuran. A menudo se requiere la membresía del grupo para acceder a funciones o actualizaciones específicas.
+  </Step>
+  <Step num="2" title="Inicia la experiencia">
+    Accede a la página oficial de la experiencia Gakuran en Roblox e inicia el juego. Asegúrate de que la configuración de tus gráficos esté optimizada para obtener frecuencias de cuadro fluidas durante el PvP de ritmo rápido.
+  </Step>
+  <Step num="3" title="Personaliza tu personaje">
+    Usa el menú de personalización del juego para configurar tu avatar de estudiante, asignar estadísticas iniciales y elegir tu perfil de personaje inicial.
+  </Step>
+  <Step num="4" title="Consulta Trello y Discord">
+    Abre el tablero oficial de Trello de Gakuran y únete al Discord de la comunidad. Estos centros externos brindan acceso inmediato a listas de movimientos, actualizaciones de equilibrio de estilos y reclutamiento de tripulación.
+  </Step>
+  <Step num="5" title="Localiza una zona segura">
+    Dirígete a áreas de bajo riesgo como la sala de música o las aulas para familiarizarte con las mecánicas básicas de movimiento antes de entrar en las calles principales.
+  </Step>
+</Steps>
+
+Para ayudarte a seguir tu progresión inicial, utiliza la siguiente hoja de ruta de hitos para pasar de ser un recluta de primer año a un respetado líder de banda en el campus.
+
+| Fase | Objetivo | Área Objetivo | Recompensa Clave |
+| :--- | :--- | :--- | :--- |
+| **Fase 1** | Integración Grupal | Página del grupo de Roblox | Acceso a la comunidad |
+| **Fase 2** | Personalización | Menú de personaje | Personalización del avatar |
+| **Fase 3** | Maestría del Movimiento | Gimnasio / Área de entrenamiento | Memoria muscular de carrera y salto |
+| **Fase 4** | Rol Social | Sala de música / Aulas | Redes de tripulación y alianzas |
+| **Fase 5** | Sparring Inicial | Cancha de baloncesto | Experiencia básica de combate PvP |
+
+<Callout type="tip" title="Consejo de Supervivencia para Principiantes">
+No deambules solo por los pasillos de la escuela durante las horas pico del servidor. Los grupos de delincuentes a menudo patrullan estos estrechos corredores y, sin una tripulación que te respalde, puedes quedar acorralado y ser noqueado fácilmente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategias PvP en el nuevo mapa de Gakuran y puntos críticos de combate">
+
+El combate en el nuevo mapa es rápido, agresivo y depende en gran medida de la conciencia del entorno. A diferencia de los juegos de lucha en arenas planas, Gakuran presenta estructuras escolares de varios niveles, pasillos estrechos, escaleras y calles urbanas al aire libre. Para dominar a tus oponentes, debes aprender a utilizar el diseño del mapa para atrapar enemigos, romper su guardia y ejecutar combos limpios.
+
+Elegir el estilo de lucha adecuado es fundamental para el éxito en diferentes áreas del mapa. Algunos estilos destacan en espacios estrechos y cerrados, mientras que otros requieren terreno abierto para utilizar plenamente su movilidad.
+
+| Estilo de Lucha | Nivel PvP | Idoneidad del Mapa | Fortaleza Clave | Arena Recomendada |
+| :--- | :--- | :--- | :--- | :--- |
+| **Muay Thai** | **Nivel S** | Excelente | Alta presión frontal, castigos rápidos | Pasillos, puertas estrechas |
+| **Boxeo** | **Nivel A** | Genial | Cadenas de puñetazos fiables, combos sencillos | Cancha de baloncesto, Gimnasio |
+| **Hakari** | **Nivel B** | Especialista | Movimientos llamativos, alto factor sorpresa | Calles abiertas del pueblo |
+
+Para asegurarte de mejorar constantemente tus capacidades de combate, ten en cuenta esta lista de objetivos de entrenamiento diario cada vez que inicies sesión en un servidor.
+
+<Checklist
+  id="combat-checklist"
+  title="Objetivos diarios de maestría en combate:"
+  items={[
+    "Practica la parada perfecta contra cadenas de ataques ligeros en el gimnasio",
+    "Domina el tiempo de ataque con carrera usando Muay Thai o Boxeo",
+    "Coordina una limpieza de pasillos con tu tripulación de Discord",
+    "Asegura una victoria 1v1 en la cancha de baloncesto sin que te asalten",
+    "Identifica y memoriza todas las rutas de escape en las calles del pueblo"
+  ]}
+/>
+
+<Callout type="warning" title="Advertencia de Puntos de Estrangulamiento">
+Las puertas y escaleras del edificio principal de la escuela son zonas de alto peligro. Los jugadores agresivos suelen utilizar ataques pesados para romper la guardia de los oponentes que intentan pasar por estos espacios reducidos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Controles y atajos de teclado para la exploración del nuevo mapa de Gakuran">
+
+Para navegar por la compleja verticalidad y las esquinas cerradas del nuevo mapa, necesitas un dominio impecable de tu esquema de controles. Gakuran utiliza los controles estándar de Roblox junto con entradas personalizadas de peleador. Ya sea que juegues en PC, móvil o con un mando, dominar estos atajos te asegurará que puedas esquivar los ataques entrantes y atravesar el mapa con fluidez.
+
+La siguiente tabla describe el diseño de control predeterminado en todas las plataformas compatibles. Asegúrate de practicar estas entradas en una zona de bajo riesgo antes de participar en un combate activo.
+
+| Acción | Teclado y Ratón | Gestos Móviles | Entrada de Mando | Nota Táctica de Combate |
+| :--- | :--- | :--- | :--- | :--- |
+| **Movimiento** | Teclas WASD / Flechas | Joystick en pantalla | Stick izquierdo | Esencial para el espaciamiento y los ángulos |
+| **Salto** | Espacio | Botón de salto en pantalla | Botón A | Úsalo con moderación en combate para evitar fallos |
+| **Correr / Sprint** | Doble toque W | Interruptor de sprint en pantalla | L3 / Clic stick izquierdo | Crucial para escapar de zonas de alto riesgo |
+| **Esquivar / Deslizarse** | Q | Botón de deslizamiento en pantalla | Botón B | Perfecto para reposicionarse durante los combos |
+| **Bloquear / Parar** | F | Botón de bloqueo en pantalla | Gatillo L2 | Mantén presionado para bloquear; sincroniza para parar |
+| **Postura de Combate** | R | Botón de cambio de combate | D-Pad derecho | Debe estar activa para ejecutar movimientos de lucha |
+| **Ataque Ligero** | M1 / Clic izquierdo | Tocar pantalla | Gatillo R2 | Iniciador rápido para cadenas de golpes y patadas |
+| **Ataque Pesado** | M2 / Clic derecho | Mantener botón de ataque | Botón Y | Herramienta rompeguardias con alto tiempo de recuperación |
+| **Cargar Oponente** | B | Carga en pantalla | Botón X | Se usa para transportar enemigos derrotados |
+| **Ejecutar / Agarrar** | V | Ejecución en pantalla | Botón L1 + X | Finaliza los encuentros de combate |
+
+<Callout type="success" title="Optimización del Bloqueo de Mayúsculas (Shift Lock)">
+Habilita siempre el "Shift Lock Switch" en el menú de configuración de Roblox. Presionar Shift en tu teclado te permite bloquear la cámara al movimiento de tu personaje, lo que facilita significativamente el desplazamiento lateral y los deslizamientos laterales en PvP.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes del nuevo mapa de Gakuran y recursos de la comunidad">
+
+Mantenerse conectado con la comunidad de Gakuran es la mejor manera de estar al tanto de las expansiones de mapas, los parches de equilibrio y los cambios de estilo. A continuación, se presenta una recopilación de las preguntas más frecuentes sobre la actualización del nuevo mapa, junto con enlaces de referencia verificados para ayudarte a navegar por los centros oficiales de la comunidad.
+
+| Recurso / Métrica | Enlace Oficial / Valor | Propósito y Notas de la Comunidad |
+| :--- | :--- | :--- |
+| **Página del juego en Roblox** | [Jugar Gakuran](https://www.roblox.com/games/128736949265057/Gakuran) | Inicia la experiencia y consulta las descripciones oficiales |
+| **Comunidad de Roblox** | [Grupo Gakuran](https://www.roblox.com/communities/416091513/Gakuran) | Únete al grupo de desarrolladores para verificar los registros de actualizaciones |
+| **Discord Oficial** | [Unirse a Discord](https://discord.gg/gakuran) | Chat de jugadores en vivo, reclutamiento de tripulación y alertas de códigos |
+| **Trello Oficial** | [Trello de Gakuran](https://trello.com/b/DUeTE2HN/学乱-gakuran-trello) | Bases de datos detalladas de estilos, listas de movimientos y guías de mapas |
+| **Ratio de Me Gusta** | **93%** | Instantánea actual de la calificación positiva de los jugadores |
+| **Códigos Activos** | **Ninguno todavía** | Actualmente no hay implementado un sistema público de canje de códigos |
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el entorno principal del nuevo mapa de Gakuran?",
+    answer: "El nuevo mapa de Gakuran está ambientado en un entorno de escuela secundaria japonesa de estilo retro, con aulas, pasillos, calles urbanas y canchas deportivas que mezclan el juego de rol de la vida cotidiana con peleas callejeras de alta intensidad."
+  },
+  {
+    question: "¿Hay códigos activos para la actualización del nuevo mapa de Gakuran?",
+    answer: "Actualmente, no hay códigos activos ni sistemas públicos de canje de códigos en Gakuran. La progresión se obtiene enteramente a través de la práctica de combate, el sparring y el dominio de los estilos de lucha."
+  },
+  {
+    question: "¿Cómo cambio mi estilo de lucha en el nuevo mapa?",
+    answer: "Puedes volver a sortear tu estilo de lucha (como Muay Thai, Boxeo o Hakari) por 5 Robux. Consulta el Trello y el Discord de Gakuran para conocer los últimos cambios en el equilibrio de estilos."
+  },
+  {
+    question: "¿Cuál es el mejor lugar para practicar el combate sin que me asalten?",
+    answer: "El gimnasio / área de entrenamiento y la cancha de baloncesto son las mejores ubicaciones para practicar el movimiento y los combos básicos. Evita los pasillos y las calles del pueblo si quieres evitar emboscadas de bandas a gran escala."
+  }
+]} />
+
+<Callout type="info" title="Centro de Enlaces Oficiales">
+Accede siempre a los enlaces de la comunidad de Gakuran directamente desde la página oficial de la experiencia en Roblox. Evita hacer clic en enlaces de terceros o wikis no oficiales para proteger tu cuenta de Roblox de scripts maliciosos.
+</Callout>
+
+</Section>

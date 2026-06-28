@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Todos los Controles de Gakuran: Guía de Teclas y Combate 2026",
+  description: "Domina todos los controles de Gakuran para PC, móvil y mando. Aprende las teclas de combate, estilos de lucha y mecánicas PvP en esta guía de Roblox 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Gakuran+All+Controls+Guide",
+  date: "2026-06-28",
+  author: "Equipo de la Wiki de Gakuran",
+  keywords: "controles de gakuran, teclas de roblox, guía de combate gakuran, estilos de lucha"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Controles generales de Gakuran**: El juego utiliza un híbrido de movimiento estándar de Roblox y mecánicas especializadas de postura de combate (tecla R).
+- **Combate Principal**: El éxito en PvP depende de dominar la **cadena de ataques M1/M2** y sincronizar tus **bloqueos con la tecla F**.
+- **Meta de Movimiento**: Usa **Q para desplazarte (dash)** y pulsa dos veces **W para correr**, esencial para navegar por los pasillos de la escuela japonesa.
+- **Soporte de Plataformas**: Totalmente compatible con PC, móvil y mando, aunque la precisión de combate es mayor en PC.
+- **Entrada Estratégica**: Entra siempre en tu **Postura de Combate** antes de luchar para asegurar que todas las opciones defensivas estén activas.
+</Callout>
+
+<Section icon={Map} title="Teclas de Movimiento e Interacción Básicas">
+
+Comprender **todos los controles de Gakuran** comienza con la navegación básica. Dado que Gakuran se desarrolla en un entorno escolar japonés detallado de 2007, el movimiento es más que solo caminar; implica gestionar la presencia de tu personaje en pasillos estrechos y patios abiertos. El motor predeterminado de Roblox proporciona la base, pero los desarrolladores han añadido capas específicas para mejorar la experiencia de rol de "delincuente".
+
+| Acción | Tecla PC | Entrada Móvil | Entrada Mando |
+| :--- | :--- | :--- | :--- |
+| **Caminar/Moverse** | WASD / Flechas | Joystick | Stick Izquierdo |
+| **Correr** | Doble toque W | Botón de Correr | L3 (Presionar Stick) |
+| **Saltar** | Espacio | Icono de Salto | A / Botón Cruz |
+| **Cámara** | Arrastrar Clic Derecho | Deslizar Pantalla | Stick Derecho |
+| **Interactuar** | E / Clic | Tocar Indicador | X / Botón Cuadrado |
+| **Chat** | Tecla / | Icono de Chat | Navegación de Menú |
+| **Marcador de Mapa** | Tecla P | Botón de Interfaz | D-Pad Abajo |
+
+<Callout type="tip" title="Consejo Pro: Shift Lock">
+Activa el **Shift Lock** en el menú de configuración de Roblox para bloquear la cámara detrás de tu personaje. Esto es vital para mantener una dirección "hacia adelante" constante durante las peleas escolares a alta velocidad y es un elemento básico para los jugadores veteranos.
+</Callout>
+
+El movimiento adecuado es la diferencia entre un escape exitoso y ser acorralado en la Sala de Música. Al correr, vigila la postura de tu personaje; el juego utiliza animaciones personalizadas que indican tu intención a otros jugadores. En un entorno social, caminar (manteniendo Shift o usando una ligera inclinación en el mando) permite una mejor inmersión en el juego de rol.
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Combate y Estilos de Lucha">
+
+El corazón de la experiencia Gakuran reside en su sistema de combate inspirado en Battlegrounds. A diferencia de los RPG estándar, este juego requiere una entrada activa para cada golpe y parada. Para iniciar cualquier pelea, primero debes activar tu **Postura de Combate**. Sin esta postura activa, tu personaje no podrá bloquear ni ejecutar combos especializados, dejándote vulnerable a los ataques aleatorios en los pasillos.
+
+<CardGrid cols={3}>
+  <Card title="Estilo Muay Thai">
+    - **Presión Agresiva**: Utiliza golpes rápidos de rodilla y codo.
+    - **Ideal para**: Luchadores de corto alcance que prefieren la ofensiva constante.
+    - **Dificultad**: Moderada.
+  </Card>
+  <Card title="Estilo Boxeo">
+    - **Intercambios Constantes**: Cadenas de puñetazos fiables con alto aturdimiento.
+    - **Ideal para**: Principiantes que aprenden el ritmo de las cadenas M1.
+    - **Dificultad**: Fácil.
+  </Card>
+  <Card title="Estilo Hakari">
+    - **Estilo Técnico**: Movimientos llamativos con ventanas de tiempo únicas.
+    - **Ideal para**: Jugadores avanzados que buscan el factor sorpresa.
+    - **Dificultad**: Difícil.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia de Combate">
+No lances ataques a lo loco. Gakuran premia la paciencia. Si fallas un ataque pesado (M2), te quedarás atrapado en una animación de recuperación, permitiendo que tu oponente te castigue con un combo completo.
+</Callout>
+
+| Acción de Combate | Tecla PC | Efecto / Utilidad |
+| :--- | :--- | :--- |
+| **Postura de Combate** | R | Cambia al modo de lucha; activa desplazamiento y bloqueo. |
+| **Ataque Ligero** | M1 (Clic Izquierdo) | Golpes rápidos de bajo daño usados para construir combos. |
+| **Ataque Pesado** | M2 (Clic Derecho) | Daño alto, rompe bloqueos si se sincroniza correctamente. |
+| **Bloqueo / Parada** | F | Reduce el daño recibido; bloquear a tiempo crea una parada. |
+| **Esquivar / Dash** | Q | Movimiento direccional rápido para evitar golpes pesados. |
+| **Cargar Jugador** | B | Recoge a un oponente derribado para reubicarlo. |
+| **Ejecutar / Agarre** | V | Termina una pelea o inicia un movimiento de agarre. |
+
+Dominar el ritmo de **M1, M1, M1, M2** es el combo básico para la mayoría de los estilos de lucha. Sin embargo, la verdadera habilidad proviene de saber cuándo presionar **F** para desviar un ataque pesado entrante. Una parada exitosa aturde brevemente al atacante, abriendo una ventana para un contraataque devastador.
+
+</Section>
+
+<Section icon={Target} title="Paso a Paso: Dominando la Primera Pelea">
+
+Si eres nuevo en la escuela, **todos los controles de Gakuran** pueden parecer abrumadores. Sigue esta progresión para pasar de ser un estudiante confundido a un luchador respetado. Practica estos pasos en el Gimnasio o en el Área de Entrenamiento antes de dirigirte a las peligrosas Calles del Pueblo.
+
+<Steps>
+  <Step num="1" title="Inicializar Postura de Combate">
+    Tan pronto como veas una amenaza potencial, presiona **R**. Tu personaje adoptará una postura de lucha. Esto asegura que tus entradas de **Q (Desplazamiento)** y **F (Bloqueo)** estén listas para su uso inmediato.
+  </Step>
+  <Step num="2" title="Gestionar el Espacio">
+    Usa tus teclas de movimiento para rodear a tu oponente. No te limites a mantener pulsada la **W** y correr hacia ellos. Usa **Q** para desplazarte lateralmente cuando veas que preparan un ataque pesado.
+  </Step>
+  <Step num="3" title="Iniciar con M1s">
+    Comienza tu combo con ataques ligeros (M1). Si impactan, continúa la cadena. Si el oponente bloquea, detén tu cadena y prepárate para alejarte o bloquear su contraataque.
+  </Step>
+  <Step num="4" title="Finalizar o Reubicar">
+    Una vez que un oponente es derribado, tienes una opción. Usa **V** para ejecutar si la pelea ha terminado, o usa **B** para llevarlo a un lugar más seguro para continuar el rol o despejar el pasillo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de Éxito: El Ciclo de Estamina">
+Vigila tu estamina oculta. Desplazarte y atacar con golpes pesados constantemente acabará por ralentizarte. Si notas que tus ataques salen más despacio, retrocede y mantén **F** para jugar a la defensiva mientras te recuperas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Especificaciones de Plataforma y Optimización Móvil">
+
+Aunque la versión de PC ofrece el control más granular, Gakuran está diseñado para ser accesible. Los jugadores de móvil tienen una interfaz dedicada que refleja **todos los controles de Gakuran** que se encuentran en PC. El botón de "Postura de Combate" suele estar situado cerca de la parte inferior derecha, lo que permite cambiar rápidamente durante las transiciones de la vida escolar.
+
+| Característica | Experiencia en PC | Experiencia Móvil | Experiencia con Mando |
+| :--- | :--- | :--- | :--- |
+| **Precisión** | Máxima (Apuntado con Ratón) | Moderada (Auto-bloqueo) | Alta (Movimiento Analógico) |
+| **Velocidad de Combo** | Rápida (Teclas Mecánicas) | Variable (Latencia Táctil) | Rápida (Gatillos) |
+| **Claridad de Interfaz** | Limpia (Teclas) | Cargada (Botones en Pantalla) | Limpia (Indicadores Dinámicos) |
+| **Disponibilidad** | Funciones Completas | Funciones Completas | Funciones Completas |
+
+<Callout type="info" title="Soporte para Mando">
+Si usas un mando, el juego asigna **L2** para bloquear y **R2** para ataques ligeros. Esta configuración imita los juegos de lucha modernos, lo que la hace intuitiva para los jugadores de consola que se unen a la experiencia de Roblox.
+</Callout>
+
+Los jugadores de móvil deben centrarse más en su posicionamiento que en la sincronización compleja de las paradas. Usa las funciones de "fijar objetivo" si están disponibles en la configuración de Roblox para mantener a tu oponente a la vista. En PC, asegúrate de que la sensibilidad de tu ratón sea lo suficientemente alta como para realizar giros de 180 grados, lo cual es esencial cuando luchas contra varios delincuentes en las estrechas escaleras de la escuela.
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Entrenamiento Diario y Supervivencia">
+
+Para mantenerte a la vanguardia en Gakuran, debes tratar cada sesión como una oportunidad de entrenamiento. La escuela es un lugar peligroso para quienes no conocen sus teclas. Usa esta lista de verificación para asegurarte de estar listo para el año escolar 2026.
+
+<Checklist
+  id="gakuran-mastery"
+  title="Objetivos Diarios del Luchador:"
+  items={[
+    "Verificar todas las teclas en el menú 'Ayuda' dentro del juego",
+    "Practicar 10 paradas exitosas (tecla F) en el Gimnasio",
+    "Dominar la cancelación de desplazamiento (Q) durante una cadena M1",
+    "Localizar los tres puntos de encuentro principales (Cancha de Baloncesto, Gimnasio, Pueblo)",
+    "Unirse al Discord oficial para revisar actualizaciones de estilos de lucha"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo de Navegación del Mapa">
+Usa la **tecla P** para colocar marcadores en el mapa. Esto es increíblemente útil cuando te coordinas con tu grupo o banda. Si encuentras un "punto caliente" de peleas, márcalo para que tus amigos puedan encontrar la acción rápidamente.
+</Callout>
+
+Recuerda que Gakuran trata tanto de la "vida cotidiana" como de las peleas. Saber cuándo *no* usar tus controles de combate es tan importante como saber cómo usarlos. Las aulas se consideran generalmente zonas sociales, e iniciar una pelea allí podría llevarte a ser "cargado" hacia afuera por un grupo más grande.
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes de Gakuran">
+
+<FAQ items={[
+  {
+    question: "¿Cómo cambio mi estilo de lucha en Gakuran?",
+    answer: "Los estilos de lucha como Boxeo o Muay Thai se pueden cambiar a través de NPCs específicos en el mapa o mediante el sistema de reroll del juego. Consulta el Trello oficial de Gakuran para ver las ubicaciones exactas de los Entrenadores de Estilo."
+  },
+  {
+    question: "¿Por qué no puedo atacar a otros jugadores en la escuela?",
+    answer: "Asegúrate de haber presionado 'R' para entrar en tu Postura de Combate. Además, algunas áreas pueden tener protecciones de 'Zona Segura' según la versión actual del servidor o las reglas de la escuela."
+  },
+  {
+    question: "¿Cuál es la mejor configuración de controles para el PvP de Gakuran?",
+    answer: "La mayoría de los jugadores de alto nivel recomiendan PC con Shift Lock activado. Esto permite un apuntado preciso de tus golpes con el ratón y tiempos de respuesta más rápidos para la mecánica de parada con 'F'."
+  },
+  {
+    question: "¿Hay códigos activos para Gakuran en 2026?",
+    answer: "A partir de junio de 2026, no hay códigos de recompensa públicos activos. Consulta siempre la página oficial de la comunidad de Roblox o las actualizaciones del equipo de la Wiki de Gakuran para evitar estafas con códigos falsos."
+  }
+]} />
+
+<Callout type="success" title="Consejo Final">
+**Todos los controles de Gakuran** son tus herramientas para la supervivencia. Dedica tiempo a las áreas de entrenamiento, respeta el juego de rol social de la escuela y mantén siempre la guardia alta en los pasillos. Nos vemos en clase, o en el ring.
+</Callout>
+
+</Section>

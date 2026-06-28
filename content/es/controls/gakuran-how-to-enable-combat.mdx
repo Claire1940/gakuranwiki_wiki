@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cómo activar el combate en Gakuran: Guía de configuración paso a paso",
+  description: "Aprende cómo activar el combate en Gakuran Roblox, adoptar tu postura, usar los atajos de teclado y dominar las mecánicas básicas de PvP en esta guía de configuración paso a paso.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Enable+Combat+Guide",
+  date: "2026-06-28",
+  author: "Equipo de la Wiki de Gakuran"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Cómo activar el combate en Gakuran**: Presiona la tecla **R** en PC para adoptar tu postura de combate activa.
+- **Mecánicas de ataque**: Usa **M1** para ataques ligeros y rápidos, y **M2** para ataques pesados que rompen la guardia.
+- **Opciones defensivas**: Mantén presionado **F** para bloquear los golpes entrantes y presiona **Q** para esquivar el peligro.
+- **Selección de estilo**: Elige entre Boxeo (Boxing), Muay Thai y Hakari para definir tu conjunto de movimientos de combate.
+</Callout>
+
+<Section icon={Swords} title="Cómo activar el combate en Gakuran: Controles básicos y postura">
+
+En Gakuran, los jugadores se sumergen en un detallado entorno escolar y urbano japonés donde el juego de rol pacífico y las peleas intensas se superponen constantemente. Saber **cómo activar el combate en Gakuran** es el primer paso para sobrevivir en los caóticos pasillos y calles. Por defecto, tu personaje aparece en un estado neutral de juego de rol. Para defenderte o iniciar una pelea, debes hacer la transición a una postura de combate activa. 
+
+Cuando aparezcas en la escuela, tendrás las manos a los lados. Este estado neutral evita que golpees accidentalmente a otros jugadores mientras exploras las aulas o socializas. Para activar tus puños y prepararte para un encuentro, debes usar el botón de alternancia de postura designado. Esta acción sube tu guardia, desbloquea tu conjunto de movimientos ofensivos y alerta a los jugadores cercanos de que estás listo para pelear.
+
+| Acción | Atajo en PC | Gesto en móvil | Botón de mando | Propósito funcional |
+| :--- | :--- | :--- | :--- | :--- |
+| **Activación** | **R** | Botón en pantalla | Tocar menú de ayuda | Activar o desactivar la postura de combate |
+| **Golpe ligero** | **M1 / Clic izquierdo** | Tocar pantalla | **R2** | Iniciador de combo rápido con poco daño |
+| **Golpe pesado** | **M2 / Clic derecho** | Mantener pulsada la pantalla | **Y** | Rompe la guardia con un tiempo de recuperación largo |
+| **Correr / Sprint** | **Doble toque a la W** | Joystick en pantalla | **L3** | Movimiento rápido para perseguir o retirarse |
+
+<Callout type="warning" title="Vulnerabilidad de la postura">
+Entrar en la postura de combate te convierte en un objetivo activo. Mira siempre a tu alrededor antes de activar tu postura en pasillos abiertos, ya que otros jugadores podrían interpretar tu guardia en alto como un desafío inmediato.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Controles de combate principales y atajos">
+
+Una vez que hayas activado tu postura de combate, dominar los atajos de teclado defensivos y de utilidad es crucial. Gakuran depende en gran medida del tiempo, la distancia y la velocidad de reacción. Simplemente lanzar puñetazos a lo loco te dejará vulnerable a contraataques fáciles, especialmente contra oponentes experimentados que saben cómo castigar los golpes fallidos.
+
+Defenderte requiere una sólida comprensión de cómo bloquear y esquivar. Mantener el bloqueo mitigará los ataques ligeros entrantes, pero depender demasiado de él te dejará vulnerable a los ataques pesados que rompen la guardia. Deslizarte (dash) te permite reposicionarte al instante, lo que lo convierte en la herramienta perfecta para incitar el ataque pesado de un oponente antes de lanzar tu propia contraofensiva.
+
+| Acción de combate | Control en PC | Control en móvil | Botón de mando | Nota táctica |
+| :--- | :--- | :--- | :--- | :--- |
+| **Bloqueo / Desvío** | **F** | Bloqueo en pantalla | **L2** | Anula los ataques ligeros si se realiza en el momento justo |
+| **Esquivar / Desplazarse** | **Q** | Desplazamiento en pantalla | **B** | Reposiciona al personaje y evita los ataques pesados |
+| **Cargar oponente** | **B** | Cargar en pantalla | **X** | Recoge a los jugadores derrotados para reubicarlos |
+| **Ejecutar agarre** | **V** | Ejecución en pantalla | **L1 + X** | Remata por completo a los oponentes caídos |
+
+<CardGrid cols={3}>
+  <Card title="Ataques ligeros (M1)">
+    - Velocidad de **ejecución rápida**
+    - Daño bajo por golpe
+    - Ideal para presionar y comenzar combos
+  </Card>
+  <Card title="Ataques pesados (M2)">
+    - **Alto daño infligido**
+    - Rompe los bloqueos del oponente fácilmente
+    - Ventana de recuperación larga si se falla
+  </Card>
+  <Card title="Maniobras defensivas">
+    - **Bloqueo (F)** para mitigar el daño entrante
+    - Desplazamiento (Q) para escapar de combos peligrosos
+    - Esencial para sobrevivir en peleas multitudinarias
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Distancia en los combos">
+No mantengas presionado avanzar a ciegas mientras atacas. Retrocede un poco entre las cadenas de M1 para incitar a tu oponente a bloquear, y luego sorpréndelo con un ataque pesado M2 para romper su guardia.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía paso a paso para activar el combate">
+
+Pasar de ser un estudiante pacífico a una leyenda del patio escolar requiere un enfoque sistemático. Sigue estos pasos para activar el combate de forma segura, probar tus atajos de teclado y asegurar tu primera victoria sin que los jugadores veteranos te tomen por sorpresa.
+
+<Steps>
+  <Step num="1" title="Paso 1: Encuentra una zona segura">
+    Cuando aparezcas por primera vez en el edificio de la escuela, dirígete a un área de bajo riesgo como el Salón de Música o el Gimnasio. Estos lugares suelen ser más tranquilos y te dan suficiente espacio para configurar tus controles.
+  </Step>
+  <Step num="2" title="Paso 2: Activa tu postura">
+    Presiona **R** en tu teclado para preparar tus puños. Verás que tu personaje cambia a una postura de combate activa. Esto desbloquea tus controles ofensivos y prepara tus opciones defensivas.
+  </Step>
+  <Step num="3" title="Paso 3: Prueba tus atajos">
+    Lanza algunos puñetazos ligeros M1 seguidos de un desplazamiento rápido con Q. Presta mucha atención a los fotogramas de recuperación de tus ataques y a la distancia que cubre tu desplazamiento para familiarizarte con las físicas del juego.
+  </Step>
+  <Step num="4" title="Paso 4: Ataca y ejecuta">
+    Encuentra a un oponente en una zona designada para PvP. Espera a que falle un ataque, acorta la distancia con un desplazamiento, castígalo con un combo ligero y presiona **V** para ejecutarlo una vez que esté en el suelo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Postura dominada">
+Has activado con éxito el combate y ejecutado tu primer combo. Mantén esta disciplina mecánica para sobrevivir a peleas más difíciles en las calles abiertas de la ciudad.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estilos de pelea y progresión de combate">
+
+Tu efectividad en el combate en Gakuran está fuertemente definida por el estilo de pelea que elijas. Cada estilo cambia tus animaciones de ataque, estructuras de combos y utilidad táctica. Comprender estos estilos te permite adaptar tu enfoque de pelea a tus preferencias personales.
+
+Actualmente, la comunidad clasifica estos estilos según su capacidad de presión, facilidad de uso y versatilidad general en peleas abiertas. Mientras que algunos estilos destacan por abrumar a los oponentes con una velocidad implacable, otros se basan en el contraataque paciente y golpes únicos de gran daño.
+
+| Nombre del estilo | Nivel en PvP (Tier) | Rol en combate | Fuerza principal | Enfoque de práctica |
+| :--- | :--- | :--- | :--- | :--- |
+| **Muay Thai** | **S-Tier** | Atacante agresivo | Alta presión ofensiva | Ataques con desplazamiento y sincronización de bloqueo |
+| **Boxeo (Boxing)** | **A-Tier** | Luchador equilibrado | Cadenas de golpes limpias | Ataques ligeros y retiradas seguras |
+| **Hakari** | **B-Tier** | Especialista vistoso | Alto factor sorpresa | Provocar bloqueos y estrategias fuera del meta |
+
+<Callout type="info" title="Actualizaciones de estilos">
+Mantente atento al tablero oficial de Trello de Gakuran y a las páginas de la comunidad de Roblox para conocer los últimos cambios de equilibrio, ya que las actualizaciones pueden alterar con frecuencia las propiedades de los estilos y la escala de daño.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Supervivencia en combate y navegación por el mapa">
+
+El mapa de Gakuran es una mezcla de centros sociales seguros y zonas de conflicto peligrosas. Saber a dónde ir, y qué lugares evitar, puede marcar la diferencia entre disfrutar de una sesión de juego de rol pacífica y ser enviado repetidamente de vuelta al punto de aparición.
+
+Las aulas y las salas sociales especializadas ofrecen un menor riesgo de violencia espontánea, lo que las hace ideales para conocer a otros jugadores. Por otro lado, los pasillos estrechos, las entradas de la escuela y las calles abiertas de la ciudad son focos de actividad de pandillas y peleas grupales caóticas.
+
+| Ubicación | Riesgo de PvP | Actividad principal | Consejo táctico |
+| :--- | :--- | :--- | :--- |
+| **Edificio escolar** | **Medio** | Juego de rol social | Vigila las puertas para evitar emboscadas repentinas |
+| **Pasillos** | **Alto** | Punto de estrangulamiento de tráfico | Nunca te quedes quieto y mantén siempre abierta una ruta de escape |
+| **Cancha de baloncesto** | **Medio** | Reuniones casuales | Ideal para reunirte con aliados antes de explorar la ciudad |
+| **Gimnasio de entrenamiento** | **Medio** | Práctica de movimiento | Usa el espacio abierto para probar los tiempos de desplazamiento y bloqueo |
+| **Calles de la ciudad** | **Alto** | Peleas en mundo abierto | Mantente en movimiento para evitar que te rodeen los grupos |
+
+<Checklist
+  id="combat-survival-checklist"
+  title="Reglas esenciales de supervivencia:"
+  items={[
+    "Activa siempre la postura de combate antes de entrar a los pasillos",
+    "Vigila la resistencia de tu bloqueo para evitar que te rompan la guardia de forma devastadora",
+    "Nunca persigas a un oponente en línea recta por pasillos estrechos",
+    "Usa el desplazamiento con Q para escapar instantáneamente de peleas grupales multitudinarias",
+    "Revisa el Discord de Gakuran para estar al tanto de las batallas de bandas activas y eventos del servidor"
+  ]}
+/>
+
+<Callout type="warning" title="Peligro grupal">
+Si ves a más de tres jugadores peleando en un pasillo estrecho, mantente alejado. Quedar acorralado en un espacio confinado suele resultar en una derrota rápida debido a la superposición de las áreas de impacto (hitboxes).
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo activar el combate en Gakuran en PC?",
+    answer: "Para activar el combate en PC, simplemente presiona la tecla R en tu teclado. Esto activa y desactiva tu postura de combate, permitiéndote alternar entre el modo de juego de rol y el modo de pelea."
+  },
+  {
+    question: "¿Puedo usar estilos de pelea sin activar mi postura?",
+    answer: "No. Debes presionar R para entrar en tu postura de combate antes de poder ejecutar cualquier ataque ligero o pesado de tu estilo de pelea seleccionado."
+  },
+  {
+    question: "¿Cómo ejecuto a un jugador caído?",
+    answer: "Una vez que un oponente es derribado, colócate directamente sobre él y presiona la tecla V en PC (o L1 + X en un mando) para realizar una ejecución."
+  },
+  {
+    question: "¿Hay alguna forma de escapar del combo de un oponente?",
+    answer: "Sí, puedes usar la tecla Q en PC para desplazarte fuera del alcance de ataque de un oponente si lo haces en el momento adecuado y tienes suficiente resistencia."
+  }
+]} />
+
+<Callout type="tip" title="Consejo final">
+Practica las transiciones de postura con frecuencia para alternar sin problemas entre explorar y pelear, asegurándote de nunca ser tomado por sorpresa.
+</Callout>
+
+</Section>

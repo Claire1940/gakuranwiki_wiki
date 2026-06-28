@@ -1,0 +1,141 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gakuran Best Fighting Style: 2026 PvP Tier List & Guide",
+  description: "Master the best fighting style in Gakuran with our 2026 PvP guide. Learn combat basics, style rankings, and essential survival tips for Roblox school brawls.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/DC2626/fff?text=Gakuran+Fighting+Styles",
+  date: "2026-06-28",
+  author: "gakuran Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **gakuran best fighting style** depends on your preferred PvP role: pressure, combos, or specialist play.
+- **Muay Thai** currently leads for aggressive forward pressure, while **Boxing** remains the most reliable pick for beginners.
+- Always practice **spacing and blocking** in the training area before engaging in high-stakes school hallway brawls.
+- Use the **in-experience Help menu** to verify your current control layout for PC, mobile, or controller play.
+- Stay mobile and **avoid cornering yourself** in the school map to survive against experienced combat groups.
+</Callout>
+
+<Section icon={Swords} title="Fighting Style Rankings">
+
+Choosing the right combat path is essential for success in Gakuran. Our current tier list evaluates styles based on pressure, ease of use, and PvP viability in the game's school-brawler environment.
+
+**Video Highlights:**
+- Basic movement and combat stance mechanics.
+- Proper spacing techniques to avoid getting punished.
+- How to transition from basic combos to advanced pressure.
+
+<YouTubeEmbed videoId="dQw4w9WgXcQ" title="Welcome to Nishikata High, the WORST School in Japan" />
+
+| Style | Role | Difficulty | Best For |
+| :--- | :--- | :--- | :--- |
+| **Muay Thai** | Aggressive Striker | Moderate | Forward pressure and quick trades |
+| **Boxing** | Punch Combos | Easy | Beginners and consistent damage |
+| **Hakari** | Flashy Specialist | Hard | Surprise attacks and creative play |
+
+<Callout type="tip" title="Pro Tip">
+Do not simply copy the highest-tier style. Practice the one that matches your reaction speed and movement habits, as pure damage output means nothing if you cannot land your hits consistently.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Combat Fundamentals">
+
+Success in Gakuran requires more than just picking a style; it demands mastery of core combat mechanics. Understanding how to manage your space and timing is the difference between winning a fight and becoming a training dummy.
+
+<Steps>
+  <Step num="1" title="Enter Combat Stance">
+    Always press R (PC) or the designated input to enter combat stance before engaging. This readies your character for blocking and parrying.
+  </Step>
+  <Step num="2" title="Master Spacing">
+    Use dash (Q) to reposition. Never chase enemies in a straight line, as this makes you an easy target for counter-attacks.
+  </Step>
+  <Step num="3" title="Block and Punish">
+    Hold F to block incoming chains. Wait for the opponent to exhaust their stamina or whiff an attack before you begin your counter-combo.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Important">
+Avoid panic blocking. If you hold block from too far away, you reveal your timing and allow opponents to bait out your defensive stance.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival and Map Control">
+
+The school map is filled with danger zones where PvP encounters are frequent. Knowing the terrain helps you avoid ambushes and find safe routes to train or roleplay.
+
+<CardGrid cols={3}>
+  <Card title="School Building">
+    - **Risk**: Medium
+    - Best for: Roleplay and initial meetups.
+    - Tip: Stick to classrooms to avoid hallway traffic.
+  </Card>
+  <Card title="Hallways">
+    - **Risk**: High
+    - Best for: Fast travel.
+    - Tip: Never stand still; these are prime ambush spots.
+  </Card>
+  <Card title="Gym Area">
+    - **Risk**: Medium
+    - Best for: PvP practice.
+    - Tip: Use this space to warm up before roaming the streets.
+  </Card>
+</CardGrid>
+
+| Location | Primary Use | PvP Danger Level |
+| :--- | :--- | :--- |
+| **Basketball Court** | Social Hangout | Medium |
+| **Music Room** | Quiet Roleplay | Low |
+| **Town Streets** | Open Roaming | High |
+
+</Section>
+
+<Section icon={Trophy} title="Progression Checklist">
+
+Follow this checklist to ensure you are ready for competitive play. These milestones help you transition from a novice student to a formidable fighter.
+
+<Checklist
+  id="progression-goals"
+  title="Combat Readiness Goals:"
+  items={[
+    "Master the basic combat stance and movement",
+    "Successfully parry an opponent's heavy attack",
+    "Complete a 3-hit combo without missing",
+    "Identify three safe zones on the school map",
+    "Join the official community for update tracking"
+  ]}
+/>
+
+<Callout type="success" title="Success">
+Once you have completed these tasks, you are ready to engage in more frequent PvP encounters and join group fights with confidence.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is there a best fighting style for beginners in Gakuran?",
+    answer: "Boxing is widely considered the best choice for beginners due to its straightforward punch-based combos and predictable, reliable damage output."
+  },
+  {
+    question: "How do I switch my fighting style?",
+    answer: "You can typically switch or reroll styles through the game's menu or specific in-game NPCs. Check your Trello board for the latest location-based updates."
+  },
+  {
+    question: "Are there any active codes for free styles?",
+    answer: "Currently, there are no confirmed public redeem codes for Gakuran. Always check the official Roblox game page or community group for verified announcements."
+  }
+]} />
+
+</Section>

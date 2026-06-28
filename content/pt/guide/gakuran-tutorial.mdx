@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, BookOpen, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Tutorial de Gakuran: Domine o Combate PvP e a Vida Escolar (2026)",
+  description: "Aprenda o básico de Gakuran com nosso tutorial. Domine estilos de luta como Muay Thai, explore o mapa escolar do Japão de 2007 e domine o combate PvP no Roblox.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Gakuran+Tutorial+Guide",
+  date: "2026-06-28",
+  author: "Equipe da Wiki de Gakuran"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Tutorial de Gakuran**: Este guia aborda as mecânicas essenciais do jogo de luta escolar japonês no Roblox, focando tanto no roleplay quanto no PvP de alto risco.
+- **Core do Combate**: Sempre entre na sua **Postura de Combate** (tecla R) antes de lutar para habilitar o bloqueio e movimentos especializados.
+- **Melhor Estilo**: Atualmente, o **Muay Thai** lidera o meta para pressão agressiva, embora o Boxe seja a escolha recomendada para iniciantes.
+- **Consciência do Mapa**: Os corredores da escola são zonas de alto risco; sempre mantenha uma rota de fuga atrás de você para evitar ser encurralado.
+- **Status dos Códigos**: Não há **códigos de recompensa ativos** até junho de 2026; evite sites de terceiros que alegam ter códigos "secretos".
+</Callout>
+
+<Section icon={BookOpen} title="Tutorial de Gakuran: Introdução e Básico do Jogo">
+
+Boas-vindas ao **tutorial definitivo de Gakuran**. Gakuran é uma experiência única no Roblox ambientada em um Japão estilizado de 2007. Embora os desenvolvedores descrevam oficialmente o jogo como uma experiência "Slice of Life" (Cotidiano), a comunidade e as mecânicas de jogo inclinam-se fortemente para o subgênero de "Battlegrounds & Luta". Você se verá navegando pela complexa hierarquia social de um colégio japonês, onde as disputas costumam ser resolvidas com punhos em vez de palavras.
+
+Antes de mergulhar nos corredores, é importante entender o estado atual do jogo. Gakuran teve um crescimento massivo em 2026, mantendo uma alta taxa de curtidas e uma base de jogadores dedicada que equilibra um roleplay sério com combates competitivos.
+
+| Métrica | Valor Atual | Impacto no Jogador |
+| :--- | :--- | :--- |
+| **Total de Visitas** | 828.5K+ | Alta atividade da comunidade e atualizações frequentes do servidor |
+| **Taxa de Curtidas** | 93% | Indica forte satisfação dos jogadores com o equilíbrio do combate |
+| **Gênero** | Ação / Luta | Espere encontros frequentes de combate em áreas abertas |
+| **Cenário** | Maio de 2007, Japão | Estética escolar retrô que influencia o layout do mapa |
+| **Plataforma** | Roblox | Suporte a cross-play entre PC, Celular e Console |
+
+<Callout type="tip" title="Dica de Profissional: Os Primeiros Cinco Minutos">
+Quando você surgir no mapa pela primeira vez, não corra imediatamente para as ruas da cidade. Passe seus primeiros minutos no Prédio da Escola para se acostumar com a física de movimento. A maioria dos jogadores veteranos se reúne nos corredores, então começar em uma sala de aula mais tranquila permite que você ajuste suas configurações sem ser interrompido por um chute de Muay Thai aleatório.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Controles Essenciais e Teclas de Atalho">
+
+Dominar os controles é o passo mais crítico em qualquer **tutorial de Gakuran**. Como o jogo roda na engine do Roblox, ele utiliza uma mistura de movimentos padrão do Roblox e comandos de combate personalizados. Esteja você no PC, Celular ou usando um Controle, entender como alternar sua postura e executar combos é a diferença entre vencer uma briga ou se tornar um "boneco de treino" para outros jogadores.
+
+| Ação | PC / Mouse | Dispositivo Móvel | Controle |
+| :--- | :--- | :--- | :--- |
+| **Movimento** | WASD / Setas | Analógico na Tela | Analógico Esquerdo |
+| **Pular** | Espaço | Botão de Pular | A / Cross |
+| **Postura de Combate** | Tecla R | Alternar na Interface | Direcional para Baixo |
+| **Ataque Leve** | M1 (Clique Esquerdo) | Tocar na Tela | R2 / RT |
+| **Ataque Forte** | M2 (Clique Direito) | Ícone de Ataque Forte | Y / Triângulo |
+| **Bloquear / Aparar (Parry)** | Tecla F | Ícone de Escudo | L2 / LT |
+| **Arrancada (Dash) / Esquiva** | Tecla Q | Ícone de Arrancada | B / Círculo |
+| **Correr** | Toque duplo em W | Alternar Corrida | L3 / Clique no Analógico Esquerdo |
+| **Carregar Jogador** | Tecla B | Ícone de Interação | X / Quadrado |
+| **Executar / Agarrar** | Tecla V | Botão na Interface | L1 + X |
+
+<Callout type="warning" title="Aviso de Atraso de Comando (Input Delay)">
+A latência do servidor do Roblox pode afetar o tempo do seu parry (tecla F). Se você notar que seus bloqueios não estão registrando, tente "prever" a sequência de M1 do oponente em vez de apenas reagir a ela. Em Gakuran, o jogo defensivo é mais recompensado do que apenas apertar botões freneticamente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tier List e Comparação de Estilos de Luta">
+
+Em Gakuran, seu estilo de luta define seu "kit" — seu alcance, sua velocidade e seu potencial de combo. Este **tutorial de Gakuran** categoriza os três estilos principais atualmente disponíveis no jogo. Escolher o estilo certo depende do seu estilo de jogo preferido: você quer dominar os oponentes com velocidade ou prefere golpes calculados e pesados?
+
+<CardGrid cols={3}>
+  <Card title="Muay Thai (S-Tier)">
+    - **Função**: Pressão Agressiva
+    - **Pontos Fortes**: Chutes de alta velocidade, excelente impulso para frente e ótimas janelas de punição.
+    - **Ideal Para**: Jogadores que gostam de pressionar o oponente de perto e forçar bloqueios.
+  </Card>
+  <Card title="Boxe (A-Tier)">
+    - **Função**: Atacante Equilibrado
+    - **Pontos Fortes**: Sequências de socos limpas, tempo fácil de aprender e opções defensivas confiáveis.
+    - **Ideal Para**: Iniciantes que precisam de um kit simples para aprender o básico de espaçamento.
+  </Card>
+  <Card title="Hakari (B-Tier)">
+    - **Função**: Especialista Estiloso
+    - **Pontos Fortes**: Animações únicas, alto fator surpresa e rotas de combo criativas.
+    - **Ideal Para**: Jogadores avançados que desejam exibir suas habilidades com uma escolha fora do meta.
+  </Card>
+</CardGrid>
+
+| Estilo | Alcance | Dificuldade | Potencial de Combo | Posição no Meta |
+| :--- | :--- | :--- | :--- | :--- |
+| **Muay Thai** | Médio | Difícil | ★★★★★ | **Dominante** |
+| **Boxe** | Curto | Fácil | ★★★★☆ | **Confiável** |
+| **Hakari** | Médio | Muito Difícil | ★★★☆☆ | **Situacional** |
+
+<Callout type="success" title="Conselho de Seleção de Estilo">
+Se você é novo no jogo, **comece com o Boxe**. Ele tem as hitboxes mais tolerantes e permite que você se concentre no ciclo fundamental de "Bloquear-Esquivar-Punir" que rege todo o combate de Gakuran. Assim que conseguir aparar (parry) de forma consistente, mude para o Muay Thai para causar mais dano.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecânicas de Combate: A Arte da Briga">
+
+O combate em Gakuran é mais do que apenas clicar até alguém cair. Ele utiliza um sistema de "Postura" que dita sua vulnerabilidade. Esta seção do nosso **tutorial de Gakuran** detalha o ciclo de combate profissional usado pelos jogadores mais bem ranqueados da comunidade.
+
+<Steps>
+  <Step num="1" title="Entre na Postura de Combate (R)">
+    Nunca entre em uma briga no modo "Ocioso" (Idle). Pressionar **R** muda suas animações e prepara seu personagem para a ação. Este é o único estado no qual você pode usar efetivamente as mecânicas de Bloqueio (F) e Arrancada (Q).
+  </Step>
+  <Step num="2" title="Gerencie seu Espaçamento">
+    Não corra diretamente em direção ao seu oponente. Use o "Movimento Diagonal" (segurando W e A/D) para circular ao redor dele. Isso torna mais difícil para ele acertar um Ataque Forte (M2) enquanto você procura por uma abertura.
+  </Step>
+  <Step num="3" title="O Ciclo de Bloqueio e Aparo (Parry)">
+    Segure **F** para bloquear ataques M1 básicos. Se você acertar o tempo do seu bloqueio perfeitamente no momento em que o golpe atingir, você realizará um **Parry**, que atordoa brevemente o oponente e lhe dá uma janela de "Combo Verdadeiro" para contra-atacar.
+  </Step>
+  <Step num="4" title="Executar e Finalizar">
+    Assim que a vida de um oponente for esgotada, ele entrará em um estado "Derrubado" (Downed). Use **B** para carregá-lo se estiver fazendo roleplay, ou **V** para executar uma finalização. Tenha cuidado — realizar finalizações em áreas públicas costuma atrair a atenção de gangues próximas.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Gerenciamento de Estamina">
+Esquivar e bloquear consomem estamina. Se sua barra de estamina chegar a zero, seu bloqueio irá "quebrar", deixando você totalmente vulnerável a um Ataque Forte. Sempre recue e se afaste se sua barra estiver abaixo de 25%.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Guia do Mapa: Pontos de Interesse e Zonas Seguras">
+
+O mapa de Gakuran é uma recriação de um distrito escolar japonês. Embora a escola em si seja o coração do jogo, as ruas ao redor oferecem diferentes níveis de risco e recompensa. Compreender a geografia é essencial tanto para quem faz roleplay quanto para quem procura uma briga.
+
+| Local | Tipo | Risco PvP | Atividade Principal |
+| :--- | :--- | :--- | :--- |
+| **Corredores da Escola** | Zona de Tráfego | **Alto** | Principal área de briga; espere emboscadas em cada esquina. |
+| **Salas de Aula** | Hub de RP | **Baixo** | Socializar e conhecer novos jogadores; geralmente respeitado. |
+| **Ginásio / Treino** | Treinamento | **Médio** | Área de aquecimento para praticar combos e movimentação. |
+| **Sala de Música** | Social | **Baixo** | Local tranquilo para roleplay longe do caos principal. |
+| **Ruas da Cidade** | Mundo Aberto | **Alto** | Território de gangues; andar por aqui sozinho é perigoso. |
+| **Quadra de Basquete** | Atividade | **Médio** | Encontros casuais e lutas de grupo em pequena escala. |
+
+<Checklist
+  id="map-exploration"
+  title="Objetivos de Exploração de Gakuran:"
+  items={[
+    "Encontrar o acesso oculto ao telhado para uma vista panorâmica",
+    "Identificar pelo menos três rotas de fuga do corredor principal",
+    "Localizar o Ginásio para praticar seus combos de Muay Thai",
+    "Visitar as Ruas da Cidade para observar a atividade atual das gangues",
+    "Juntar-se a um grupo social na Sala de Música para dar uma pausa no PvP"
+  ]}
+/>
+
+<Callout type="warning" title="A Armadilha do Corredor">
+A entrada principal da escola é um "Ponto de Estrangulamento" (Choke Point). Grupos costumam esperar lá para emboscar jogadores solo. Se você vir mais de três jogadores parados perto de uma porta, use uma saída diferente ou espere que eles se movam.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes e Recursos da Comunidade">
+
+Para encerrar este **tutorial de Gakuran**, compilamos as perguntas mais comuns da comunidade. Manter-se informado é a melhor maneira de acompanhar as atualizações rápidas desta experiência no Roblox.
+
+<FAQ items={[
+  {
+    question: "Existem códigos ativos para Gakuran?",
+    answer: "Até junho de 2026, não há códigos públicos ativos. Os desenvolvedores ainda não implementaram um sistema formal de resgate de códigos no menu do jogo."
+  },
+  {
+    question: "Como faço para mudar meu estilo de luta?",
+    answer: "Os estilos de luta geralmente são gerenciados por meio do menu do jogo ou de NPCs específicos encontrados no Ginásio. Alguns estilos podem exigir um 'Reroll' (Rolar novamente) ou moedas específicas para serem desbloqueados."
+  },
+  {
+    question: "Gakuran é um jogo de roleplay ou de luta?",
+    answer: "É ambos. Embora as mecânicas sejam voltadas para a luta, o cenário e a comunidade se inclinam fortemente para o roleplay de vida escolar japonesa. Você pode escolher ser um estudante pacífico ou um valentão delinquente."
+  },
+  {
+    question: "Onde posso encontrar o Trello ou Discord oficial de Gakuran?",
+    answer: "A maneira mais segura de encontrar links oficiais é por meio dos botões sociais na página da experiência (学乱) Gakuran no Roblox. Evite clicar em links de comentários não oficiais no YouTube."
+  }
+]} />
+
+<Callout type="success" title="Veredito Final">
+Gakuran oferece um sistema de combate profundo e recompensador, envolto em uma estética nostálgica de 2007. Ao dominar primeiro o estilo de **Boxe** e respeitar as mecânicas de **Estamina**, você rapidamente deixará de ser um calouro confuso para se tornar um respeitado brigão da escola. Boa sorte nos corredores!
+</Callout>
+
+</Section>

@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gakuran Controls: Keybinds, Combat Inputs, & Setup Guide",
+  description: "Master Gakuran controls on PC, mobile, and controller. Learn combat keybinds, movement inputs, and Roblox settings to survive this school brawler.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Gakuran+Controls+Guide",
+  date: "2026-06-28",
+  author: "gakuran Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary keybinds**: Master the core **gakuran controls** including combat stance (R), blocking (F), and dashing (Q) to survive.
+- **Combat stance**: Toggle your fighting stance with R before initiating any offensive or defensive moves.
+- **Device optimization**: Configure Shift Lock in your Roblox settings to ensure accurate camera tracking during PvP.
+- **Fighting styles**: Choose between Muay Thai, Boxing, and Hakari, each requiring unique button-timing adjustments.
+- **Official resources**: Check the official [Gakuran Trello](https://trello.com/b/DUeTE2HN/学乱-gakuran-trello) for live updates and dynamic mechanics.
+</Callout>
+
+<Section icon={Map} title="Movement and Camera Controls">
+
+Navigating the dense school environment of (学乱) Gakuran requires a strong grasp of movement mechanics [00基础信息]. The game is set in a Japanese school-town, featuring tight hallways, packed classrooms, and open outdoor areas like the basketball court and town streets [00首页信息-1, 00首页信息-2]. Because combat can break out anywhere, your movement controls are your primary tool for survival [00首页信息-2]. Running, jumping, and positioning decide whether you can escape an ambush or corner an opponent [00首页信息-2].
+
+Sprinting is especially vital [00首页信息-1]. By double-tapping the forward movement key (W on PC), players can enter a sprint to quickly cross the school grounds or close the distance on an escaping opponent [00首页信息-1]. However, sprinting blindly into a narrow hallway is risky, as doorways often become choke points where groups gather [00首页信息-2]. Managing your camera angle is equally important to avoid getting blindsided from behind [00首页信息-1].
+
+| Action | Keyboard & Mouse | Mobile Gesture | Controller Input |
+|---|---|---|---|
+| Move | WASD or Arrow Keys | On-screen Joystick | Left Analog Stick |
+| Jump | Spacebar | On-screen Jump Icon | A / Cross Button |
+| Sprint | Double-tap W | Double-tap virtual joystick | Left Stick Click (L3) |
+| Camera Rotate | Hold Right Click & Drag | Swipe Screen | Right Analog Stick |
+| Shift Lock | Shift Key | On-screen Shift Lock Icon | Click Right Stick (R3) |
+
+<CardGrid cols={3}>
+  <Card title="Classic Mode">
+    - **Free camera rotation**
+    - Best for general exploration
+    - Harder to aim attacks in high-speed fights
+  </Card>
+  <Card title="Follow Mode">
+    - **Automatic camera tracking**
+    - Keeps target in view
+    - Can struggle in tight indoor classrooms
+  </Card>
+  <Card title="Shift Lock Mode">
+    - **Fixed crosshair perspective**
+    - Essential for precise combat aiming
+    - Restricts quick side-to-side scanning
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Camera Settings">
+Using Shift Lock is highly recommended for PvP encounters. It locks your character's orientation to your mouse pointer, allowing you to strafe and land attacks with much higher accuracy.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Keybinds and Advanced Gakuran Controls">
+
+To survive the chaotic schoolyard brawls, players must commit the combat keybinds to muscle memory [00首页信息-2]. Gakuran is classified as an Action and Battlegrounds experience, meaning that even though roleplay is encouraged, physical conflict is frequent [00基础信息, 00首页信息-1]. The combat system relies on a sequence of light and heavy attacks, blocks, and evasive maneuvers [00首页信息-2].
+
+Before you can throw a punch or execute a block, you must toggle your combat stance [00首页信息-2]. Pressing the R key transitions your character into a fighting stance, locking the camera's focus and preparing your inputs for immediate action [00首页信息-2]. Attacking without entering this stance often leads to slow, uncoordinated swings that leave you highly vulnerable to counters [00首页信息-2].
+
+Light attacks (M1) are your primary tool for building combos [00首页信息-2]. They are fast and easy to chain, allowing you to pressure opponents and prevent them from counter-attacking [00首页信息-2]. Heavy attacks (M2), on the other hand, are slow but pack a massive punch [00首页信息-2]. They are specifically designed to break through an opponent's guard [00首页信息-2]. If an enemy is constantly holding the block key (F), a well-timed heavy attack will shatter their defense, leaving them stunned and open to a full combo [00首页信息-2].
+
+Dashing (Q) is your main defensive and repositioning tool [00首页信息-2]. It allows you to quickly dodge out of the way of heavy attacks or close the gap after an opponent whiffs a strike [00首页信息-2]. When an opponent is knocked down, you can use the carry key (B) to transport them or the execute key (V) to finish them off and secure your victory [00首页信息-2].
+
+| Input | PC Keybind | Controller Button | Combat Function |
+|---|---|---|---|
+| Combat Stance | R | D-Pad Up | Toggles combat readiness and locks camera focus |
+| Light Attack | M1 / Left Click | Right Trigger (R2) | Fast consecutive strikes to build combo pressure |
+| Heavy Attack | M2 / Right Click | Y Button | Heavy strike designed to break enemy blocks |
+| Block / Parry | F | Left Trigger (L2) | Mitigates incoming damage; perfectly timed blocks parry |
+| Dodge / Dash | Q | B Button | Quick directional movement to evade attacks |
+| Carry | B | X Button | Picks up a defeated or knocked-down opponent |
+| Execute | V | Left Bumper + X | Eliminates a knocked-down player from the round |
+
+<Callout type="warning" title="Stamina Warning">
+Spamming your dodge (Q) and heavy attacks (M2) will quickly deplete your stamina. If your stamina runs dry, you will be unable to escape combos, making you an easy target for nearby brawlers.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Setting Up Controls on Mobile and Controller">
+
+While Gakuran is highly optimized for PC players, the Roblox platform allows users on mobile devices and consoles to join the action [00首页信息-1]. Playing on a touch screen or a gamepad introduces different control challenges, particularly during fast-paced PvP encounters where camera control is just as important as attack timing [00首页信息-2].
+
+On mobile, the interface dynamically displays virtual buttons for jumping, attacking, and blocking [00首页信息-1]. While this layout is highly portable, it requires players to adapt to touch-screen gestures for camera rotation [00首页信息-1]. Controller players, conversely, benefit from ergonomic analog sticks that offer smooth movement and camera panning, though accessing complex key combinations like executes can take some practice [00首页信息-1, 00首页信息-2].
+
+To ensure a smooth gameplay experience across all platforms, adjusting your in-game Roblox settings is highly recommended [00首页信息-1].
+
+| Device | UI Layout Comfort | Combat Precision | Key Advantages |
+|---|---|---|---|
+| PC (Keyboard & Mouse) | High | Excellent | Fast keybind access, precise camera rotation |
+| Mobile (Phone/Tablet) | Medium | Moderate | Portability, simplified on-screen action buttons |
+| Controller (Console/PC) | High | Good | Ergonomic movement, comfortable trigger-based blocking |
+
+<Steps>
+  <Step num="1" title="Enable Shift Lock Switch">
+    Open your Roblox settings menu in-game and ensure the 'Shift Lock Switch' option is set to Enabled. This allows you to toggle the locked crosshair perspective using the Shift key on PC or the designated button on other devices.
+  </Step>
+  <Step num="2" title="Adjust Camera Sensitivity">
+    Combat in Gakuran requires rapid 180-degree turns. Set your camera sensitivity to a level where you can quickly scan behind you without losing control of your aim during close-quarters exchanges.
+  </Step>
+  <Step num="3" title="Optimize Graphics Quality">
+    Frame drops can ruin your block and parry timing. If you experience lag during large schoolyard brawls, lower your Roblox graphics quality settings to maintain a stable framerate.
+  </Step>
+  <Step num="4" title="Verify Keybinds via Help Menu">
+    Use the in-experience Help menu to double-check that your custom inputs are correctly mapped and recognized by the server before entering high-risk combat zones.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Controller Mapping">
+If you are playing on a controller, try to keep your thumb on the right analog stick as much as possible. Use trigger-mapped buttons for blocking and attacking so you do not have to lift your thumb to aim.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Fighting Styles and Style-Specific Inputs">
+
+In Gakuran, your chosen fighting style dictates your attack speed, damage output, and combo potential [00首页信息-2]. Currently, players can utilize distinct styles such as Muay Thai, Boxing, and Hakari [00首页信息-2]. Each style alters how you approach the default control inputs, shifting the focus between aggressive forward pressure and patient, defensive counter-play [00首页信息-2].
+
+Muay Thai is a highly aggressive, kick-heavy style that excels at maintaining close-range pressure [00首页信息-2]. Players using this style rely heavily on quick dash-ins combined with rapid light attacks to overwhelm their opponents [00首页信息-2]. Boxing offers a more traditional, punch-focused approach that is exceptionally beginner-friendly [00首页信息-2]. It features clean punch chains and straightforward combos that are easy to practice [00首页信息-2]. Hakari, on the other hand, is a flashy, off-meta style that rewards players who have excellent spacing and timing [00首页信息-2]. It requires precise block-and-punish loops rather than constant button mashing [00首页信息-2].
+
+| Style | Core Control Focus | Primary Input Loop | Skill Ceiling |
+|---|---|---|---|
+| Muay Thai | High Mobility | Dash (Q) -> Light Attack (M1) | High |
+| Boxing | Close-Range Defense | Block (F) -> Light Combo (M1 x4) | Moderate |
+| Hakari | Timing & Spacing | Heavy Attack (M2) -> Dodge (Q) | High |
+
+<Checklist
+  id="combat-mastery"
+  title="Control Mastery Milestones:"
+  items={[
+    "Toggle Combat Stance (R) immediately upon entering a conflict zone",
+    "Practice the Q-dash to dodge behind opponents during their heavy attack wind-up",
+    "Master the F-block timing to trigger perfect parries against aggressive strikers",
+    "Use the B key to clear knocked-down players from tight hallways and avoid crowd blockages"
+  ]}
+/>
+
+<Callout type="success" title="Practice Space">
+Use the Gym or Workout Area on the school map to practice your combat inputs, dash timings, and combo strings in a lower-risk environment before heading out to the town streets.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I toggle the combat stance in Gakuran?",
+    answer: "You can toggle your combat stance by pressing the R key on PC, or by using the designated virtual button or D-pad input on mobile and controllers. Entering combat stance is required to perform attacks and blocks effectively."
+  },
+  {
+    question: "Why are my attacks not registering when using gakuran controls?",
+    answer: "Ensure that you have toggled your combat stance (R) on. Additionally, check if your character is currently stunned, out of stamina, or if your network connection to the Roblox server is experiencing high latency."
+  },
+  {
+    question: "Can I customize the default keybinds inside the experience?",
+    answer: "While the primary brawler inputs are hardcoded into the experience scripts, you can adjust general camera, movement, and shift lock settings directly through the standard Roblox in-game settings menu."
+  },
+  {
+    question: "What is the best way to break an opponent's block?",
+    answer: "To break an opponent's guard, use a Heavy Attack (M2 on PC or Y on controller). If the opponent is holding their block (F), a heavy attack will shatter their defense and leave them temporarily stunned."
+  }
+]} />
+
+<Callout type="info" title="Official Communities">
+For the latest updates on mechanics and community-driven guides, join the official [Gakuran Roblox Community](https://www.roblox.com/communities/416091513/Gakuran) and check the social links on the experience page [00基础信息, 00首页信息-1].
+</Callout>
+
+</Section>

@@ -10,7 +10,15 @@
       "twitterDescription": "Gakuran Wiki covers Roblox codes, PvP guide, fighting styles, controls, map, and updates."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "controls": "Controls",
+    "styles": "Styles",
+    "map": "Map",
+    "money": "Money",
+    "roleplay": "Roleplay",
+    "trello": "Trello"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -312,8 +320,15 @@
               "name": "Muay Thai",
               "role": "Aggressive close-range striker",
               "bestFor": "Forward pressure, kick-based melee, and fast punishes in crowded school fights.",
-              "strengths": ["Strong pressure tools", "Good brawling tempo", "Useful in school hotspot fights"],
-              "weaknesses": ["Needs clean spacing", "Punishes reckless chasing"],
+              "strengths": [
+                "Strong pressure tools",
+                "Good brawling tempo",
+                "Useful in school hotspot fights"
+              ],
+              "weaknesses": [
+                "Needs clean spacing",
+                "Punishes reckless chasing"
+              ],
               "practice": "Drill dash-in attacks, block timing, and short punish windows before forcing long trades."
             }
           ]
@@ -327,8 +342,15 @@
               "name": "Boxing",
               "role": "Straightforward punch-combo style",
               "bestFor": "New players who want readable combos, simple pressure, and consistent close-range trading.",
-              "strengths": ["Beginner friendly", "Clean punch chains", "Easy to practice in basic PvP"],
-              "weaknesses": ["Short-range commitment", "Needs good block discipline"],
+              "strengths": [
+                "Beginner friendly",
+                "Clean punch chains",
+                "Easy to practice in basic PvP"
+              ],
+              "weaknesses": [
+                "Short-range commitment",
+                "Needs good block discipline"
+              ],
               "practice": "Practice light attacks into safe disengage routes instead of charging into every fight."
             }
           ]
@@ -342,8 +364,15 @@
               "name": "Hakari",
               "role": "Flashy off-meta PvP style",
               "bestFor": "Players who prefer style expression, surprise factor, and a less standard fighting route.",
-              "strengths": ["Distinct style identity", "Useful for creative players", "Good surprise value"],
-              "weaknesses": ["Less beginner friendly", "Requires stronger matchup awareness"],
+              "strengths": [
+                "Distinct style identity",
+                "Useful for creative players",
+                "Good surprise value"
+              ],
+              "weaknesses": [
+                "Less beginner friendly",
+                "Requires stronger matchup awareness"
+              ],
               "practice": "Learn when to disengage, bait blocks, and avoid copying pure pressure routes from Muay Thai or Boxing."
             }
           ]
@@ -365,9 +394,21 @@
             "Leave enough space to dash out after a blocked attack."
           ],
           "controls": [
-            { "action": "Combat stance", "pc": "R", "controller": "In-experience Help menu" },
-            { "action": "Light attack", "pc": "M1 / click", "controller": "R2" },
-            { "action": "Heavy attack", "pc": "M2", "controller": "Y" }
+            {
+              "action": "Combat stance",
+              "pc": "R",
+              "controller": "In-experience Help menu"
+            },
+            {
+              "action": "Light attack",
+              "pc": "M1 / click",
+              "controller": "R2"
+            },
+            {
+              "action": "Heavy attack",
+              "pc": "M2",
+              "controller": "Y"
+            }
           ]
         },
         {
@@ -380,8 +421,16 @@
             "Reset after a missed heavy attack instead of swinging again into a punish."
           ],
           "controls": [
-            { "action": "Run / sprint", "pc": "Double tap W", "controller": "L3" },
-            { "action": "Dodge / dash", "pc": "Q", "controller": "B" }
+            {
+              "action": "Run / sprint",
+              "pc": "Double tap W",
+              "controller": "L3"
+            },
+            {
+              "action": "Dodge / dash",
+              "pc": "Q",
+              "controller": "B"
+            }
           ]
         },
         {
@@ -394,7 +443,11 @@
             "Avoid panic blocking from too far away because it gives away your timing."
           ],
           "controls": [
-            { "action": "Block / parry", "pc": "F", "controller": "L2" }
+            {
+              "action": "Block / parry",
+              "pc": "F",
+              "controller": "L2"
+            }
           ]
         },
         {
@@ -407,8 +460,16 @@
             "Practice one style at a time: Boxing for punch chains, Muay Thai for pressure, Hakari for timing and style control."
           ],
           "controls": [
-            { "action": "Carry", "pc": "B", "controller": "X" },
-            { "action": "Execute / grab", "pc": "V", "controller": "L1 + X" }
+            {
+              "action": "Carry",
+              "pc": "B",
+              "controller": "X"
+            },
+            {
+              "action": "Execute / grab",
+              "pc": "V",
+              "controller": "L1 + X"
+            }
           ]
         },
         {
@@ -421,7 +482,11 @@
             "Leave fights early when stamina, position, or camera control turns bad."
           ],
           "controls": [
-            { "action": "Map marker", "pc": "P", "controller": "In-experience Help menu" }
+            {
+              "action": "Map marker",
+              "pc": "P",
+              "controller": "In-experience Help menu"
+            }
           ]
         }
       ]
@@ -492,24 +557,88 @@
       "title": "Gakuran Updates, Release Date and Player Stats",
       "subtitle": "Check the release status, update signals, Roblox IDs, genre, CCU, rating, visits, and player-facing activity markers for Gakuran.",
       "stats": [
-        { "icon": "Eye", "value": "828.5K+", "label": "Total Visits" },
-        { "icon": "Users", "value": "3.77K", "label": "Current CCU" },
-        { "icon": "Heart", "value": "93%", "label": "Like Ratio" },
-        { "icon": "Star", "value": "6,252", "label": "Favorites" }
+        {
+          "icon": "Eye",
+          "value": "828.5K+",
+          "label": "Total Visits"
+        },
+        {
+          "icon": "Users",
+          "value": "3.77K",
+          "label": "Current CCU"
+        },
+        {
+          "icon": "Heart",
+          "value": "93%",
+          "label": "Like Ratio"
+        },
+        {
+          "icon": "Star",
+          "value": "6,252",
+          "label": "Favorites"
+        }
       ],
       "info": [
-        { "label": "Official Title", "value": "(学乱) Gakuran", "details": "Roblox experience published by the (学乱) Gakuran community." },
-        { "label": "Place ID", "value": "128736949265057", "details": "Primary Roblox experience page identifier." },
-        { "label": "Universe ID", "value": "9199655655", "details": "Universe identifier used by Roblox metadata tools." },
-        { "label": "Release Date", "value": "June 22, 2026", "details": "RoMonitor lists this as the experience release date." },
-        { "label": "Latest Update", "value": "June 24, 2026", "details": "Roblox page snapshot lists the experience as updated on this date." },
-        { "label": "Genre", "value": "Action / Battlegrounds & Fighting", "details": "Categorized as an action fighting experience." },
-        { "label": "Setting", "value": "Japanese school slice-of-life", "details": "The experience is framed as a Japanese school setting in a school-town." },
-        { "label": "Platform", "value": "Roblox (PC, mobile, console)", "details": "Playable across PC, mobile, and console through Roblox." },
-        { "label": "Roblox Active", "value": "1,886 active", "details": "Roblox page snapshot for active players." },
-        { "label": "Voice Chat", "value": "Not supported", "details": "Roblox page snapshot lists voice chat as unsupported." },
-        { "label": "Camera", "value": "Not supported", "details": "Roblox page snapshot lists camera as unsupported." },
-        { "label": "Codes Status", "value": "None yet", "details": "No Gakuran codes listed on Creator Exchange." }
+        {
+          "label": "Official Title",
+          "value": "(学乱) Gakuran",
+          "details": "Roblox experience published by the (学乱) Gakuran community."
+        },
+        {
+          "label": "Place ID",
+          "value": "128736949265057",
+          "details": "Primary Roblox experience page identifier."
+        },
+        {
+          "label": "Universe ID",
+          "value": "9199655655",
+          "details": "Universe identifier used by Roblox metadata tools."
+        },
+        {
+          "label": "Release Date",
+          "value": "June 22, 2026",
+          "details": "RoMonitor lists this as the experience release date."
+        },
+        {
+          "label": "Latest Update",
+          "value": "June 24, 2026",
+          "details": "Roblox page snapshot lists the experience as updated on this date."
+        },
+        {
+          "label": "Genre",
+          "value": "Action / Battlegrounds & Fighting",
+          "details": "Categorized as an action fighting experience."
+        },
+        {
+          "label": "Setting",
+          "value": "Japanese school slice-of-life",
+          "details": "The experience is framed as a Japanese school setting in a school-town."
+        },
+        {
+          "label": "Platform",
+          "value": "Roblox (PC, mobile, console)",
+          "details": "Playable across PC, mobile, and console through Roblox."
+        },
+        {
+          "label": "Roblox Active",
+          "value": "1,886 active",
+          "details": "Roblox page snapshot for active players."
+        },
+        {
+          "label": "Voice Chat",
+          "value": "Not supported",
+          "details": "Roblox page snapshot lists voice chat as unsupported."
+        },
+        {
+          "label": "Camera",
+          "value": "Not supported",
+          "details": "Roblox page snapshot lists camera as unsupported."
+        },
+        {
+          "label": "Codes Status",
+          "value": "None yet",
+          "details": "No Gakuran codes listed on Creator Exchange."
+        }
       ],
       "updateNote": "We follow the official Roblox page, community channels, and update posts to keep these Gakuran stats current."
     }
@@ -568,32 +697,12 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "codes": {
-      "title": "Gakuran Codes",
-      "description": "Track Gakuran code status, active codes, expired codes, and where new Gakuran codes appear.",
-      "metaTitle": "Gakuran Codes - Active Codes, Redeem Steps & Code Status",
-      "metaDescription": "Check the latest Gakuran codes, the current redeem system status, and where new Gakuran codes are posted on Roblox.",
-      "categoryLabel": "GAKURAN CODES",
-      "whatIs": "What are Gakuran codes?",
-      "whatIsDescription": "Gakuran codes are reward codes players redeem inside the game for bonuses. This page tracks active codes, expired codes, and the current redeem system status.",
-      "why": "Why check Gakuran codes?",
-      "whySteps": {
-        "step1Title": "Stay Current",
-        "step1Description": "See which Gakuran codes are active right now",
-        "step2Title": "Redeem Safely",
-        "step2Description": "Follow official sources instead of reposted or fake codes",
-        "step3Title": "Know the System",
-        "step3Description": "Understand how and where Gakuran codes are released"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Code Guides"
-    },
     "guide": {
       "title": "Gakuran Guide",
       "description": "Gakuran beginner guides covering your first session, controls basics, and how to start fighting.",
       "metaTitle": "Gakuran Guide - Beginner Walkthrough & First Session Tips",
       "metaDescription": "Start Gakuran the right way with beginner guides covering launch, the school setting, controls, and your first brawl.",
-      "categoryLabel": "GAKURAN GUIDES",
+      "categoryLabel": "GAKURAN GUIDE",
       "whatIs": "What is the Gakuran guide?",
       "whatIsDescription": "Gakuran guides walk new players through launching the game, understanding the school-town setting, and choosing between roleplay and PvP.",
       "why": "Why read Gakuran guides?",
@@ -627,26 +736,6 @@
       },
       "featured": "Featured & Essential",
       "all": "All Control Guides"
-    },
-    "combat": {
-      "title": "Gakuran Combat",
-      "description": "Gakuran PvP and combat guides covering spacing, blocking, combos, and group fights.",
-      "metaTitle": "Gakuran Combat Guide - PvP, Spacing, Blocking & Combos",
-      "metaDescription": "Improve your Gakuran PvP with combat guides on spacing, blocking, punishing, combos, and surviving group fights.",
-      "categoryLabel": "GAKURAN COMBAT",
-      "whatIs": "What is Gakuran combat?",
-      "whatIsDescription": "Gakuran combat covers player-versus-player fighting, including strikes, blocking, dashes, and fighting style move sets.",
-      "why": "Why study Gakuran combat?",
-      "whySteps": {
-        "step1Title": "Win More Fights",
-        "step1Description": "Learn spacing, blocking, and punishing",
-        "step2Title": "Build Combos",
-        "step2Description": "Practice reliable strings for your style",
-        "step3Title": "Survive Open PvP",
-        "step3Description": "Handle group fights and retreats safely"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Combat Guides"
     },
     "styles": {
       "title": "Gakuran Fighting Styles",
@@ -688,45 +777,65 @@
       "featured": "Featured & Essential",
       "all": "All Map Guides"
     },
-    "updates": {
-      "title": "Gakuran Updates",
-      "description": "Gakuran updates, release status, and player stats including visits, likes, and CCU.",
-      "metaTitle": "Gakuran Updates - Release Status, Player Stats & Update Checks",
-      "metaDescription": "Track Gakuran release status, player stats like visits and CCU, and where to check for the latest Gakuran updates.",
-      "categoryLabel": "GAKURAN UPDATES",
-      "whatIs": "What are Gakuran updates?",
-      "whatIsDescription": "Gakuran updates cover release status, balance changes, new content, and player-facing stats that show how active the game is.",
-      "why": "Why follow Gakuran updates?",
+    "money": {
+      "title": "Gakuran Money",
+      "description": "Gakuran money and yen guides covering jobs, farming routes, and the fastest ways to earn currency.",
+      "metaTitle": "Gakuran Money Guide - How to Get Yen, Jobs & Farming",
+      "metaDescription": "Learn how to make money in Gakuran with guides on yen, jobs, farming routes, and the fastest ways to earn in-game currency.",
+      "categoryLabel": "GAKURAN MONEY",
+      "whatIs": "What is Gakuran money?",
+      "whatIsDescription": "Gakuran money (yen) is the in-game currency players earn through jobs, farming, and activities, then spend on items, gear, and progression.",
+      "why": "Why read Gakuran money guides?",
       "whySteps": {
-        "step1Title": "Stay Informed",
-        "step1Description": "See what changes in each update",
-        "step2Title": "Track Activity",
-        "step2Description": "Watch visits, likes, and CCU",
-        "step3Title": "Catch New Codes",
-        "step3Description": "Spot code and reward changes early"
+        "step1Title": "Earn Faster",
+        "step1Description": "Find the best jobs and farming routes for yen",
+        "step2Title": "Spend Smart",
+        "step2Description": "Know what to buy and when to save",
+        "step3Title": "Stay Efficient",
+        "step3Description": "Avoid low-yield grinds and wasted time"
       },
       "featured": "Featured & Essential",
-      "all": "All Update Guides"
+      "all": "All Money Guides"
     },
-    "links": {
-      "title": "Gakuran Links",
-      "description": "Official Gakuran links hub with the Roblox page, community, Discord, and Trello in one place.",
-      "metaTitle": "Gakuran Official Links - Roblox, Community, Discord & Trello",
-      "metaDescription": "Find the official Gakuran Roblox experience, Roblox community, Discord invite, and Trello board in one verified links hub.",
-      "categoryLabel": "GAKURAN LINKS",
-      "whatIs": "What are the official Gakuran links?",
-      "whatIsDescription": "The official Gakuran links include the Roblox experience page, Roblox community, Discord server, and Trello board used for updates and reference.",
-      "why": "Why use the Gakuran links hub?",
+    "roleplay": {
+      "title": "Gakuran Roleplay",
+      "description": "Gakuran roleplay guides covering RP etiquette, school-life scenes, and how to join community roleplay.",
+      "metaTitle": "Gakuran Roleplay Guide - School RP, Etiquette & Community Scenes",
+      "metaDescription": "Get into Gakuran roleplay with guides on school-life scenes, RP etiquette, and how to join community roleplay in the school-town.",
+      "categoryLabel": "GAKURAN ROLEPLAY",
+      "whatIs": "What is Gakuran roleplay?",
+      "whatIsDescription": "Gakuran roleplay is the school-life social side of the game where players act out student life, scenes, and stories inside the Japanese school-town.",
+      "why": "Why read Gakuran roleplay guides?",
       "whySteps": {
-        "step1Title": "Play the Real Game",
-        "step1Description": "Reach the official Gakuran Roblox page",
-        "step2Title": "Follow Updates",
-        "step2Description": "Use community and Discord channels",
-        "step3Title": "Read References",
-        "step3Description": "Check the Trello for organized notes"
+        "step1Title": "Join Scenes",
+        "step1Description": "Learn how RP etiquette and scenes work",
+        "step2Title": "Find Your Group",
+        "step2Description": "Connect with roleplay crews and servers",
+        "step3Title": "Play the Story",
+        "step3Description": "Build school-life stories that fit the setting"
       },
       "featured": "Featured & Essential",
-      "all": "All Link Guides"
+      "all": "All Roleplay Guides"
+    },
+    "trello": {
+      "title": "Gakuran Trello",
+      "description": "Gakuran Trello, Discord, and official links hub with the Roblox page, community, and reference boards in one place.",
+      "metaTitle": "Gakuran Trello & Official Links - Discord, Roblox & Community",
+      "metaDescription": "Find the Gakuran Trello board, Discord server, official Roblox page, and community links in one verified hub.",
+      "categoryLabel": "GAKURAN TRELLO",
+      "whatIs": "What is the Gakuran Trello?",
+      "whatIsDescription": "The Gakuran Trello is a community reference board for game notes, mechanics, and updates, paired with the official Roblox page, Discord, and community links.",
+      "why": "Why use the Gakuran Trello hub?",
+      "whySteps": {
+        "step1Title": "Read References",
+        "step1Description": "Check the Trello for organized game notes",
+        "step2Title": "Follow Updates",
+        "step2Description": "Use Discord and community channels",
+        "step3Title": "Reach Official Links",
+        "step3Description": "Find the real Roblox page and community"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Trello Guides"
     }
   }
 }

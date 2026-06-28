@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Book, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Estilos de pelea de Gakuran: Clasificación de nivel S y consejos de combate para 2026",
+  description: "Domina los estilos de pelea de Gakuran con nuestra lista de niveles de 2026. Aprende combos, controles y estrategias de PvP para Muay Thai, Boxeo y Hakari en los combates escolares de Roblox.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a2e/e94560?text=Gakuran+Fighting+Styles+Guide",
+  date: "2026-06-28",
+  author: "Equipo de la Wiki de Gakuran"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Mejor estilo**: **Muay Thai** domina actualmente el nivel S debido a su presión agresiva y rápidas ventanas de castigo.
+- **Ideal para principiantes**: El **Boxeo** ofrece cadenas de golpes sencillas y una defensa confiable para los nuevos jugadores.
+- **Mecánica principal**: Entra siempre en **Postura de combate (R)** antes de pelear para habilitar bloqueos y maniobras de esquiva (dash).
+- **Conocimiento del mapa**: Evita los **Pasillos** de alto riesgo; en su lugar, usa el gimnasio o las calles abiertas para practicar el distanciamiento.
+- **Flujo de combate**: El éxito en Gakuran depende de un ciclo de **Bloqueo-Parry-Castigo** en lugar de presionar botones sin pensar.
+</Callout>
+
+<Section icon={Swords} title="Estilos de pelea de Gakuran: Lista de niveles del meta de 2026">
+
+El panorama del combate en Gakuran es una mezcla brutal de juego de rol de vida escolar y peleas de alta intensidad. Aunque el juego se presenta como una experiencia de recuentos de la vida ambientada en el Japón de 2007, el enfoque de la comunidad se ha desplazado en gran medida hacia el PvP competitivo. Comprender la jerarquía de los **estilos de pelea de Gakuran** es esencial para sobrevivir en los pasillos de la Secundaria Nishikata.
+
+<CardGrid cols={3}>
+  <Card title="Nivel S: Muay Thai">
+    - **Rol**: Atacante agresivo
+    - **Fortalezas**: Presión constante, combate cuerpo a cuerpo basado en patadas, castigos rápidos.
+    - **Dificultad**: Moderada
+  </Card>
+  <Card title="Nivel A: Boxeo">
+    - **Rol**: Luchador equilibrado
+    - **Fortalezas**: Combos predecibles, intercambios fáciles, cadenas de golpes fuertes.
+    - **Dificultad**: Baja
+  </Card>
+  <Card title="Nivel B: Hakari">
+    - **Rol**: Especialista técnico
+    - **Fortalezas**: Expresión de estilo, factor sorpresa, rutas fuera del meta.
+    - **Dificultad**: Alta
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Perspectiva del editor">
+Aunque el Muay Thai es el favorito actual del meta, el Boxeo sigue siendo el estilo más consistente para los jugadores que tienen problemas con el tiempo de bloqueo. Dominar el "ritmo" específico de un estilo es más valioso que simplemente elegir la opción mejor clasificada.
+</Callout>
+
+| Estilo | Enfoque principal | Techo de habilidad | Mejor entorno |
+| :--- | :--- | :--- | :--- |
+| **Muay Thai** | Presión agresiva | Alto | Áreas abiertas / Calles |
+| **Boxeo** | Combos de golpes | Medio | Pasillos / Puntos de estrangulamiento |
+| **Hakari** | Variación (Mix-ups) / Sincronización | Muy alto | Duelos 1v1 |
+
+</Section>
+
+<Section icon={Zap} title="Desglose detallado de estilos y mecánicas">
+
+Cada estilo en Gakuran determina tu velocidad de movimiento, alcance de ataque y fotogramas de recuperación. Elegir un estilo no se trata solo del daño; se trata de cómo manejas el espacio entre tú y tu oponente.
+
+### Muay Thai: El rey de la presión
+El Muay Thai está diseñado para jugadores que quieren dictar el ritmo de la pelea. Utiliza una combinación de patadas potentes y rodillazos rápidos que pueden romper la guardia del oponente si este es demasiado pasivo. El estilo destaca en peleas multitudinarias en "puntos calientes", ya que su movimiento lateral permite cambiar de objetivo rápidamente.
+
+### Boxeo: La base confiable
+El Boxeo es la base de Gakuran. Cuenta con cadenas de golpes horizontales y limpias que son fáciles de conectar. Los nuevos jugadores deberían comenzar aquí para aprender el ritmo de las secuencias de M1 (Ataque ligero) y M2 (Ataque fuerte). Su recuperación defensiva es ligeramente más rápida que la del Muay Thai, lo que lo hace más permisivo si fallas un golpe.
+
+### Hakari: La elección del especialista
+Hakari se centra menos en el poder bruto y más en la guerra psicológica. Requiere un conocimiento profundo de los enfrentamientos porque su condición de victoria depende de provocar bloqueos y usar movimientos poco convencionales para posicionarse detrás de la cámara del oponente. No se recomienda para quienes no dominen las mecánicas básicas de cancelación de esquiva (dash-cancel).
+
+<Callout type="success" title="Estrategia profesional">
+Usa el **Gimnasio / Área de entrenamiento** para probar el rango específico del ataque M2 de tu estilo. Saber exactamente dónde terminan tus áreas de impacto (hitboxes) evitará que falles golpes en el aire y te dejes expuesto a un contraataque.
+</Callout>
+
+| Métrica | Muay Thai | Boxeo | Hakari |
+| :--- | :--- | :--- | :--- |
+| **Velocidad de ataque** | Rápido | Medio-Rápido | Variable |
+| **Alcance** | Largo (Patadas) | Corto-Medio | Medio |
+| **Ruptura de guardia** | Alta | Media | Baja-Media |
+| **Uso de estamina** | Alto | Bajo | Medio |
+
+</Section>
+
+<Section icon={Target} title="Dominando el combate: Controles y asignación de teclas">
+
+Para destacar en Gakuran, debes ir más allá del movimiento predeterminado de Roblox. El juego utiliza un conjunto específico de comandos de combate que permiten maniobras avanzadas como esquivar, hacer parry y rematar a oponentes caídos.
+
+<Steps>
+  <Step num="1" title="Entra en postura de combate">
+    Presiona **R** en tu teclado para cambiar de postura. Esto cambia tu animación de inactividad y prepara a tu personaje para bloquear y atacar al instante. No puedes hacer parry de manera efectiva sin estar en esta postura.
+  </Step>
+  <Step num="2" title="Domina la esquiva">
+    Usa **Q** para esquivar o desplazarte rápidamente (dash). Esquivar es tu herramienta principal para castigar fallos (whiff punishing): esperar a que el oponente falle un ataque y luego cerrar la distancia inmediatamente para comenzar tu propio combo.
+  </Step>
+  <Step num="3" title="El ciclo de Bloqueo-Parry">
+    Mantén presionado **F** para bloquear. Si sincronizas tu bloqueo perfectamente justo cuando impacta un ataque, realizarás un parry, lo que aturde brevemente al oponente y te da una apertura libre para un ataque fuerte (M2).
+  </Step>
+  <Step num="4" title="Termina la pelea">
+    Una vez que un oponente es derribado, usa **V** para agarrar o rematar. Esto asegura que no puedan recuperarse rápidamente y reincorporarse a la pelea, lo cual es crucial en las peleas grupales.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia crítica">
+Evita el "bloqueo de pánico" a distancia. Los jugadores experimentados esperarán a que mantengas presionado **F** para luego acercarse rápidamente con un ataque fuerte que rompa tu guardia o un agarre, dejándote completamente indefenso.
+</Callout>
+
+| Acción | Tecla en PC | Control en móvil | Botón en mando |
+| :--- | :--- | :--- | :--- |
+| **Ataque ligero** | M1 / Clic | Tocar pantalla | R2 |
+| **Ataque fuerte** | M2 / Clic derecho | Botón en pantalla | Y |
+| **Bloqueo / Parry** | F | Icono de defensa | L2 |
+| **Esquivar / Dash** | Q | Deslizar / Botón | B |
+| **Postura de combate** | R | Botón de alternancia | L3 / Menú |
+| **Rematar / Agarrar** | V | Botón en pantalla | L1 + X |
+
+</Section>
+
+<Section icon={Map} title="Estrategia ambiental: Mapa y puntos de entrenamiento">
+
+Dónde peleas es tan importante como cómo peleas. El entorno escolar japonés ofrece varios terrenos que pueden beneficiar o perjudicar tu estilo de juego elegido.
+
+<Checklist
+  id="map-goals"
+  title="Lista de objetivos del mapa para luchadores:"
+  items={[
+    "Localiza el gimnasio para practicar combos de forma segura",
+    "Identifica los puntos de estrangulamiento en los pasillos para evitar emboscadas",
+    "Encuentra la cancha de baloncesto para pasar el rato y participar en PvP grupal",
+    "Domina las rutas de las calles de la ciudad para recorrer el mundo abierto",
+    "Identifica el salón de música como un santuario de rol de bajo riesgo"
+  ]}
+/>
+
+### Ubicaciones tácticas del mapa
+- **Edificio escolar**: El núcleo principal. Las aulas son ideales para duelos 1v1, pero los pasillos son trampas mortales donde te pueden rodear fácilmente.
+- **Gimnasio / Área de entrenamiento**: El mejor lugar para calentar. La mayoría de los jugadores aquí están concentrados en entrenar, por lo que es un lugar relativamente seguro para probar nuevos controles.
+- **Calles de la ciudad**: Alto riesgo, gran recompensa. Aquí es donde la actividad de "pandillas" o "bandas" es mayor. Nunca recorras las calles sin una barra de estamina llena y una ruta de escape planificada.
+
+<Callout type="info" title="Consejo del mapa">
+Ten siempre una salida a tus espaldas. En Gakuran, las puertas se convierten en embudos de emboscada. Si te encuentras acorralado en un aula, usa tu esquiva (Q) para atravesar el costado del oponente y llegar al pasillo abierto.
+</Callout>
+
+| Ubicación | Riesgo de PvP | Tipo de actividad | Mejor estilo |
+| :--- | :--- | :--- | :--- |
+| **Pasillos** | **Alto** | Tránsito / Emboscada | Boxeo |
+| **Gimnasio** | Medio | Entrenamiento / Calentamiento | Cualquiera |
+| **Cancha de baloncesto** | Medio | Social / PvP grupal | Muay Thai |
+| **Calles de la ciudad** | **Alto** | Exploración / Guerra de pandillas | Muay Thai |
+| **Salón de música** | Bajo | Juego de rol / Relajación | N/A |
+
+</Section>
+
+<Section icon={Trophy} title="Progresión y estadísticas del juego">
+
+Gakuran es una experiencia en crecimiento con una comunidad dedicada. Mantenerte al día con el número de jugadores activos y los enlaces oficiales te ayudará a encontrar servidores activos y evitar información desactualizada.
+
+| Métrica | Valor actual | Detalles |
+| :--- | :--- | :--- |
+| **Título oficial** | (学乱) Gakuran | Publicado por la comunidad de (学乱) Gakuran |
+| **Proporción de Me gusta** | 93% | Alta aprobación de la comunidad |
+| **Jugadores simultáneos (CCU)** | Más de 3.77K | Base de jugadores activa para un emparejamiento constante |
+| **Visitas totales** | Más de 828.5K | Experiencia de lucha de rápido crecimiento |
+| **Estado de códigos** | Ninguno | Sin códigos públicos activos a fecha de junio de 2026 |
+| **Género** | Acción | Subgénero: Battlegrounds y Lucha |
+
+<Callout type="tip" title="Mantente conectado">
+Dado que actualmente no hay códigos activos, la mejor manera de obtener ventaja es unirse a la **Comunidad Oficial de Roblox** o al **Discord de Gakuran**. Estas plataformas son donde los desarrolladores anuncian cambios de equilibrio en los estilos de pelea y actualizaciones del mapa.
+</Callout>
+
+</Section>
+
+<Section icon={Book} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Qué estilo de pelea es el mejor para un principiante absoluto?",
+    answer: "El Boxeo es el mejor estilo para principiantes. Sus cadenas de golpes son fáciles de conectar y tiene una ventana defensiva más permisiva en comparación con estilos técnicos como el Hakari."
+  },
+  {
+    question: "¿Cómo hago un parry en Gakuran?",
+    answer: "Para hacer parry, debes estar en Postura de combate (R) y presionar la tecla de bloqueo (F) justo cuando el ataque del oponente está a punto de impactar. Un parry exitoso aturdirá al enemigo."
+  },
+  {
+    question: "¿Hay códigos activos de Gakuran?",
+    answer: "A fecha de junio de 2026, no hay códigos públicos activos para Gakuran. Revisa siempre la página oficial del juego en Roblox o el Discord de la comunidad para ver las últimas actualizaciones."
+  },
+  {
+    question: "¿Cuál es la forma más efectiva de practicar combos de Muay Thai?",
+    answer: "Dirígete al Gimnasio o al Área de entrenamiento. Practica tus patadas de aproximación rápida y tus rodillazos en maniquíes de entrenamiento o con compañeros de práctica dispuestos para dominar la sincronización de tus rupturas de guardia."
+  }
+]} />
+
+</Section>

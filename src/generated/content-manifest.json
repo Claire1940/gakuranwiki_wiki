@@ -1,1 +1,706 @@
-{}
+{
+  "en": {
+    "controls": [
+      {
+        "slug": "gakuran-all-controls",
+        "file": "gakuran-all-controls"
+      },
+      {
+        "slug": "gakuran-combat-controls",
+        "file": "gakuran-combat-controls"
+      },
+      {
+        "slug": "gakuran-controls-roblox",
+        "file": "gakuran-controls-roblox"
+      },
+      {
+        "slug": "gakuran-controls",
+        "file": "gakuran-controls"
+      },
+      {
+        "slug": "gakuran-how-to-enable-combat",
+        "file": "gakuran-how-to-enable-combat"
+      },
+      {
+        "slug": "gakuran-how-to-fight",
+        "file": "gakuran-how-to-fight"
+      },
+      {
+        "slug": "gakuran-how-to-put-on-headphones",
+        "file": "gakuran-how-to-put-on-headphones"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "gakuran-beginner-guide",
+        "file": "gakuran-beginner-guide"
+      },
+      {
+        "slug": "gakuran-game",
+        "file": "gakuran-game"
+      },
+      {
+        "slug": "gakuran-how-to-play",
+        "file": "gakuran-how-to-play"
+      },
+      {
+        "slug": "gakuran-roblox-guide",
+        "file": "gakuran-roblox-guide"
+      },
+      {
+        "slug": "gakuran-roblox",
+        "file": "gakuran-roblox"
+      },
+      {
+        "slug": "gakuran-tips-and-tricks",
+        "file": "gakuran-tips-and-tricks"
+      },
+      {
+        "slug": "gakuran-tutorial",
+        "file": "gakuran-tutorial"
+      },
+      {
+        "slug": "gakuran-what-is-this-game-about",
+        "file": "gakuran-what-is-this-game-about"
+      }
+    ],
+    "map": [
+      {
+        "slug": "gakuran-locations",
+        "file": "gakuran-locations"
+      },
+      {
+        "slug": "gakuran-map",
+        "file": "gakuran-map"
+      },
+      {
+        "slug": "gakuran-new-map",
+        "file": "gakuran-new-map"
+      },
+      {
+        "slug": "gakuran-nishikata-high",
+        "file": "gakuran-nishikata-high"
+      },
+      {
+        "slug": "gakuran-shinjuku-1988",
+        "file": "gakuran-shinjuku-1988"
+      }
+    ],
+    "money": [
+      {
+        "slug": "gakuran-farming-guide",
+        "file": "gakuran-farming-guide"
+      },
+      {
+        "slug": "gakuran-how-to-get-money",
+        "file": "gakuran-how-to-get-money"
+      },
+      {
+        "slug": "gakuran-jobs",
+        "file": "gakuran-jobs"
+      },
+      {
+        "slug": "gakuran-money-guide",
+        "file": "gakuran-money-guide"
+      },
+      {
+        "slug": "gakuran-yen-guide",
+        "file": "gakuran-yen-guide"
+      }
+    ],
+    "roleplay": [
+      {
+        "slug": "gakuran-roblox-rp",
+        "file": "gakuran-roblox-rp"
+      },
+      {
+        "slug": "gakuran-roleplay",
+        "file": "gakuran-roleplay"
+      }
+    ],
+    "styles": [
+      {
+        "slug": "gakuran-all-fighting-styles",
+        "file": "gakuran-all-fighting-styles"
+      },
+      {
+        "slug": "gakuran-best-fighting-style",
+        "file": "gakuran-best-fighting-style"
+      },
+      {
+        "slug": "gakuran-boxing-pvp",
+        "file": "gakuran-boxing-pvp"
+      },
+      {
+        "slug": "gakuran-fighting-styles",
+        "file": "gakuran-fighting-styles"
+      },
+      {
+        "slug": "gakuran-hakari-style",
+        "file": "gakuran-hakari-style"
+      },
+      {
+        "slug": "gakuran-how-to-use-mixi",
+        "file": "gakuran-how-to-use-mixi"
+      },
+      {
+        "slug": "gakuran-mixi-guide",
+        "file": "gakuran-mixi-guide"
+      },
+      {
+        "slug": "gakuran-style-guide",
+        "file": "gakuran-style-guide"
+      }
+    ],
+    "trello": [
+      {
+        "slug": "gakuran-discord",
+        "file": "gakuran-discord"
+      },
+      {
+        "slug": "gakuran-official-links",
+        "file": "gakuran-official-links"
+      },
+      {
+        "slug": "gakuran-official-trello",
+        "file": "gakuran-official-trello"
+      },
+      {
+        "slug": "gakuran-roblox-trello",
+        "file": "gakuran-roblox-trello"
+      },
+      {
+        "slug": "gakuran-trello-roblox",
+        "file": "gakuran-trello-roblox"
+      }
+    ]
+  },
+  "es": {
+    "controls": [
+      {
+        "slug": "gakuran-all-controls",
+        "file": "gakuran-all-controls"
+      },
+      {
+        "slug": "gakuran-combat-controls",
+        "file": "gakuran-combat-controls"
+      },
+      {
+        "slug": "gakuran-controls-roblox",
+        "file": "gakuran-controls-roblox"
+      },
+      {
+        "slug": "gakuran-controls",
+        "file": "gakuran-controls"
+      },
+      {
+        "slug": "gakuran-how-to-enable-combat",
+        "file": "gakuran-how-to-enable-combat"
+      },
+      {
+        "slug": "gakuran-how-to-fight",
+        "file": "gakuran-how-to-fight"
+      },
+      {
+        "slug": "gakuran-how-to-put-on-headphones",
+        "file": "gakuran-how-to-put-on-headphones"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "gakuran-beginner-guide",
+        "file": "gakuran-beginner-guide"
+      },
+      {
+        "slug": "gakuran-game",
+        "file": "gakuran-game"
+      },
+      {
+        "slug": "gakuran-how-to-play",
+        "file": "gakuran-how-to-play"
+      },
+      {
+        "slug": "gakuran-roblox-guide",
+        "file": "gakuran-roblox-guide"
+      },
+      {
+        "slug": "gakuran-roblox",
+        "file": "gakuran-roblox"
+      },
+      {
+        "slug": "gakuran-tips-and-tricks",
+        "file": "gakuran-tips-and-tricks"
+      },
+      {
+        "slug": "gakuran-tutorial",
+        "file": "gakuran-tutorial"
+      },
+      {
+        "slug": "gakuran-what-is-this-game-about",
+        "file": "gakuran-what-is-this-game-about"
+      }
+    ],
+    "map": [
+      {
+        "slug": "gakuran-locations",
+        "file": "gakuran-locations"
+      },
+      {
+        "slug": "gakuran-map",
+        "file": "gakuran-map"
+      },
+      {
+        "slug": "gakuran-new-map",
+        "file": "gakuran-new-map"
+      },
+      {
+        "slug": "gakuran-nishikata-high",
+        "file": "gakuran-nishikata-high"
+      },
+      {
+        "slug": "gakuran-shinjuku-1988",
+        "file": "gakuran-shinjuku-1988"
+      }
+    ],
+    "money": [
+      {
+        "slug": "gakuran-farming-guide",
+        "file": "gakuran-farming-guide"
+      },
+      {
+        "slug": "gakuran-how-to-get-money",
+        "file": "gakuran-how-to-get-money"
+      },
+      {
+        "slug": "gakuran-jobs",
+        "file": "gakuran-jobs"
+      },
+      {
+        "slug": "gakuran-money-guide",
+        "file": "gakuran-money-guide"
+      },
+      {
+        "slug": "gakuran-yen-guide",
+        "file": "gakuran-yen-guide"
+      }
+    ],
+    "roleplay": [
+      {
+        "slug": "gakuran-roblox-rp",
+        "file": "gakuran-roblox-rp"
+      },
+      {
+        "slug": "gakuran-roleplay",
+        "file": "gakuran-roleplay"
+      }
+    ],
+    "styles": [
+      {
+        "slug": "gakuran-all-fighting-styles",
+        "file": "gakuran-all-fighting-styles"
+      },
+      {
+        "slug": "gakuran-best-fighting-style",
+        "file": "gakuran-best-fighting-style"
+      },
+      {
+        "slug": "gakuran-boxing-pvp",
+        "file": "gakuran-boxing-pvp"
+      },
+      {
+        "slug": "gakuran-fighting-styles",
+        "file": "gakuran-fighting-styles"
+      },
+      {
+        "slug": "gakuran-hakari-style",
+        "file": "gakuran-hakari-style"
+      },
+      {
+        "slug": "gakuran-how-to-use-mixi",
+        "file": "gakuran-how-to-use-mixi"
+      },
+      {
+        "slug": "gakuran-mixi-guide",
+        "file": "gakuran-mixi-guide"
+      },
+      {
+        "slug": "gakuran-style-guide",
+        "file": "gakuran-style-guide"
+      }
+    ],
+    "trello": [
+      {
+        "slug": "gakuran-discord",
+        "file": "gakuran-discord"
+      },
+      {
+        "slug": "gakuran-official-links",
+        "file": "gakuran-official-links"
+      },
+      {
+        "slug": "gakuran-official-trello",
+        "file": "gakuran-official-trello"
+      },
+      {
+        "slug": "gakuran-roblox-trello",
+        "file": "gakuran-roblox-trello"
+      },
+      {
+        "slug": "gakuran-trello-roblox",
+        "file": "gakuran-trello-roblox"
+      }
+    ]
+  },
+  "ja": {
+    "controls": [
+      {
+        "slug": "gakuran-all-controls",
+        "file": "gakuran-all-controls"
+      },
+      {
+        "slug": "gakuran-combat-controls",
+        "file": "gakuran-combat-controls"
+      },
+      {
+        "slug": "gakuran-controls-roblox",
+        "file": "gakuran-controls-roblox"
+      },
+      {
+        "slug": "gakuran-controls",
+        "file": "gakuran-controls"
+      },
+      {
+        "slug": "gakuran-how-to-enable-combat",
+        "file": "gakuran-how-to-enable-combat"
+      },
+      {
+        "slug": "gakuran-how-to-fight",
+        "file": "gakuran-how-to-fight"
+      },
+      {
+        "slug": "gakuran-how-to-put-on-headphones",
+        "file": "gakuran-how-to-put-on-headphones"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "gakuran-beginner-guide",
+        "file": "gakuran-beginner-guide"
+      },
+      {
+        "slug": "gakuran-game",
+        "file": "gakuran-game"
+      },
+      {
+        "slug": "gakuran-how-to-play",
+        "file": "gakuran-how-to-play"
+      },
+      {
+        "slug": "gakuran-roblox-guide",
+        "file": "gakuran-roblox-guide"
+      },
+      {
+        "slug": "gakuran-roblox",
+        "file": "gakuran-roblox"
+      },
+      {
+        "slug": "gakuran-tips-and-tricks",
+        "file": "gakuran-tips-and-tricks"
+      },
+      {
+        "slug": "gakuran-tutorial",
+        "file": "gakuran-tutorial"
+      },
+      {
+        "slug": "gakuran-what-is-this-game-about",
+        "file": "gakuran-what-is-this-game-about"
+      }
+    ],
+    "map": [
+      {
+        "slug": "gakuran-locations",
+        "file": "gakuran-locations"
+      },
+      {
+        "slug": "gakuran-map",
+        "file": "gakuran-map"
+      },
+      {
+        "slug": "gakuran-new-map",
+        "file": "gakuran-new-map"
+      },
+      {
+        "slug": "gakuran-nishikata-high",
+        "file": "gakuran-nishikata-high"
+      },
+      {
+        "slug": "gakuran-shinjuku-1988",
+        "file": "gakuran-shinjuku-1988"
+      }
+    ],
+    "money": [
+      {
+        "slug": "gakuran-farming-guide",
+        "file": "gakuran-farming-guide"
+      },
+      {
+        "slug": "gakuran-how-to-get-money",
+        "file": "gakuran-how-to-get-money"
+      },
+      {
+        "slug": "gakuran-jobs",
+        "file": "gakuran-jobs"
+      },
+      {
+        "slug": "gakuran-money-guide",
+        "file": "gakuran-money-guide"
+      },
+      {
+        "slug": "gakuran-yen-guide",
+        "file": "gakuran-yen-guide"
+      }
+    ],
+    "roleplay": [
+      {
+        "slug": "gakuran-roblox-rp",
+        "file": "gakuran-roblox-rp"
+      },
+      {
+        "slug": "gakuran-roleplay",
+        "file": "gakuran-roleplay"
+      }
+    ],
+    "styles": [
+      {
+        "slug": "gakuran-all-fighting-styles",
+        "file": "gakuran-all-fighting-styles"
+      },
+      {
+        "slug": "gakuran-best-fighting-style",
+        "file": "gakuran-best-fighting-style"
+      },
+      {
+        "slug": "gakuran-boxing-pvp",
+        "file": "gakuran-boxing-pvp"
+      },
+      {
+        "slug": "gakuran-fighting-styles",
+        "file": "gakuran-fighting-styles"
+      },
+      {
+        "slug": "gakuran-hakari-style",
+        "file": "gakuran-hakari-style"
+      },
+      {
+        "slug": "gakuran-how-to-use-mixi",
+        "file": "gakuran-how-to-use-mixi"
+      },
+      {
+        "slug": "gakuran-mixi-guide",
+        "file": "gakuran-mixi-guide"
+      },
+      {
+        "slug": "gakuran-style-guide",
+        "file": "gakuran-style-guide"
+      }
+    ],
+    "trello": [
+      {
+        "slug": "gakuran-discord",
+        "file": "gakuran-discord"
+      },
+      {
+        "slug": "gakuran-official-links",
+        "file": "gakuran-official-links"
+      },
+      {
+        "slug": "gakuran-official-trello",
+        "file": "gakuran-official-trello"
+      },
+      {
+        "slug": "gakuran-roblox-trello",
+        "file": "gakuran-roblox-trello"
+      },
+      {
+        "slug": "gakuran-trello-roblox",
+        "file": "gakuran-trello-roblox"
+      }
+    ]
+  },
+  "pt": {
+    "controls": [
+      {
+        "slug": "gakuran-all-controls",
+        "file": "gakuran-all-controls"
+      },
+      {
+        "slug": "gakuran-combat-controls",
+        "file": "gakuran-combat-controls"
+      },
+      {
+        "slug": "gakuran-controls-roblox",
+        "file": "gakuran-controls-roblox"
+      },
+      {
+        "slug": "gakuran-controls",
+        "file": "gakuran-controls"
+      },
+      {
+        "slug": "gakuran-how-to-enable-combat",
+        "file": "gakuran-how-to-enable-combat"
+      },
+      {
+        "slug": "gakuran-how-to-fight",
+        "file": "gakuran-how-to-fight"
+      },
+      {
+        "slug": "gakuran-how-to-put-on-headphones",
+        "file": "gakuran-how-to-put-on-headphones"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "gakuran-beginner-guide",
+        "file": "gakuran-beginner-guide"
+      },
+      {
+        "slug": "gakuran-game",
+        "file": "gakuran-game"
+      },
+      {
+        "slug": "gakuran-how-to-play",
+        "file": "gakuran-how-to-play"
+      },
+      {
+        "slug": "gakuran-roblox-guide",
+        "file": "gakuran-roblox-guide"
+      },
+      {
+        "slug": "gakuran-roblox",
+        "file": "gakuran-roblox"
+      },
+      {
+        "slug": "gakuran-tips-and-tricks",
+        "file": "gakuran-tips-and-tricks"
+      },
+      {
+        "slug": "gakuran-tutorial",
+        "file": "gakuran-tutorial"
+      },
+      {
+        "slug": "gakuran-what-is-this-game-about",
+        "file": "gakuran-what-is-this-game-about"
+      }
+    ],
+    "map": [
+      {
+        "slug": "gakuran-locations",
+        "file": "gakuran-locations"
+      },
+      {
+        "slug": "gakuran-map",
+        "file": "gakuran-map"
+      },
+      {
+        "slug": "gakuran-new-map",
+        "file": "gakuran-new-map"
+      },
+      {
+        "slug": "gakuran-nishikata-high",
+        "file": "gakuran-nishikata-high"
+      },
+      {
+        "slug": "gakuran-shinjuku-1988",
+        "file": "gakuran-shinjuku-1988"
+      }
+    ],
+    "money": [
+      {
+        "slug": "gakuran-farming-guide",
+        "file": "gakuran-farming-guide"
+      },
+      {
+        "slug": "gakuran-how-to-get-money",
+        "file": "gakuran-how-to-get-money"
+      },
+      {
+        "slug": "gakuran-jobs",
+        "file": "gakuran-jobs"
+      },
+      {
+        "slug": "gakuran-money-guide",
+        "file": "gakuran-money-guide"
+      },
+      {
+        "slug": "gakuran-yen-guide",
+        "file": "gakuran-yen-guide"
+      }
+    ],
+    "roleplay": [
+      {
+        "slug": "gakuran-roblox-rp",
+        "file": "gakuran-roblox-rp"
+      },
+      {
+        "slug": "gakuran-roleplay",
+        "file": "gakuran-roleplay"
+      }
+    ],
+    "styles": [
+      {
+        "slug": "gakuran-all-fighting-styles",
+        "file": "gakuran-all-fighting-styles"
+      },
+      {
+        "slug": "gakuran-best-fighting-style",
+        "file": "gakuran-best-fighting-style"
+      },
+      {
+        "slug": "gakuran-boxing-pvp",
+        "file": "gakuran-boxing-pvp"
+      },
+      {
+        "slug": "gakuran-fighting-styles",
+        "file": "gakuran-fighting-styles"
+      },
+      {
+        "slug": "gakuran-hakari-style",
+        "file": "gakuran-hakari-style"
+      },
+      {
+        "slug": "gakuran-how-to-use-mixi",
+        "file": "gakuran-how-to-use-mixi"
+      },
+      {
+        "slug": "gakuran-mixi-guide",
+        "file": "gakuran-mixi-guide"
+      },
+      {
+        "slug": "gakuran-style-guide",
+        "file": "gakuran-style-guide"
+      }
+    ],
+    "trello": [
+      {
+        "slug": "gakuran-discord",
+        "file": "gakuran-discord"
+      },
+      {
+        "slug": "gakuran-official-links",
+        "file": "gakuran-official-links"
+      },
+      {
+        "slug": "gakuran-official-trello",
+        "file": "gakuran-official-trello"
+      },
+      {
+        "slug": "gakuran-roblox-trello",
+        "file": "gakuran-roblox-trello"
+      },
+      {
+        "slug": "gakuran-trello-roblox",
+        "file": "gakuran-trello-roblox"
+      }
+    ]
+  }
+}

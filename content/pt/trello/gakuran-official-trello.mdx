@@ -1,0 +1,200 @@
+import { Link, Swords, Target, Map, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Trello oficial de Gakuran: Hub de Links e Guia de Combate PvP",
+  description: "Acesse o Trello oficial de Gakuran para conjuntos de movimentos, links do Discord e rankings de estilos de luta PvP. Domine o meta do brawler escolar japonês de 2007.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Gakuran+Official+Trello+Guide",
+  date: "2026-06-28",
+  author: "Equipe da Wiki de Gakuran"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Trello oficial de Gakuran**: A principal fonte para conjuntos de movimentos, dados de estilo e logs de atualização oficiais.
+- **Foco do Combate**: Brawler de vida escolar japonesa de alta intensidade com foco em PvP baseado em posturas.
+- **Melhor Estilo**: O Muay Thai domina atualmente o nível S pela pressão agressiva e punições.
+- **Links Oficiais**: Sempre verifique os links através da página oficial da experiência no Roblox para evitar phishing.
+- **Status de Códigos**: Atualmente, não há códigos de recompensa públicos ativos para a temporada de 2026.
+</Callout>
+
+<Section icon={Link} title="Hub de Links Oficiais e Análises do Jogo">
+
+Navegar no ecossistema de um brawler do Roblox requer pontos de entrada verificados. O **Trello oficial de Gakuran** serve como o repositório central para dados técnicos que a descrição do Roblox frequentemente omite. Esteja você procurando dados específicos de frames para o estilo Muay Thai ou as últimas notas de expansão do mapa, o quadro do Trello é o primeiro lugar que você deve consultar.
+
+O jogo se passa em um Japão estilizado de maio de 2007, misturando RPG de "Slice of Life" com uma atmosfera corajosa de Battlegrounds. Os jogadores são incentivados a se juntar à comunidade oficial para acompanhar atualizações em tempo real e coordenação de gangues.
+
+| Métrica | Valor Atual | Significado para o Jogador |
+| :--- | :--- | :--- |
+| **Título Oficial** | (学乱) Gakuran | O nome principal da experiência no Roblox |
+| **Taxa de Curtidas** | 93% | Indica alta satisfação da comunidade |
+| **Snapshot de CCU** | 3.77K | Base de jogadores ativos saudável para matchmaking |
+| **Total de Visitas** | 828.5K+ | Brawler de vida escolar em rápido crescimento |
+| **Cenário** | Maio, 2007 | Vibe histórica de delinquentes escolares japoneses |
+| **Gênero** | Ação / Luta | Foco em PvP e hierarquias sociais |
+
+<CardGrid cols={2}>
+  <Card title="Quadro do Trello de Gakuran">
+    - **Detalhes dos movimentos**
+    - Requisitos de estilo
+    - Legenda do mapa e localização de NPCs
+    - [Acessar Trello](https://trello.com/b/DUeTE2HN/学乱-gakuran-trello)
+  </Card>
+  <Card title="Discord de Gakuran">
+    - **Chat da comunidade ao vivo**
+    - Recrutamento de gangues
+    - Anúncios de eventos
+    - [Entrar no Discord](https://discord.gg/gakuran)
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica Profissional">
+Se o link do Discord parecer expirado, sempre retorne à página oficial da experiência no Roblox. Os desenvolvedores frequentemente rotacionam os links sociais para gerenciar o crescimento e a segurança da comunidade.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tier List de Estilos de Luta">
+
+O combate em Gakuran é determinado pelo estilo de luta escolhido. Esses estilos ditam sua velocidade, alcance e potencial de combo. Enquanto o **Trello oficial de Gakuran** fornece as estatísticas brutas, o meta da comunidade mudou significativamente em 2026 para estilos de alta pressão que podem quebrar bloqueios de forma eficaz.
+
+Escolher um estilo não é apenas sobre dano; é sobre como você lida com o "caos" dos corredores da escola, onde vários jogadores podem te atacar ao mesmo tempo.
+
+| Nome do Estilo | Nível | Ideal Para | Força Principal |
+| :--- | :--- | :--- | :--- |
+| **Muay Thai** | S | Pressão Agressiva | Combate corpo a corpo com chutes / Punições rápidas |
+| **Boxe** | A | Trocas Consistentes | Sequências de socos simples / Alta confiabilidade |
+| **Hakari** | B | Jogo Especialista | Fator surpresa / Animações únicas |
+
+<CardGrid cols={3}>
+  <Card title="Nível S: Muay Thai">
+    - **Alto Ritmo**: Melhor para jogadores que nunca querem parar de atacar.
+    - **Rei da Punição**: Excelente em pegar oponentes após um dash falho.
+    - **Dificuldade**: Moderada; requer espaçamento preciso.
+  </Card>
+  <Card title="Nível A: Boxe">
+    - **Amigável para Iniciantes**: O estilo mais intuitivo para novos jogadores.
+    - **Confiável**: Hitboxes limpas e caminhos de combo previsíveis.
+    - **Dificuldade**: Baixa; foca na disciplina de bloqueio.
+  </Card>
+  <Card title="Nível B: Hakari">
+    - **Fora do Meta**: Ótimo para confundir veteranos que esperam estilos padrão.
+    - **Expressão de Estilo**: Movimentos chamativos que enfatizam o roleplay.
+    - **Dificuldade**: Alta; requer conhecimento profundo de confrontos.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Aviso de Meta">
+Não persiga estilos de "Nível S" se eles não se adequarem ao seu ping. Em situações de alta latência, as hitboxes confiáveis do Boxe muitas vezes superam o timing preciso exigido pelo Muay Thai.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dominando Controles e Mecânicas PvP">
+
+A barreira entre um "calouro" e um "veterano" em Gakuran é o domínio do esquema de controle. Ao contrário dos simuladores padrão, esta experiência utiliza toda a camada de controle do Roblox para permitir movimentos matizados. Você deve ativar sua postura de combate (R) antes de lutar, ou se verá incapaz de bloquear ataques recebidos.
+
+<Steps>
+  <Step num="1" title="Ativar Postura de Combate">
+    Pressione **R** para entrar em sua postura de luta. Isso altera sua velocidade de movimento e permite o uso de ataques M1 e M2. Nunca entre em uma zona hostil no modo "passivo".
+  </Step>
+  <Step num="2" title="Praticar o Cancelamento de Dash">
+    Use **Q** para dar um dash. Você pode usar isso para fechar a distância ou recuar. Aprender a dar dash *para os lados* em vez de apenas para trás é a chave para evitar ataques pesados.
+  </Step>
+  <Step num="3" title="Dominar o Bloqueio/Parry">
+    Segure **F** para bloquear. Se você cronometrar seu bloqueio exatamente no momento em que um ataque atinge, poderá acionar um parry, deixando o oponente aberto para um combo completo de Muay Thai ou Boxe.
+  </Step>
+  <Step num="4" title="Executar e Carregar">
+    Assim que um oponente for derrubado, use **V** para executar ou **B** para carregar. Em lutas de grupo, carregar um oponente para uma área mais segura antes de finalizá-lo evita que seus companheiros de equipe o revivam.
+  </Step>
+</Steps>
+
+| Ação | Tecla PC | Gesto Mobile | Controle |
+| :--- | :--- | :--- | :--- |
+| **Ataque Leve** | M1 (Clique) | Tocar na Tela | R2 |
+| **Ataque Pesado** | M2 (Clique Direito) | Segurar a Tela | Y |
+| **Bloquear / Parry** | F | Botão de Bloqueio | L2 |
+| **Esquiva / Dash** | Q | Ícone de Dash | B |
+| **Postura de Combate** | R | Alternar Postura | D-Pad Cima |
+| **Correr** | Tocar W duas vezes | Extensão do Joystick | L3 |
+
+<Callout type="info" title="Nota do Sistema">
+O Shift Lock é altamente recomendado para PvP. Certifique-se de que "Shift Lock Switch" esteja ativado nas configurações do Roblox para permitir uma rotação de câmera mais fácil durante movimentações circulares.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Exploração do Mapa e Zonas de Risco">
+
+O mapa de Gakuran foi projetado para facilitar tanto o roleplay social quanto a violência repentina. O prédio da escola atua como o hub, mas as ruas da cidade ao redor são onde ocorre a atividade de gangue mais intensa. Entender o "Nível de Risco" de cada área ajudará você a decidir se deve andar sozinho ou esperar por um grupo.
+
+<Checklist
+  id="map-exploration"
+  title="Objetivos Essenciais de Exploração:"
+  items={[
+    "Localizar a Academia para prática de movimento",
+    "Identificar a Quadra de Basquete como hub social",
+    "Encontrar a Sala de Música para roleplay de baixo risco",
+    "Mapear as rotas de fuga das Ruas da Cidade",
+    "Localizar o telhado para uma visão tática geral"
+  ]}
+/>
+
+| Localização | Tipo | Risco PvP | Propósito Primário |
+| :--- | :--- | :--- | :--- |
+| **Salas de Aula** | Hub de RP | Baixo | Conhecer novos jogadores / Cenas sociais |
+| **Corredores** | Zona de Tráfego | Alto | Pontos de estrangulamento / Emboscadas frequentes |
+| **Ginásio** | Treinamento | Médio | Testar combos e movimentos |
+| **Ruas da Cidade** | Mundo Aberto | Muito Alto | Guerras de gangues / PvP errante |
+| **Sala de Música** | Social | Baixo | Encontros tranquilos longe da briga |
+
+<Callout type="success" title="Dica de Sobrevivência">
+Se você estiver sendo perseguido nas Ruas da Cidade, vá em direção às entradas da escola. Essas áreas costumam ter maior densidade de jogadores, o que pode desencorajar os atacantes de segui-lo em meio a uma multidão potencial.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Atualizações e Status de Códigos">
+
+Até junho de 2026, o desenvolvedor não implementou um sistema público de resgate de códigos. Embora muitos "sites de códigos" afirmem ter recompensas ativas, o **Trello oficial de Gakuran** e as análises do Creator Exchange confirmam que nenhum código existe atualmente.
+
+O jogo foca na progressão através da jogabilidade em vez de brindes gratuitos. No entanto, os desenvolvedores atualizam frequentemente a experiência para equilibrar os estilos de luta.
+
+| Recurso | Status | Notas |
+| :--- | :--- | :--- |
+| **Códigos Ativos** | Nenhum | Cuidado com geradores de códigos falsos |
+| **Sistema de Resgate** | Inativo | Nenhum menu existe atualmente no jogo |
+| **Última Atualização** | 24 de Junho, 2026 | Focada no equilíbrio de estilos |
+| **Chat de Voz** | Não Suportado | Use o Discord para coordenação |
+| **Suporte de Câmera** | Não Suportado | Apenas câmera padrão do Roblox |
+
+<Callout type="warning" title="Alerta de Segurança">
+Nunca insira sua senha ou detalhes da conta do Roblox em sites de "Resgate de Códigos". Códigos oficiais só serão inseridos diretamente dentro do aplicativo Roblox.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Onde posso encontrar o Trello oficial de Gakuran?",
+    answer: "O Trello oficial está localizado em trello.com/b/DUeTE2HN. Ele contém conjuntos de movimentos, detalhes do mapa e notas oficiais dos desenvolvedores."
+  },
+  {
+    question: "Qual estilo de luta é melhor para iniciantes?",
+    answer: "O Boxe é o estilo mais recomendado para iniciantes devido às suas sequências de socos diretas e hitboxes confiáveis."
+  },
+  {
+    question: "Existem códigos ativos para Gakuran?",
+    answer: "Não, até junho de 2026, não há códigos ativos ou um sistema de resgate no jogo. Verifique o Discord oficial para anúncios futuros."
+  },
+  {
+    question: "Como faço para dar parry em Gakuran?",
+    answer: "Para dar parry, você deve pressionar F (Bloqueio) no momento exato em que o ataque de um oponente está prestes a atingir. Isso irá atordoá-lo e permitir um contra-ataque."
+  }
+]} />
+
+</Section>

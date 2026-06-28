@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Phone } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Gakuran Mixi: Domina los Mix-Ups de PvP y Builds de Combate",
+  description: "Domina los mejores mix-ups de PvP y builds de personajes en Gakuran de Roblox. Aprende a ejecutar combos, cronometrar parries y elegir los mejores estilos de lucha.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/dc2626/fff?text=Gakuran+Mixi+Guide",
+  date: "2026-06-28",
+  author: "Equipo de la Wiki de Gakuran",
+  keywords: "Gakuran, Roblox, guía de combate, estilos de lucha, mix-ups de PvP, Mixi"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía de Gakuran mixi**: Domina los mix-ups de combate principales y aprovecha el sistema de teléfono del juego, inspirado en las redes sociales japonesas de 2007, para coordinar las actividades de tu pandilla.
+- **Meta de combate**: El éxito en Gakuran depende en gran medida de realizar parries perfectos, esquivar (weaving) y romper las guardias defensivas usando ataques pesados.
+- **Builds de altura**: Los personajes más altos obtienen un mayor alcance y resistencia, pero sufren de un movimiento más lento y un hitbox más grande, mientras que las builds más bajas ganan velocidad.
+- **Estilos de lucha**: Elige Muay Thai para una presión frontal agresiva, Boxeo para cadenas de golpes confiables o Hakari para patadas llamativas fuera del meta.
+- **Estado de los códigos**: Actualmente no hay códigos promocionales públicos activos ni menús de canje disponibles dentro del juego.
+</Callout>
+
+<Section icon={Phone} title="Entendiendo el Mixi de Gakuran y el Sistema de Combate">
+
+Gakuran es una popular experiencia de Roblox que combina el juego de rol de la vida escolar japonesa con peleas de alto riesgo impulsadas por la habilidad. Ambientado en el Japón de mayo de 2007, el juego cuenta con un sistema de teléfono inmersivo que refleja la clásica red social japonesa \"Mixi\" de esa época. Los jugadores usan este teléfono para coordinar peleas de pandillas, aceptar trabajos a tiempo parcial y consultar las estadísticas de los jugadores. Esta **guía de Gakuran mixi** explica cómo aprovechar tanto la red social telefónica como los mix-ups de combate principales para dominar los pasillos de la Preparatoria Nishikata.
+
+**Puntos destacados del video:**
+- **Recorrido por la vida escolar**: Explora las aulas, los pasillos, la cancha de baloncesto y la tienda de conveniencia.
+- **Mecánicas de combate cuerpo a cuerpo**: Entiende cómo funcionan los combos de golpe-esquiva-derribo-pisotón en peleas reales.
+- **Coordinación de pandillas**: Aprende cómo se organizan los grupos en las calles de Nishikata.
+
+<YouTubeEmbed videoId="dQw4w9WgXcQ" title="Bienvenido a la Preparatoria Nishikata, la PEOR escuela de Japón" />
+
+### El sistema de teléfono social del juego
+El teléfono del juego sirve como tu centro de mando. En el Japón de mayo de 2007, Mixi era la plataforma de redes sociales dominante, y el juego honra esta ambientación utilizando el teléfono para las conexiones entre jugadores. Al presionar la tecla de alternancia, puedes sacar tu dispositivo para ver tus estadísticas activas, coordinarte con tu pandilla, consultar las bolsas de trabajo o comprar refrescos en las máquinas expendedoras. Mantenerse conectado es crucial porque los jugadores solitarios son blancos fáciles para las pandillas escolares rivales.
+
+### Definiendo \"El Mix\" en el combate
+En Gakuran, \"ser mixeado\" o \"aplicar el mix a alguien\" se refiere a ejecutar combinaciones de combate impredecibles (mix-ups). Debido a que el juego se basa en gran medida en el parry, spamear ataques ligeros (M1) hará que tus ataques sean bloqueados perfectamente de inmediato. Para romper la defensa de un oponente, debes mezclar ataques ligeros, ataques pesados rompeguardias (M2), esquivas y agarres.
+
+| Acción | Entrada de PC | Entrada de Control | Propósito del Combate |
+| :--- | :--- | :--- | :--- |
+| **Postura de Combate** | R | D-Pad Arriba | Activa el modo de lucha y prepara la defensa |
+| **Ataque Ligero** | M1 (Click) | R2 | Cadenas rápidas de golpes o patadas para presionar |
+| **Ataque Pesado** | M2 (Click Derecho) | Y | Derriba (ragdoll) al impactar, inflige mucho daño, rompe la guardia |
+| **Bloqueo / Parry** | F | L2 | El bloqueo perfecto (parry) aturde a los oponentes que atacan |
+| **Esquivar / Dash** | Q | B | Cierra o crea distancia, evade ataques pesados |
+| **Alternar Teléfono** | L / Stick Izquierdo | L3 | Accede al menú social, coordenadas de pandilla y trabajos |
+
+<Callout type="info" title="Coordinación Social">
+Mantén siempre tu teléfono guardado durante una pelea activa. Sacar el teléfono en medio de un combate desactiva tu postura de combate, dejándote completamente vulnerable a un pisotón rápido o a ser cargado.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Cómo afecta la altura del personaje al alcance de tu Mix-Up">
+
+Cuando te unes a Gakuran por primera vez, las estadísticas físicas de tu personaje se generan aleatoriamente. Entre estas, la altura es el factor más crítico. Tu altura determina directamente tu alcance, velocidad, resistencia y el tamaño de tu hitbox. Entender cómo interactúa tu altura con el estilo de lucha elegido es el primer paso para dominar los mix-ups de combate avanzados.
+
+### Comparativa de estadísticas de altura
+El juego presenta una amplia gama de alturas, desde builds muy bajas hasta gigantes imponentes. Cada build tiene pros y contras distintos que requieren diferentes enfoques tácticos en PvP.
+
+| Tipo de Build | Rango de Altura | Alcance | Velocidad | Resistencia | Hitbox |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Build Alta** | 6'2\" a 6'7\" | Extendido | Más lento | Alta | Grande |
+| **Build Promedio** | 5'6\" a 6'1\" | Equilibrado | Moderada | Equilibrada | Promedio |
+| **Build Baja** | 5'0\" a 5'5\" | Limitado | Rápida | Menor | Pequeño |
+
+### Eligiendo la build adecuada para tu estilo
+Tu altura está directamente vinculada a tu efectividad con estilos de lucha específicos. Por ejemplo, si usas un estilo basado en patadas como Hakari, se recomienda una build alta porque extiende el alcance de los hitboxes de tus patadas. Por el contrario, si prefieres combos de golpes rápidos a corta distancia como el Boxeo, una build más baja te permite moverte rápidamente, esquivar ataques y explotar tu hitbox más pequeño.
+
+<Callout type="warning" title="Costos de Reroll">
+Las estadísticas físicas como la altura, el color de pelo y los accesorios de cuello y cintura se pueden volver a sortear (reroll) en el menú de estadísticas. Hacer un reroll de tu build física cuesta Robux, así que planifica tu build cuidadosamente antes de comprometerte.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estilos de lucha óptimos para Mix-Ups devastadores">
+
+Tu estilo de lucha define todo tu repertorio de movimientos y el ritmo de la pelea. Gakuran cuenta actualmente con varios estilos de lucha confirmados por los que puedes girar por 5 Robux. Cada estilo destaca en diferentes escenarios de combate, desde peleas en pasillos estrechos hasta enfrentamientos en canchas al aire libre.
+
+<CardGrid cols={3}>
+  <Card title="Boxeo">
+    - **Especialidad**: Cadenas rápidas de combos de golpes
+    - **Ventajas**: Ideal para principiantes, alta presión a corta distancia
+    - **Desventajas**: Alcance limitado, requiere una disciplina de bloqueo estricta
+  </Card>
+  <Card title="Muay Thai">
+    - **Especialidad**: Ataques agresivos cuerpo a cuerpo y patadas
+    - **Ventajas**: Fuerte presión frontal, castigos rápidos
+    - **Desventajas**: Requiere un espaciado preciso, castiga las persecuciones imprudentes
+  </Card>
+  <Card title="Hakari">
+    - **Especialidad**: Combos llamativos basados en patadas fuera del meta
+    - **Ventajas**: Excelente alcance en patadas, alto factor sorpresa
+    - **Desventajas**: Más difícil de dominar, depende mucho de las estadísticas de altura
+  </Card>
+</CardGrid>
+
+### Descripción general de los estilos de lucha
+Aunque el Karate básico es el estilo inicial por defecto, la mayoría de los jugadores competitivos giran para obtener estilos avanzados y desbloquear ventajas poderosas y cadenas de combate únicas.
+
+| Estilo de Lucha | Especialidad | Fortalezas | Debilidades | Costo de Giro |
+| :--- | :--- | :--- | :--- | :--- |
+| **Boxeo** | Combos de golpes | Ejecución fácil de cadenas, retiradas seguras | Alcance corto | 5 Robux |
+| **Muay Thai** | Cuerpo a cuerpo y patadas | Presión frontal devastadora, castigos rápidos | Alto compromiso | 5 Robux |
+| **Hakari** | Combos de patadas | Alcance sobresaliente, movimientos llamativos | Difícil de dominar | 5 Robux |
+| **Karate** | Defensa básica | Bueno para practicar el tiempo del parry | Menor daño | Por defecto |
+| **Wrestling** | Agarres y derribos | Fuerte potencial de rompeguardias, control de masas | Inicio lento | 5 Robux |
+
+<Callout type="tip" title="Consejo Pro de Reroll">
+Si tienes una cantidad limitada de Robux, concéntrate primero en girar tu estilo de lucha. Tener Boxeo o Muay Thai es una mejora masiva sobre el Karate por defecto, incluso si la altura de tu personaje aún no está perfectamente optimizada.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía paso a paso para ejecutar Mix-Ups perfectos">
+
+Para ganar peleas de manera constante en la Preparatoria Nishikata, debes ir más allá de simplemente machacar botones. Los jugadores avanzados confían en secuencias de combate estructuradas para abrir a los oponentes defensivos. Sigue esta progresión paso a paso para ejecutar mix-ups perfectos en tu próximo encuentro PvP.
+
+<Steps>
+  <Step num="1" title="Únete al grupo de Roblox">
+    Antes de iniciar el juego, asegúrate de haberte unido a la comunidad oficial de Roblox (学乱) Gakuran. La membresía del grupo es un requisito obligatorio para acceder a la experiencia principal.
+  </Step>
+  <Step num="2" title="Entra en postura de combate">
+    Presiona **R** (o el botón asignado en el control) para entrar en tu postura de combate. Nunca te acerques a un grupo de jugadores con los puños abajo, ya que esto te convierte en un blanco fácil para una emboscada repentina.
+  </Step>
+  <Step num="3" title="Domina el Parry (Tecla F)">
+    Gakuran es un juego basado en el parry. Presiona **F** exactamente cuando tu oponente lance un golpe para ejecutar un bloqueo perfecto. Un parry exitoso aturde a tu oponente, abriendo una ventana enorme para un contraataque.
+  </Step>
+  <Step num="4" title="Ejecuta el Mix-Up M1-M2">
+    No completes tu cadena completa de golpes M1 si tu oponente está bloqueando. En su lugar, golpéalo con dos ataques ligeros (M1), haz una pausa e inmediatamente ejecuta un ataque pesado (M2) para romper su guardia y derribarlo.
+  </Step>
+  <Step num="5" title="Seguimiento de golpe y pisotón">
+    Una vez que tu oponente sea derribado o esté en estado ragdoll, cierra la distancia rápidamente para ejecutar un pisotón o cárgalo (tecla B) hacia un contenedor de basura o baño cercano para asegurar tu victoria.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Ventana de Combo">
+Completar un combo M1 completo sin ser aturdido abre una breve ventana de 7 segundos donde tu ataque pesado M2 inflige el triple de daño y aplica un 15% de daño de golpe directo a través de los bloqueos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación diaria de PvP y preguntas frecuentes">
+
+Mantenerse activo en la comunidad de Gakuran requiere un equilibrio entre el juego de rol, los trabajos para ganar yenes y mantener tu ventaja en el combate. Usa esta lista de objetivos diarios para guiar tus sesiones y asegurar que tu personaje siga siendo competitivo.
+
+<Checklist
+  id="gakuran-daily-goals"
+  title="Objetivos diarios de delincuente:"
+  items={[
+    "Asistir a clase para aumentar las estadísticas de inteligencia de tu personaje",
+    "Completar trabajos a tiempo parcial en la tienda de conveniencia para ganar Yenes",
+    "Practicar el tiempo del parry contra jugadores activos en la cancha de baloncesto",
+    "Cambiar tu estilo de lucha a Muay Thai o Boxeo si usas el Karate por defecto",
+    "Coordinarte con tu pandilla a través del sistema de teléfono social del juego"
+  ]}
+/>
+
+### Estadísticas y actualizaciones del juego en vivo
+Hacer un seguimiento de las métricas oficiales del juego te ayuda a mantenerte informado sobre la base de jugadores activos y el estado de desarrollo.
+
+| Métrica | Valor de captura actual | Significado para el jugador |
+| :--- | :--- | :--- |
+| **Género** | Acción / Battlegrounds | Combate cuerpo a cuerpo de alta intensidad con PvP de mundo abierto |
+| **Visitas Totales** | 828.5K+ | Comunidad de luchadores escolares en rápido crecimiento |
+| **Instantánea CCU** | 3.77K Concurrentes | Servidores altamente activos para emparejamiento y guerras de pandillas |
+| **Proporción de Likes** | 93% Positivo | Fuerte aprobación de la comunidad y actualizaciones activas |
+| **Estado de Códigos** | Ninguno aún | Progresión basada puramente en la habilidad sin códigos activos |
+
+<Callout type="warning" title="Evita códigos falsos">
+Ten cuidado con los sitios web de terceros que afirman tener códigos promocionales activos para Gakuran. El juego actualmente no cuenta con un menú de canje de códigos, lo que significa que cualquier código publicado en línea es falso.
+</Callout>
+
+### FAQ
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el mejor estilo de lucha en la guía de Gakuran mixi?",
+    answer: "El mejor estilo de lucha depende de tu build. Muay Thai ofrece la mejor presión agresiva, mientras que el Boxeo es el más confiable y fácil de usar para principiantes. Hakari es muy efectivo si tienes una build de personaje alta con alcance extendido."
+  },
+  {
+    question: "¿Cómo cambio mi estilo de lucha en Gakuran?",
+    answer: "Puedes cambiar tu estilo de lucha abriendo el menú de estadísticas de tu personaje y girando por un nuevo estilo. Cada giro cuesta 5 Robux y otorga aleatoriamente Boxeo, Muay Thai, Hakari o Wrestling."
+  },
+  {
+    question: "¿Por qué es tan importante la altura en el combate de Gakuran?",
+    answer: "La altura altera directamente tu alcance y hitbox. Las builds más altas tienen un alcance más largo (especialmente útil para estilos basados en patadas como Hakari) y más resistencia, pero se mueven más lento y son más fáciles de golpear. Las builds más bajas son más rápidas y difíciles de golpear, pero tienen un alcance más corto."
+  },
+  {
+    question: "¿Hay códigos activos en Gakuran?",
+    answer: "No, Gakuran no tiene actualmente ningún código promocional activo ni un sistema de canje de códigos en el juego. La progresión se obtiene enteramente ganando peleas PvP y completando trabajos."
+  }
+]} />
+
+</Section>
