@@ -10,14 +10,7 @@
       "twitterDescription": "Gakuran Wiki covers Roblox codes, PvP guide, fighting styles, controls, map, and updates."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
