@@ -1,1 +1,841 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Gakuran Wiki - コード、PvPガイド＆格闘スタイル",
+      "description": "Gakuran Wikiは、日本の学校を舞台にした対戦アクションゲームのRobloxコード、PvPガイド、格闘スタイル、操作方法、マップ情報、アップデート、初心者向け情報を網羅しています。",
+      "keywords": "Gakuran, Roblox, コード, PvPガイド, 格闘スタイル, 操作方法, マップ, アップデート",
+      "ogTitle": "Gakuran Wiki - コード、PvPガイド＆格闘スタイル",
+      "ogDescription": "Gakuran Wikiは、日本の学校を舞台にした対戦アクションゲームのRobloxコード、PvPガイド、格闘スタイル、操作方法、マップ情報、アップデート、初心者向け情報を網羅しています。",
+      "twitterTitle": "Gakuran Wiki - コード、PvPガイド＆格闘スタイル",
+      "twitterDescription": "Gakuran Wikiは、Robloxのコード、PvPガイド、格闘スタイル、操作方法、マップ、アップデート情報を網羅しています。"
+    }
+  },
+  "nav": {
+    "guide": "ガイド",
+    "controls": "操作方法",
+    "styles": "スタイル",
+    "map": "マップ",
+    "money": "お金",
+    "roleplay": "ロールプレイ",
+    "trello": "Trello"
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "その他",
+    "playNow": "Robloxでプレイする",
+    "switchLanguage": "言語を切り替える",
+    "switchTheme": "テーマを切り替える",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む",
+    "articlesComingSoon": "記事は近日公開予定です"
+  },
+  "hero": {
+    "badge": "RobloxスクールブローラーRP",
+    "title": "Gakuran Wiki",
+    "description": "Gakuranで日本の学生街を舞台に、戦い、ロールプレイし、探索しよう。乱闘に参戦する前に、PvPの基本、操作方法、格闘スタイル、マップ情報、アップデート、コードの状況を確認しておきましょう。",
+    "getFreeCodesCTA": "無料コードを入手",
+    "playOnRobloxCTA": "Robloxでプレイする",
+    "stats": {
+      "stat1": {
+        "value": "828.5K+",
+        "label": "累計訪問数"
+      },
+      "stat2": {
+        "value": "3.77K",
+        "label": "現在の同時接続者数"
+      },
+      "stat3": {
+        "value": "93%",
+        "label": "高評価率"
+      },
+      "stat4": {
+        "value": "Roblox",
+        "label": "プラットフォーム"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gakuran ゲームプレイ",
+    "description": "Gakuranで、日本の学校の町を舞台に戦い、ロールプレイし、探索しましょう。このRobloxエクスペリエンスは、学校生活のロールプレイと、アクション、バトルグラウンド、そして格闘スタイルを融合させています。"
+  },
+  "tools": {
+    "title": "Gakuran",
+    "titleHighlight": "リソース",
+    "subtitle": "Gakuranのコード、操作方法、格闘スタイル、そして学校の町での乱闘に必要なすべての情報。",
+    "cards": [
+      {
+        "icon": "Gift",
+        "title": "Gakuran コード",
+        "description": "有効なコード、引き換え手順、新しいコードが公開される場所"
+      },
+      {
+        "icon": "Link",
+        "title": "Gakuran リンク",
+        "description": "Roblox、コミュニティ、Discord、Trelloを1つのハブに"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Gakuran ガイド",
+        "description": "起動から最初の乱闘までの進め方"
+      },
+      {
+        "icon": "Keyboard",
+        "title": "Gakuran 操作方法",
+        "description": "PC、モバイル、コントローラーのキー割り当て"
+      },
+      {
+        "icon": "Swords",
+        "title": "Gakuran スタイル",
+        "description": "格闘スタイルの概要と、それぞれのスタイルの特徴"
+      },
+      {
+        "icon": "Zap",
+        "title": "Gakuran 戦闘",
+        "description": "間合い、ブロック、コンボ、そしてPvPでの生き残り方"
+      },
+      {
+        "icon": "Map",
+        "title": "Gakuran マップ",
+        "description": "学校、町、ロールプレイのたまり場"
+      },
+      {
+        "icon": "Clock",
+        "title": "Gakuran アップデート",
+        "description": "リリース状況、プレイヤーの統計、アップデート確認"
+      }
+    ]
+  },
+  "modules": {
+    "gakuranCodes": {
+      "title": "Gakuran コード",
+      "subtitle": "現在のGakuranコードの状況、有効な報酬、期限切れのコード、そして新しいコードがどこに公開されやすいかを確認しましょう。",
+      "statusLabel": "コードの状況",
+      "statusValue": "有効な公開コードはまだ掲載されていません。",
+      "activeLabel": "有効なコード",
+      "activeEmpty": "現在、有効なコードは掲載されていません。新しい特典がないか、Robloxの公式ページ、コミュニティチャンネル、アップデート投稿を追跡しています。",
+      "expiredLabel": "期限切れのコード",
+      "expiredEmpty": "公開コードがまだリリースされていないため、期限切れのコードはまだ記録されていません。",
+      "redeemLabel": "Gakuranコードの引き換え方法",
+      "redeemSteps": [
+        "公式のGakuran Robloxエクスペリエンスページを開き、ゲームを起動します。",
+        "開発者によって追加された後は、ゲーム内のコード入力メニューまたは設定メニューを探してください。",
+        "新しいコードの発表については、Robloxの公式コミュニティやDiscordを確認してください。",
+        "公開の特典コードが投稿されたら、いつでもこのGakuranコードページに戻ってきてください。"
+      ],
+      "watchLabel": "新しいGakuranコードが公開される場所",
+      "watchSources": [
+        "公式Robloxエクスペリエンス",
+        "公式Robloxコミュニティ",
+        "Gakuran Discordサーバー",
+        "開発者のアップデート投稿"
+      ]
+    },
+    "gakuranOfficialLinks": {
+      "title": "GakuranのTrello、Discord、および公式リンク",
+      "subtitle": "GakuranのメインRobloxページ、コミュニティページ、Discordの招待リンク、Trelloボード、および分析リファレンスを1か所で見つけることができます。",
+      "cards": [
+        {
+          "name": "RobloxでGakuranをプレイする",
+          "type": "公式Robloxエクスペリエンス",
+          "href": "https://www.roblox.com/games/128736949265057/Gakuran",
+          "description": "(学乱) Gakuranのメインのプレイ可能なRobloxエクスペリエンス。",
+          "details": [
+            "タイトル: (学乱) Gakuran",
+            "クリエイター: (学乱) Gakuran",
+            "舞台: 日本の学園町",
+            "方向性: 戦闘重視のコミュニティによるスクールライフ・ロールプレイ"
+          ]
+        },
+        {
+          "name": "Gakuran Robloxコミュニティ",
+          "type": "公式Robloxコミュニティ",
+          "href": "https://www.roblox.com/communities/416091513/Gakuran",
+          "description": "Gakuranエクスペリエンスに関連付けられた公式Robloxコミュニティページ。",
+          "details": [
+            "ここからクリエイターグループをフォローしましょう。",
+            "転載されたコードやアップデート情報をこのページと照合してください。"
+          ]
+        },
+        {
+          "name": "Gakuran Discord",
+          "type": "コミュニティサーバー",
+          "href": "https://discord.gg/gakuran",
+          "description": "アップデート、チャット、プレイヤー同士の交流のためにGakuranコミュニティが使用するDiscordの招待リンク。",
+          "details": [
+            "お知らせの確認に便利です。",
+            "コード、Trello、アップデート情報の照合に便利です。"
+          ]
+        },
+        {
+          "name": "Gakuran Trello",
+          "type": "Trelloボード",
+          "href": "https://trello.com/b/DUeTE2HN/学乱-gakuran-trello",
+          "description": "Gakuranの情報やゲームの参考資料のための公開Trelloボード。",
+          "details": [
+            "整理されたゲームのメモとして活用してください。",
+            "公式RobloxページやDiscordのアナウンスと併せて確認するのが最適です。"
+          ]
+        },
+        {
+          "name": "Gakuran Creator Exchange",
+          "type": "分析リファレンス",
+          "href": "https://creatorexchange.io/roblox-game/9199655655/gakuran",
+          "description": "Gakuranの公開分析リファレンスページ。",
+          "details": [
+            "ジャンル: アクション",
+            "サブジャンル：バトルグラウンド＆格闘",
+            "高評価率：93%",
+            "CCU：3.77K"
+          ]
+        }
+      ]
+    },
+    "gakuranBeginnerGuide": {
+      "title": "Gakuran 初心者ガイド",
+      "subtitle": "Robloxの公式ページからGakuranを起動し、コミュニティに参加して学校の設定を理解し、最初のセッションのプレイ方法を選びましょう。",
+      "steps": [
+        {
+          "title": "公式ゲームページを開く",
+          "description": "ゲームを起動するには、(学乱) GakuranのRoblox公式エクスペリエンスページから開始してください。"
+        },
+        {
+          "title": "Robloxをインストールまたは起動する",
+          "description": "Robloxにログインし、エクスペリエンスページの緑色のプレイボタンを押して、ブラウザからRoblox Playerをインストールまたは起動します。"
+        },
+        {
+          "title": "公式コミュニティに参加する",
+          "description": "GakuranのRobloxコミュニティページを使用してゲームグループをフォローし、公式のゲーム関連アップデートを把握しましょう。"
+        },
+        {
+          "title": "プレイ前にDiscordとTrelloをチェックする",
+          "description": "Discordでリアルタイムのコミュニティアップデートを確認し、Trelloで整理されたゲームノート、仕組み、参考資料を確認しましょう。"
+        },
+        {
+          "title": "ゲームの方向性を理解する",
+          "description": "Gakuranは日本を舞台にした学校生活体験として提供されていますが、公開カテゴリーではアクションや格闘ゲームプレイの方向性も示されています。"
+        },
+        {
+          "title": "ゲーム内でRobloxのヘルプメニューを使用する",
+          "description": "Robloxのエクスペリエンス内ヘルプを開き、現在のショートカット、マウス操作、モバイルジェスチャー、およびエクスペリエンス内で利用可能な設定を表示します。"
+        }
+      ],
+      "tips": [
+        "高度なシステムを追求する前に、まずは学校の環境を探索しましょう。",
+        "公開されているTrelloのノートを読んで、コアシステムを早い段階で理解しておきましょう。",
+        "開けたエリアでは、ロールプレイの活気とプレイヤー同士の戦闘が混ざり合うことを想定しておきましょう。",
+        "新しいコードやアップデート情報をいち早く入手するために、コミュニティチャンネルに参加しましょう。"
+      ]
+    },
+    "gakuranControls": {
+      "title": "Gakuranの操作方法とキーバインド",
+      "subtitle": "移動、カメラ、チャット、メニュー、モバイルプレイ、コントローラープレイ、およびエクスペリエンス内設定には、Robloxのデフォルトの操作レイヤーを使用します。",
+      "controls": [
+        {
+          "action": "移動",
+          "keyboard": "WASDまたは矢印キー",
+          "mobile": "画面上の移動コントロール",
+          "controller": "左スティック",
+          "notes": "学校の環境を探索する際は、Robloxの移動操作を使用します。"
+        },
+        {
+          "action": "ジャンプ",
+          "keyboard": "スペース",
+          "mobile": "画面上のジャンプボタン",
+          "controller": "Robloxに表示されるコントローラーのジャンプボタン",
+          "notes": "ジャンプの可否は、エクスペリエンス内の現在の状態によって異なる場合があります。"
+        },
+        {
+          "action": "カメラ",
+          "keyboard": "マウスの右ボタンを長押ししながらドラッグして回転",
+          "mobile": "画面をスワイプまたはドラッグ",
+          "controller": "右スティック",
+          "notes": "エクスペリエンスが許可している場合、Robloxのカメラ設定にはクラシックモードとフォローモードが含まれます。"
+        },
+        {
+          "action": "シフトロック",
+          "keyboard": "シフトロックスイッチが有効な時にShiftキー",
+          "mobile": "利用可能なモバイルカメラコントロールを使用する",
+          "controller": "ヘルプに表示されているカメラコントロールを使用する",
+          "notes": "シフトロックは、Robloxの設定およびエクスペリエンスのカメラモードによって異なります。"
+        },
+        {
+          "action": "チャット",
+          "keyboard": "/ でチャットを開き、EnterまたはReturnで送信",
+          "mobile": "画面左上付近のチャットアイコンをタップする",
+          "controller": "利用可能な場合はRobloxのコミュニケーションコントロールを使用する",
+          "notes": "エクスペリエンスチャットはフィルタリングされ、Robloxアカウントのコミュニケーション設定によって異なります。"
+        },
+        {
+          "action": "ボイスチャット",
+          "keyboard": "Robloxのコミュニケーションコントロールを使用する",
+          "mobile": "Robloxのコミュニケーションコントロールを使用する",
+          "controller": "Robloxのコミュニケーションコントロールを使用する",
+          "notes": "ボイスチャットの利用は、Robloxアカウントの資格およびエクスペリエンスの設定によって異なります。"
+        },
+        {
+          "action": "メニューとヘルプ",
+          "keyboard": "Robloxメニューを開き、「設定」または「ヘルプ」を選択する",
+          "mobile": "Robloxメニューアイコンをタップし、「設定」または「ヘルプ」を選択する",
+          "controller": "コントローラーのメニュー入力でRobloxメニューを開く",
+          "notes": "ヘルプメニューには、利用可能なショートカット、マウスの操作方法、モバイルのジェスチャーが表示されます。"
+        },
+        {
+          "action": "グラフィック、音量、アクセシビリティ",
+          "keyboard": "Robloxメニュー > 設定",
+          "mobile": "Robloxメニュー > 設定",
+          "controller": "Robloxメニュー > 設定",
+          "notes": "設定には、音量、カメラ、グラフィック、アクセシビリティ、「動きを減らす」、UIナビゲーションの切り替えが含まれます。"
+        },
+        {
+          "action": "リーダーボード、インベントリ、エモート",
+          "keyboard": "Robloxのハンバーガーメニューまたはエクスペリエンスコントロールを使用する",
+          "mobile": "Robloxのハンバーガーメニューまたはエクスペリエンスコントロールを使用する",
+          "controller": "Robloxのハンバーガーメニューまたはエクスペリエンスコントロールを使用する",
+          "notes": "現在のエクスペリエンス内で有効化されている機能のみが表示されます。"
+        },
+        {
+          "action": "Gakuran戦闘入力",
+          "keyboard": "エクスペリエンス内のヘルプメニューとGakuranのTrelloを確認する",
+          "mobile": "エクスペリエンス内のヘルプメニューとGakuranのTrelloを確認する",
+          "controller": "エクスペリエンス内のヘルプメニューとGakuranのTrelloを確認する",
+          "notes": "カスタム戦闘入力は、実際のゲームインターフェースおよび公式Trelloボードから確認してください。"
+        }
+      ]
+    },
+    "gakuranFightingStyles": {
+      "title": "Gakuran格闘スタイル ティアリスト",
+      "subtitle": "プレッシャー、初心者への優しさ、機動性、PvPでの有用性について、現在のGakuranの格闘スタイルを比較します。",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "最高のPvPプレッシャー",
+          "styles": [
+            {
+              "icon": "フレイム",
+              "name": "ムエタイ",
+              "role": "攻撃的な近接ストライカー",
+              "bestFor": "前方へのプレッシャー、蹴り主体の近接攻撃、そして混雑した校内の乱闘における素早い反撃。",
+              "strengths": [
+                "強力なプレッシャーツール",
+                "良好な乱闘テンポ",
+                "学校のホットスポットでの戦闘で有用"
+              ],
+              "weaknesses": [
+                "正確なスペーシングが必要",
+                "無謀な追跡への反撃"
+              ],
+              "practice": "長いダメージの削り合いを強いる前に、ダッシュイン攻撃、ブロックのタイミング、そして短い反撃の隙を反復練習しよう。"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "信頼できる初心者向けの選択",
+          "styles": [
+            {
+              "icon": "ハンド",
+              "name": "ボクシング",
+              "role": "シンプルなパンチコンボスタイル",
+              "bestFor": "分かりやすいコンボ、シンプルなプレッシャー、そして安定した近接戦での殴り合いを求める新規プレイヤー。",
+              "strengths": [
+                "初心者向け",
+                "スムーズなパンチ連携",
+                "基本的なPvPで練習しやすい"
+              ],
+              "weaknesses": [
+                "近距離への依存度が高い",
+                "的確なガード判断が必要"
+              ],
+              "practice": "すべての戦闘に突撃するのではなく、弱攻撃から安全な離脱ルートへの連携を練習しよう。"
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "派手なスペシャリスト",
+          "styles": [
+            {
+              "icon": "スパークル",
+              "name": "Hakari",
+              "role": "派手なオフメタPvPスタイル",
+              "bestFor": "個性の表現、意外性、そして王道ではない戦闘スタイルを好むプレイヤー。",
+              "strengths": [
+                "際立つプレイスタイル",
+                "クリエイティブなプレイヤーに有用",
+                "高い奇襲効果"
+              ],
+              "weaknesses": [
+                "初心者にはやや難しい",
+                "より高度なマッチアップの把握が必要"
+              ],
+              "practice": "離脱のタイミング、ガードを誘う方法を学び、ムエタイやボクシングの純粋なプレッシャールートをそのまま真似るのを避けよう。"
+            }
+          ]
+        }
+      ],
+      "note": "スタイルのバランスは時間の経過とともに変化します。現在の技構成やアンロック状況については、実際のゲーム画面やGakuranのTrelloを確認してください。"
+    },
+    "gakuranCombatGuide": {
+      "title": "Gakuran戦闘ガイド",
+      "subtitle": "Gakuranのオープンな校内PvPにおける、スタンス制御、間合い管理、ブロック、反撃、コンボ練習、および生き残るための習慣を学びましょう。",
+      "faqs": [
+        {
+          "icon": "足跡",
+          "question": "戦闘スタンスで始めよう",
+          "answer": "攻撃を仕掛ける前に戦闘スタンスに入り、移動、ブロック、反撃の準備を整えておきましょう。",
+          "details": [
+            "むやみに攻撃を振り回して始めるのではなく、戦闘に近づく際は戦闘スタンスを使用しましょう。",
+            "カメラを常に相手に向け、出入り口や隅を背にして戦うのを避けましょう。",
+            "攻撃がブロックされた後、ダッシュで離脱できるだけの十分なスペースを残しておきましょう。"
+          ],
+          "controls": [
+            {
+              "action": "戦闘の構え",
+              "pc": "R",
+              "controller": "ゲーム内ヘルプメニュー"
+            },
+            {
+              "action": "弱攻撃",
+              "pc": "M1 / クリック",
+              "controller": "R2"
+            },
+            {
+              "action": "強攻撃",
+              "pc": "M2",
+              "controller": "Y"
+            }
+          ]
+        },
+        {
+          "icon": "移動",
+          "question": "コンボの前に間合いを計る",
+          "answer": "間合いが、コンボが綺麗に決まるか、空振りして不利な状況になるかを左右します。",
+          "details": [
+            "相手が攻撃を外した時、ガードが早すぎた時、または動きが予測可能な時のみダッシュで接近しましょう。",
+            "直線的に追いかけ続けるのではなく、角、階段、校門付近で回り込んで先回りしましょう。",
+            "強攻撃を外した後は、反撃を受ける前に一度仕切り直しましょう。"
+          ],
+          "controls": [
+            {
+              "action": "走る / スプリント",
+              "pc": "Wを2回押す",
+              "controller": "L3"
+            },
+            {
+              "action": "回避 / ダッシュ",
+              "pc": "Q",
+              "controller": "B"
+            }
+          ]
+        },
+        {
+          "icon": "ガード",
+          "question": "ガード、パリィ、そして反撃",
+          "answer": "ガードを固めることで、無駄にダウンを奪われることなく、相手のミスを突くチャンスを待つことができます。",
+          "details": [
+            "相手が射程内にいて、コンボを始めてきそうな時はガードしましょう。",
+            "相手が攻撃を空振りした、またはガードさせた後の隙を突き（パニッシュし）ましょう。",
+            "遠すぎる距離でのパニックガードは避けましょう。こちらのタイミングを悟られてしまいます。"
+          ],
+          "controls": [
+            {
+              "action": "ガード / パリィ",
+              "pc": "F",
+              "controller": "L2"
+            }
+          ]
+        },
+        {
+          "icon": "ターゲット",
+          "question": "まずは短いコンボから練習しましょう",
+          "answer": "短く再現性の高いコンボは、動画の中だけでしか決まらないような長いコンボよりも強力です。",
+          "details": [
+            "弱攻撃から始め、安全な間を置いてから、位置を調整しましょう。",
+            "初撃のヒットを確認してから、強攻撃を繋げましょう。",
+            "一度に一つのスタイルを練習しましょう：パンチ連打の Boxing、プレッシャーの Muay Thai、タイミングとスタイル制御の Hakari。"
+          ],
+          "controls": [
+            {
+              "action": "担ぐ",
+              "pc": "B",
+              "controller": "X"
+            },
+            {
+              "action": "とどめ / 掴む",
+              "pc": "V",
+              "controller": "L1 + X"
+            }
+          ]
+        },
+        {
+          "icon": "シールドアラート",
+          "question": "集団戦を生き延びる",
+          "answer": "GakuranではソーシャルRPとPvPが重なり合っているため、人混みは安全な溜まり場ではなく危険地帯として扱いましょう。",
+          "details": [
+            "複数のプレイヤーが周囲を取り囲んでいる時は、一人のターゲットだけに執着しないようにしましょう。",
+            "廊下に追い詰められないよう、開けた場所を利用しましょう。",
+            "スタミナ、位置取り、またはカメラコントロールが悪くなったら、早めに戦闘から離脱しましょう。"
+          ],
+          "controls": [
+            {
+              "action": "マップマーカー",
+              "pc": "P",
+              "controller": "エクスペリエンス内ヘルプメニュー"
+            }
+          ]
+        }
+      ]
+    },
+    "gakuranMapGuide": {
+      "title": "Gakuranマップ＆学校RPガイド",
+      "subtitle": "Gakuranの学校生活の舞台、主要な溜まり場、ロールプレイのルート、そして平和なRPが廊下での戦争へと変貌する場所を探索しましょう。",
+      "areas": [
+        {
+          "icon": "学校",
+          "name": "校舎",
+          "type": "ロールプレイハブ",
+          "risk": "中",
+          "description": "教室や廊下を利用して、学校生活のRP、待ち合わせ、自己紹介、そしてプレッシャーの少ない探索を楽しみましょう。",
+          "tip": "喧嘩相手を探す前に、まずはここから始めて社交の流れを理解しましょう。"
+        },
+        {
+          "icon": "ドアオープン",
+          "name": "廊下と入り口",
+          "type": "人通りの多いエリア",
+          "risk": "高",
+          "description": "プレイヤーの動きを観察し、グループがどこに集まるかを把握し、チョークポイントの近くで立ち止まらないようにしましょう。",
+          "tip": "混雑したサーバーでは出入り口が待ち伏せの罠になりやすいため、常に背後に逃げ道を確保しておきましょう。"
+        },
+        {
+          "icon": "トロフィー",
+          "name": "バスケットボールコート",
+          "type": "アクティビティスポット",
+          "risk": "中",
+          "description": "コートを利用してカジュアルにたむろしたり、即席のミニゲームをしたり、探索前に他のプレイヤーと交流したりしましょう。",
+          "tip": "近くのPvPエリアにすぐアクセスできるようにしつつ、社交的に楽しみたいプレイヤーにおすすめです。"
+        },
+        {
+          "icon": "ダンベル",
+          "name": "体育館 / トレーニングエリア",
+          "type": "トレーニングスペース",
+          "risk": "中",
+          "description": "キャラクターの動かし方の癖を練習し、間合いをテストし、本格的な戦闘に入る前のウォーミングアップの場所として利用しましょう。",
+          "tip": "RPから戦闘へと切り替える前の、準備段階の拠点として扱いましょう。"
+        },
+        {
+          "icon": "音楽",
+          "name": "音楽室",
+          "type": "交流スペース",
+          "risk": "低",
+          "description": "静かなロールプレイ、グループシーン、そして落ち着いた学校生活の瞬間にこの部屋を使用してください。",
+          "tip": "PvPを求める前に、日常系の側面を楽しみたいプレイヤーに最適です。"
+        },
+        {
+          "icon": "ルート",
+          "name": "街の通り",
+          "type": "オープンPvPルート",
+          "risk": "高",
+          "description": "学校のエリア間を歩き回り、グループを追い、野良ファイトやギャングの動きを探しましょう。",
+          "tip": "動き続け、囲まれるのを避け、逃げ道がない状態での戦闘は避けましょう。"
+        },
+        {
+          "icon": "メッセージサークル",
+          "name": "Discordのクルーとギャングのルート",
+          "type": "コミュニティルート",
+          "risk": "高",
+          "description": "公式Discordでのギャングの活動、サーバー内のチャット、イベント、グループの連携を追いましょう。",
+          "tip": "基本操作とPvPでの生き残り方を学んでから、コミュニティルートに参加しましょう。"
+        }
+      ]
+    },
+    "gakuranUpdates": {
+      "title": "Gakuranのアップデート、リリース日、プレイヤー統計",
+      "subtitle": "Gakuranのリリース状況、アップデートシグナル、Roblox ID、ジャンル、CCU、評価、訪問者数、プレイヤー向けの活動マーカーを確認しましょう。",
+      "stats": [
+        {
+          "icon": "目",
+          "value": "828.5K+",
+          "label": "総訪問者数"
+        },
+        {
+          "icon": "ユーザー",
+          "value": "3.77K",
+          "label": "現在のCCU"
+        },
+        {
+          "icon": "ハート",
+          "value": "93%",
+          "label": "高評価率"
+        },
+        {
+          "icon": "スター",
+          "value": "6,252",
+          "label": "お気に入り数"
+        }
+      ],
+      "info": [
+        {
+          "label": "正式タイトル",
+          "value": "(学乱) Gakuran",
+          "details": "(学乱) Gakuranコミュニティによって公開されたRobloxエクスペリエンス。"
+        },
+        {
+          "label": "プレイスID",
+          "value": "128736949265057",
+          "details": "主要なRobloxエクスペリエンスページの識別子。"
+        },
+        {
+          "label": "ユニバースID",
+          "value": "9199655655",
+          "details": "Robloxのメタデータツールで使用されるユニバース識別子。"
+        },
+        {
+          "label": "リリース日",
+          "value": "2026年6月22日",
+          "details": "RoMonitorはこの日付をエクスペリエンスのリリース日として記載しています。"
+        },
+        {
+          "label": "最新アップデート",
+          "value": "2026年6月24日",
+          "details": "Robloxページのスクリーンショットでは、エクスペリエンスはこの日付に更新されたと記載されています。"
+        },
+        {
+          "label": "ジャンル",
+          "value": "アクション / バトルグラウンド ＆ 格闘",
+          "details": "アクション格闘エクスペリエンスに分類されています。"
+        },
+        {
+          "label": "設定",
+          "value": "日本の学校の日常（スライス・オブ・ライフ）",
+          "details": "このエクスペリエンスは、学園都市にある日本の学校を舞台としています。"
+        },
+        {
+          "label": "プラットフォーム",
+          "value": "Roblox（PC、モバイル、コンソール）",
+          "details": "Robloxを通じてPC、モバイル、コンソールでプレイ可能です。"
+        },
+        {
+          "label": "Robloxアクティブユーザー数",
+          "value": "1,886人がアクティブ",
+          "details": "アクティブプレイヤー数のRobloxページスクリーンショット。"
+        },
+        {
+          "label": "ボイスチャット",
+          "value": "非対応",
+          "details": "Robloxページのスクリーンショットでは、ボイスチャットは非対応と記載されています。"
+        },
+        {
+          "label": "カメラ",
+          "value": "非対応",
+          "details": "Robloxページのスクリーンショットでは、カメラは非対応と記載されています。"
+        },
+        {
+          "label": "コードの状況",
+          "value": "まだありません",
+          "details": "Creator ExchangeにGakuranのコードは記載されていません。"
+        }
+      ],
+      "updateNote": "私たちは公式のRobloxページ、コミュニティチャンネル、アップデート投稿をチェックし、これらのGakuranの統計を最新の状態に保っています。"
+    }
+  },
+  "faq": {
+    "title": "よくある",
+    "titleHighlight": "質問",
+    "subtitle": "Gakuranについて知っておくべきすべてのこと",
+    "questions": [
+      {
+        "question": "RobloxのGakuranとは何ですか？",
+        "answer": "Gakuranは、日本の学園都市を舞台にしたRobloxのエクスペリエンスで、学校生活のロールプレイと、アクション、バトルグラウンド、格闘ゲームプレイが融合しています。"
+      },
+      {
+        "question": "有効なGakuranのコードはありますか？",
+        "answer": "現在、有効な公開Gakuranコードは記載されていません。新しいコードについては、公式Robloxページ、Robloxコミュニティ、Gakuran Discordを追跡しています。"
+      },
+      {
+        "question": "Gakuranは無料でプレイできますか？",
+        "answer": "はい。GakuranはRobloxのPC、モバイル、および対応するコンソールで無料でプレイできます。"
+      },
+      {
+        "question": "GakuranにはPvPや格闘スタイルがありますか？",
+        "answer": "はい。Gakuranにはプレイヤー同士の戦闘があり、戦闘中に学習したり切り替えたりできる複数の格闘スタイルが登場します。"
+      },
+      {
+        "question": "Gakuranの公式アップデートはどこで確認できますか？",
+        "answer": "最新のアップデートや告知については、公式のGakuran Robloxエクスペリエンスページ、Robloxコミュニティページ、およびGakuran Discordを確認してください。"
+      },
+      {
+        "question": "Gakuranはどのプラットフォームに対応していますか？",
+        "answer": "GakuranはRobloxで動作するため、PC、モバイル、およびRobloxアプリがインストールされているすべてのプラットフォームで利用可能です。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Gakuranでの乱闘に参戦する準備はいいですか？",
+    "description": "RobloxでGakuranを起動し、最新のコード状況を確認して、日本の学園都市の乱闘に飛び込みましょう。",
+    "joinCommunity": "Robloxコミュニティに参加する",
+    "joinGame": "Robloxでプレイ"
+  },
+  "footer": {
+    "title": "Gakuran Wiki",
+    "description": "Gakuranのコード、PvPガイド、格闘スタイル、操作方法、マップ情報、アップデートに関する完全なリソースハブです。",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法的事項",
+    "robloxGame": "Robloxでプレイ",
+    "robloxCommunity": "Robloxコミュニティ",
+    "discord": "Discord (Roblox経由)",
+    "about": "概要",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyrightNotice": "著作権",
+    "copyright": "© 2026 Gakuran Wiki. Gakuranの公式開発者とは提携していません。",
+    "disclaimer": "非公式のファン作成リソースサイト。"
+  },
+  "pages": {
+    "guide": {
+      "title": "Gakuranガイド",
+      "description": "初回のセッション、操作の基本、戦闘の始め方をカバーするGakuran初心者ガイド。",
+      "metaTitle": "Gakuranガイド - 初心者向けウォークスルー＆初回セッションのヒント",
+      "metaDescription": "起動方法、学校の設定、操作方法、最初の乱闘を網羅した初心者ガイドで、Gakuranを正しく始めましょう。",
+      "categoryLabel": "GAKURANガイド",
+      "whatIs": "Gakuranガイドとは何ですか？",
+      "whatIsDescription": "Gakuranガイドは、ゲームの起動、学園都市の設定の理解、ロールプレイかPvPかの選択まで、新規プレイヤーを案内します。",
+      "why": "なぜGakuranガイドを読むのですか？",
+      "whySteps": {
+        "step1Title": "スムーズに開始する",
+        "step1Description": "参加する前に初回セッションの手順を学ぶ",
+        "step2Title": "設定を理解する",
+        "step2Description": "学園都市とそのシステムに慣れる",
+        "step3Title": "自分の道を選ぶ",
+        "step3Description": "ロールプレイ、PvP、または自分に合ったミックスを選択する"
+      },
+      "featured": "おすすめ＆必須",
+      "all": "すべてのガイド"
+    },
+    "controls": {
+      "title": "Gakuranの操作方法",
+      "description": "PC、モバイル、コントローラー向けのGakuranの操作方法とキーバインド、およびゲーム内設定。",
+      "metaTitle": "Gakuranの操作方法とキーバインド - PC、モバイル、コントローラー",
+      "metaDescription": "キーボード＆マウス、モバイル、コントローラープレイ用の完全なキーバインド表で、Gakuranの操作をマスターしましょう。",
+      "categoryLabel": "GAKURANの操作方法",
+      "whatIs": "Gakuranの操作方法とは？",
+      "whatIsDescription": "GakuranはRoblox内で動作するため、その操作方法は移動、カメラ、チャット、メニューなどの標準的なRobloxのエクスペリエンス操作に基づいています。",
+      "why": "Gakuranの操作方法を学ぶ理由",
+      "whySteps": {
+        "step1Title": "快適にプレイする",
+        "step1Description": "お使いのデバイスに合ったキーバインドを見つける",
+        "step2Title": "自信を持って移動する",
+        "step2Description": "カメラと移動のオプションを理解する",
+        "step3Title": "設定を調整する",
+        "step3Description": "グラフィック、オーディオ、アクセシビリティを調整する"
+      },
+      "featured": "おすすめ＆基本情報",
+      "all": "すべての操作ガイド"
+    },
+    "styles": {
+      "title": "Gakuranの戦闘スタイル",
+      "description": "Gakuranの戦闘スタイルの概要、各スタイルの特徴、およびそれらを切り替える方法。",
+      "metaTitle": "Gakuranの戦闘スタイル - スタイル概要＆ティアガイド",
+      "metaDescription": "Gakuranの戦闘スタイルを比較し、PvPにおける各スタイルの特徴を確認し、ゲーム内でスタイルを切り替える方法を学びましょう。",
+      "categoryLabel": "GAKURANスタイル",
+      "whatIs": "Gakuranの戦闘スタイルとは？",
+      "whatIsDescription": "Gakuranの戦闘スタイルとは、プレイヤーが習得して切り替えることができる戦闘用の技セットであり、それぞれに独自の打撃、ツール、操作感があります。",
+      "why": "Gakuranのスタイルを比較する理由",
+      "whySteps": {
+        "step1Title": "自分に合ったスタイルを見つける",
+        "step1Description": "自分の好みの戦闘スタイルに合わせる",
+        "step2Title": "ツールを理解する",
+        "step2Description": "各スタイルの強みを理解する",
+        "step3Title": "最新情報を把握する",
+        "step3Description": "バランス調整や解放条件の変更に対応する"
+      },
+      "featured": "おすすめ＆基本情報",
+      "all": "すべてのスタイルガイド"
+    },
+    "map": {
+      "title": "Gakuranのマップ",
+      "description": "主要エリア、たまり場、PvPのホットスポットを網羅したGakuranのマップおよび学校ロールプレイ（RP）ガイド。",
+      "metaTitle": "Gakuranマップガイド - 学校、街、ロールプレイのロケーション",
+      "metaDescription": "学校、街並み、トレーニングスポット、たまり場、PvPのホットスポットへのガイドを参考に、Gakuranのマップを探索しましょう。",
+      "categoryLabel": "GAKURANマップ",
+      "whatIs": "Gakuranのマップとは？",
+      "whatIsDescription": "Gakuranのマップは、メインの学校、交流エリア、PvPとロールプレイが交差するスポットなど、学校と街の舞台をカバーしています。",
+      "why": "Gakuranのマップを探索する理由",
+      "whySteps": {
+        "step1Title": "道順を覚える",
+        "step1Description": "主要なエリアとルートを覚える",
+        "step2Title": "場所を選ぶ",
+        "step2Description": "ロールプレイや戦闘を行う場所を選ぶ",
+        "step3Title": "安全を確保する",
+        "step3Description": "PvPの激戦区を把握する"
+      },
+      "featured": "おすすめ・必須ガイド",
+      "all": "すべてのマップガイド"
+    },
+    "money": {
+      "title": "学乱マネー",
+      "description": "仕事、周回ルート、最速の稼ぎ方を網羅した学乱マネーと円のガイド。",
+      "metaTitle": "学乱マネーガイド - 円の稼ぎ方、仕事、周回",
+      "metaDescription": "円、仕事、周回ルート、ゲーム内通貨を最速で稼ぐ方法など、学乱での金策ガイドで学びましょう。",
+      "categoryLabel": "学乱マネー",
+      "whatIs": "学乱マネーとは？",
+      "whatIsDescription": "学乱マネー（円）は、仕事、周回、アクティビティを通じて獲得できるゲーム内通貨で、アイテム、装備、進行に使用します。",
+      "why": "なぜ学乱マネーガイドを読むべきなのか？",
+      "whySteps": {
+        "step1Title": "より早く稼ぐ",
+        "step1Description": "円を稼ぐための最適な仕事と周回ルートを見つける",
+        "step2Title": "賢く使う",
+        "step2Description": "何を買うべきか、いつ貯めるべきかを知る",
+        "step3Title": "効率を維持する",
+        "step3Description": "効率の悪い作業や時間の浪費を避ける"
+      },
+      "featured": "おすすめ・必須ガイド",
+      "all": "すべてのマネーガイド"
+    },
+    "roleplay": {
+      "title": "学乱ロールプレイ",
+      "description": "RPのマナー、学校生活のシーン、コミュニティロールプレイへの参加方法を網羅した学乱ロールプレイガイド。",
+      "metaTitle": "学乱ロールプレイガイド - 学校RP、マナー、コミュニティシーン",
+      "metaDescription": "学校生活のシーン、RPマナー、学園都市でのコミュニティロールプレイへの参加方法に関するガイドで、学乱ロールプレイを始めましょう。",
+      "categoryLabel": "学乱ロールプレイ",
+      "whatIs": "学乱ロールプレイとは？",
+      "whatIsDescription": "学乱ロールプレイは、日本の学園都市で学生生活、シーン、ストーリーを演じる、ゲーム内の学校生活ソーシャル要素です。",
+      "why": "なぜ学乱ロールプレイガイドを読むべきなのか？",
+      "whySteps": {
+        "step1Title": "シーンに参加する",
+        "step1Description": "RPのマナーとシーンの仕組みを学ぶ",
+        "step2Title": "グループを見つける",
+        "step2Description": "ロールプレイのクルーやサーバーとつながる",
+        "step3Title": "ストーリーを演じる",
+        "step3Description": "世界観に合った学校生活のストーリーを作り上げる"
+      },
+      "featured": "おすすめ・必須ガイド",
+      "all": "すべてのロールプレイガイド"
+    },
+    "trello": {
+      "title": "学乱 Trello",
+      "description": "学乱のTrello、Discord、Robloxページ、コミュニティ、リファレンスボードなどの公式リンクを一箇所にまとめたハブ。",
+      "metaTitle": "学乱 Trello ＆ 公式リンク - Discord, Roblox ＆ コミュニティ",
+      "metaDescription": "学乱のTrelloボード、Discordサーバー、公式Robloxページ、コミュニティリンクを1つの認証済みハブで見つけましょう。",
+      "categoryLabel": "学乱 TRELLO",
+      "whatIs": "Gakuran Trelloとは何ですか？",
+      "whatIsDescription": "Gakuran Trelloは、ゲームのメモ、メカニクス、アップデート情報をまとめたコミュニティ用リファレンスボードです。公式のRobloxページ、Discord、コミュニティリンクと併せて利用されています。",
+      "why": "なぜGakuran Trelloハブを利用するのですか？",
+      "whySteps": {
+        "step1Title": "リファレンスを読む",
+        "step1Description": "整理されたゲームメモをTrelloで確認する",
+        "step2Title": "アップデートを追う",
+        "step2Description": "Discordやコミュニティチャンネルを利用する",
+        "step3Title": "公式リンクにアクセスする",
+        "step3Description": "本物のRobloxページとコミュニティを見つける"
+      },
+      "featured": "注目 ＆ 必須",
+      "all": "すべてのTrelloガイド"
+    }
+  }
+}

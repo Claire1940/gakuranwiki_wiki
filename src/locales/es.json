@@ -1,1 +1,841 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Gakuran Wiki - Códigos, guía de PvP y estilos de combate",
+      "description": "Gakuran Wiki cubre los códigos de Roblox, la guía de PvP, los estilos de combate, los controles, las notas del mapa, las actualizaciones y los consejos para principiantes de este brawler escolar japonés.",
+      "keywords": "Gakuran, Roblox, códigos, guía de PvP, estilos de combate, controles, mapa, actualizaciones",
+      "ogTitle": "Gakuran Wiki - Códigos, guía de PvP y estilos de combate",
+      "ogDescription": "Gakuran Wiki cubre los códigos de Roblox, la guía de PvP, los estilos de combate, los controles, las notas del mapa, las actualizaciones y los consejos para principiantes de este brawler escolar japonés.",
+      "twitterTitle": "Gakuran Wiki - Códigos, guía de PvP y estilos de combate",
+      "twitterDescription": "Gakuran Wiki cubre los códigos de Roblox, la guía de PvP, los estilos de combate, los controles, el mapa y las actualizaciones."
+    }
+  },
+  "nav": {
+    "guide": "Guía",
+    "controls": "Controles",
+    "styles": "Estilos",
+    "map": "Mapa",
+    "money": "Dinero",
+    "roleplay": "Roleplay",
+    "trello": "Trello"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "RP de brawler escolar en Roblox",
+    "title": "Gakuran Wiki",
+    "description": "Lucha, haz roleplay y explora una ciudad escolar japonesa en Gakuran. Aprende los conceptos básicos de PvP, los controles, los estilos de combate, las notas del mapa, las actualizaciones y el estado de los códigos antes de unirte a la pelea.",
+    "getFreeCodesCTA": "Obtener códigos gratis",
+    "playOnRobloxCTA": "Jugar en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "828.5K+",
+        "label": "Visitas totales"
+      },
+      "stat2": {
+        "value": "3.77K",
+        "label": "CCU actual"
+      },
+      "stat3": {
+        "value": "93%",
+        "label": "Porcentaje de \"me gusta\""
+      },
+      "stat4": {
+        "value": "Roblox",
+        "label": "Plataforma"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Gakuran",
+    "description": "Pelea, haz juego de rol y explora un pueblo escolar japonés en Gakuran. La experiencia de Roblox combina el juego de rol de la vida escolar con acción, campos de batalla y estilos de pelea."
+  },
+  "tools": {
+    "title": "Gakuran",
+    "titleHighlight": "Recursos",
+    "subtitle": "Todo lo que necesitas para los códigos, controles, estilos de pelea de Gakuran y la pelea en el pueblo escolar.",
+    "cards": [
+      {
+        "icon": "Gift",
+        "title": "Códigos de Gakuran",
+        "description": "Códigos activos, pasos para canjear y dónde aparecen nuevos códigos"
+      },
+      {
+        "icon": "Link",
+        "title": "Enlaces de Gakuran",
+        "description": "Roblox, comunidad, Discord y Trello en un solo centro"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guía de Gakuran",
+        "description": "El camino de tu primera sesión desde el lanzamiento hasta tu primera pelea"
+      },
+      {
+        "icon": "Keyboard",
+        "title": "Controles de Gakuran",
+        "description": "Asignaciones de teclas para PC, móvil y mando"
+      },
+      {
+        "icon": "Swords",
+        "title": "Estilos de Gakuran",
+        "description": "Resumen de los estilos de pelea y por qué destaca cada uno"
+      },
+      {
+        "icon": "Zap",
+        "title": "Combate de Gakuran",
+        "description": "Distanciamiento, bloqueo, combos y supervivencia en PvP"
+      },
+      {
+        "icon": "Map",
+        "title": "Mapa de Gakuran",
+        "description": "Lugares de encuentro de la escuela, el pueblo y de juego de rol"
+      },
+      {
+        "icon": "Clock",
+        "title": "Actualizaciones de Gakuran",
+        "description": "Estado del lanzamiento, estadísticas del jugador y comprobaciones de actualizaciones"
+      }
+    ]
+  },
+  "modules": {
+    "gakuranCodes": {
+      "title": "Códigos de Gakuran",
+      "subtitle": "Consulta el estado actual de los códigos de Gakuran, las recompensas activas, los códigos caducados y dónde es más probable que aparezcan nuevos códigos.",
+      "statusLabel": "Estado de los códigos",
+      "statusValue": "Aún no se han listado códigos públicos activos.",
+      "activeLabel": "Códigos activos",
+      "activeEmpty": "No hay códigos activos listados en este momento. Hacemos un seguimiento de la página oficial de Roblox, los canales de la comunidad y las publicaciones de actualizaciones para nuevas recompensas.",
+      "expiredLabel": "Códigos caducados",
+      "expiredEmpty": "Aún no se han registrado códigos caducados porque no se ha lanzado ningún código público.",
+      "redeemLabel": "Cómo canjear códigos de Gakuran",
+      "redeemSteps": [
+        "Abre la página oficial de la experiencia de Gakuran en Roblox e inicia el juego.",
+        "Busca un menú de códigos o de ajustes dentro del juego una vez que el desarrollador añada uno.",
+        "Revisa la comunidad oficial de Roblox y Discord para ver anuncios de nuevos códigos.",
+        "Regresa a esta página de códigos de Gakuran cada vez que se publique un código de recompensa público."
+      ],
+      "watchLabel": "Dónde aparecen los nuevos códigos de Gakuran",
+      "watchSources": [
+        "Experiencia oficial de Roblox",
+        "Comunidad oficial de Roblox",
+        "Servidor de Discord de Gakuran",
+        "Publicaciones de actualización de los desarrolladores"
+      ]
+    },
+    "gakuranOfficialLinks": {
+      "title": "Trello, Discord y enlaces oficiales de Gakuran",
+      "subtitle": "Encuentra la página principal de Roblox de Gakuran, la página de la comunidad, la invitación de Discord, el tablero de Trello y la referencia de análisis en un solo lugar.",
+      "cards": [
+        {
+          "name": "Juega Gakuran en Roblox",
+          "type": "Experiencia oficial de Roblox",
+          "href": "https://www.roblox.com/games/128736949265057/Gakuran",
+          "description": "Experiencia principal jugable de Roblox para (学乱) Gakuran.",
+          "details": [
+            "Título: (学乱) Gakuran",
+            "Creador: (学乱) Gakuran",
+            "Entorno: Pueblo escolar japonés",
+            "Dirección: juego de rol de vida escolar con una comunidad muy enfocada en los combates"
+          ]
+        },
+        {
+          "name": "Comunidad de Roblox de Gakuran",
+          "type": "Comunidad oficial de Roblox",
+          "href": "https://www.roblox.com/communities/416091513/Gakuran",
+          "description": "Página oficial de la comunidad de Roblox conectada a la experiencia de Gakuran.",
+          "details": [
+            "Sigue al grupo del creador aquí.",
+            "Compara los códigos republicados y las reclamaciones de actualizaciones con esta página."
+          ]
+        },
+        {
+          "name": "Discord de Gakuran",
+          "type": "Servidor de la comunidad",
+          "href": "https://discord.gg/gakuran",
+          "description": "Invitación de Discord utilizada por la comunidad de Gakuran para actualizaciones, chat y debates entre jugadores.",
+          "details": [
+            "Útil para revisar anuncios.",
+            "Útil para comparar códigos, Trello y actualizaciones."
+          ]
+        },
+        {
+          "name": "Trello de Gakuran",
+          "type": "Tablero de Trello",
+          "href": "https://trello.com/b/DUeTE2HN/学乱-gakuran-trello",
+          "description": "Tablero público de Trello para obtener información y referencias del juego Gakuran.",
+          "details": [
+            "Úsalo para ver notas organizadas del juego.",
+            "Se complementa mejor con la página oficial de Roblox y los anuncios de Discord."
+          ]
+        },
+        {
+          "name": "Creator Exchange de Gakuran",
+          "type": "Referencia de análisis",
+          "href": "https://creatorexchange.io/roblox-game/9199655655/gakuran",
+          "description": "Página de referencia de análisis pública para Gakuran.",
+          "details": [
+            "Género: Acción",
+            "Subgénero: Battlegrounds y Lucha",
+            "Tasa de \"Me gusta\": 93%",
+            "Jugadores simultáneos (CCU): 3.77K"
+          ]
+        }
+      ]
+    },
+    "gakuranBeginnerGuide": {
+      "title": "Guía para principiantes de Gakuran",
+      "subtitle": "Inicia Gakuran desde la página oficial de Roblox, únete a la comunidad, comprende el entorno escolar y elige cómo jugar tu primera sesión.",
+      "steps": [
+        {
+          "title": "Abrir la página oficial del juego",
+          "description": "Comienza desde la página oficial de la experiencia de Roblox para (学乱) Gakuran para iniciar el juego."
+        },
+        {
+          "title": "Instalar o iniciar Roblox",
+          "description": "Inicia sesión en Roblox, presiona el botón verde de \"Jugar\" en la página de la experiencia y deja que Roblox Player se instale o se inicie desde tu navegador."
+        },
+        {
+          "title": "Únete a la comunidad oficial",
+          "description": "Usa la página de la comunidad de Gakuran en Roblox para seguir al grupo del juego y estar al tanto de las actualizaciones oficiales."
+        },
+        {
+          "title": "Consulta Discord y Trello antes de jugar",
+          "description": "Usa Discord para actualizaciones de la comunidad en vivo y Trello para notas organizadas del juego, mecánicas y material de referencia."
+        },
+        {
+          "title": "Entiende la dirección del juego",
+          "description": "Gakuran se presenta como una experiencia de vida escolar ambientada en Japón, pero su categoría pública también orienta a los jugadores hacia una jugabilidad de acción y lucha."
+        },
+        {
+          "title": "Usa el menú de ayuda de Roblox dentro del juego",
+          "description": "Abre la ayuda de Roblox dentro de la experiencia para ver los atajos actuales, instrucciones del ratón, gestos táctiles y ajustes disponibles dentro de la experiencia."
+        }
+      ],
+      "tips": [
+        "Explora el entorno escolar primero antes de buscar mecánicas avanzadas.",
+        "Lee las notas públicas de Trello para entender los sistemas principales desde el principio.",
+        "Espera una mezcla de energía de roleplay y combate entre jugadores en áreas abiertas.",
+        "Únete a los canales de la comunidad para enterarte rápido de los nuevos códigos y actualizaciones."
+      ]
+    },
+    "gakuranControls": {
+      "title": "Controles y teclas de Gakuran",
+      "subtitle": "Usa la capa de control predeterminada de Roblox para el movimiento, la cámara, el chat, los menús, el juego en móviles, el juego con mando y los ajustes dentro de la experiencia.",
+      "controls": [
+        {
+          "action": "Moverse",
+          "keyboard": "WASD o teclas de flecha",
+          "mobile": "Control de movimiento en pantalla",
+          "controller": "Stick izquierdo",
+          "notes": "Usa los controles de movimiento de Roblox mientras exploras el entorno escolar."
+        },
+        {
+          "action": "Saltar",
+          "keyboard": "Espacio",
+          "mobile": "Botón de salto en pantalla",
+          "controller": "Botón de salto del mando mostrado por Roblox",
+          "notes": "La disponibilidad del salto puede depender del estado actual dentro de la experiencia."
+        },
+        {
+          "action": "Cámara",
+          "keyboard": "Mantén presionado el botón derecho del ratón y arrastra para rotar",
+          "mobile": "Desliza o arrastra en la pantalla",
+          "controller": "Stick derecho",
+          "notes": "Los ajustes de cámara de Roblox incluyen los modos Clásico y Seguir cuando la experiencia lo permite."
+        },
+        {
+          "action": "Bloqueo de mayúsculas (Shift Lock)",
+          "keyboard": "Shift cuando el interruptor de bloqueo de mayúsculas está activado",
+          "mobile": "Usa los controles de cámara móviles disponibles",
+          "controller": "Usa los controles de cámara que se muestran en Ayuda",
+          "notes": "Shift Lock depende de la configuración de Roblox y del modo de cámara de la experiencia."
+        },
+        {
+          "action": "Chat",
+          "keyboard": "/ para abrir el chat, Enter o Return para enviar",
+          "mobile": "Toca el icono de chat cerca de la parte superior izquierda",
+          "controller": "Usa los controles de comunicación de Roblox cuando estén disponibles",
+          "notes": "El chat de la experiencia está filtrado y depende de la configuración de comunicación de la cuenta de Roblox."
+        },
+        {
+          "action": "Chat de voz",
+          "keyboard": "Usa los controles de comunicación de Roblox",
+          "mobile": "Usa los controles de comunicación de Roblox",
+          "controller": "Usa los controles de comunicación de Roblox",
+          "notes": "El acceso al chat de voz depende de la elegibilidad de la cuenta de Roblox y de la configuración de la experiencia."
+        },
+        {
+          "action": "Menú y Ayuda",
+          "keyboard": "Abre el menú de Roblox, luego elige Configuración o Ayuda",
+          "mobile": "Toca el icono del menú de Roblox, luego elige Configuración o Ayuda",
+          "controller": "Abre el menú de Roblox con la entrada de menú del control",
+          "notes": "El menú de Ayuda muestra los atajos disponibles, instrucciones del ratón y gestos móviles."
+        },
+        {
+          "action": "Gráficos, volumen y accesibilidad",
+          "keyboard": "Menú de Roblox > Configuración",
+          "mobile": "Menú de Roblox > Configuración",
+          "controller": "Menú de Roblox > Configuración",
+          "notes": "La configuración incluye volumen, cámara, gráficos, accesibilidad, Reducir movimiento y Alternar navegación de IU."
+        },
+        {
+          "action": "Tabla de clasificación, inventario y gestos",
+          "keyboard": "Usa el menú de hamburguesa de Roblox o los controles de la experiencia",
+          "mobile": "Usa el menú de hamburguesa de Roblox o los controles de la experiencia",
+          "controller": "Usa el menú de hamburguesa de Roblox o los controles de la experiencia",
+          "notes": "Solo se muestran las funciones habilitadas dentro de la experiencia actual."
+        },
+        {
+          "action": "Controles de combate de Gakuran",
+          "keyboard": "Consulta el menú de Ayuda dentro de la experiencia y el Trello de Gakuran",
+          "mobile": "Consulta el menú de Ayuda dentro de la experiencia y el Trello de Gakuran",
+          "controller": "Consulta el menú de Ayuda dentro de la experiencia y el Trello de Gakuran",
+          "notes": "Los controles de combate personalizados deben consultarse en la interfaz del juego en vivo y en el tablero oficial de Trello."
+        }
+      ]
+    },
+    "gakuranFightingStyles": {
+      "title": "Tier List de estilos de pelea de Gakuran",
+      "subtitle": "Compara los estilos de pelea actuales de Gakuran por presión, comodidad para principiantes, movilidad y utilidad en PvP.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Mejor presión en PvP",
+          "styles": [
+            {
+              "icon": "Flame",
+              "name": "Muay Thai",
+              "role": "Atacante agresivo de corto alcance",
+              "bestFor": "Presión frontal, combate cuerpo a cuerpo basado en patadas y castigos rápidos en peleas escolares multitudinarias.",
+              "strengths": [
+                "Herramientas de presión fuertes",
+                "Buen ritmo de pelea",
+                "Útil en peleas en puntos calientes de la escuela"
+              ],
+              "weaknesses": [
+                "Requiere un espaciado limpio",
+                "Castiga las persecuciones imprudentes"
+              ],
+              "practice": "Practica ataques con dash, el tiempo de bloqueo y ventanas de castigo cortas antes de forzar intercambios largos."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Elección confiable para principiantes",
+          "styles": [
+            {
+              "icon": "Mano",
+              "name": "Boxeo",
+              "role": "Estilo de combos de puñetazos directo",
+              "bestFor": "Jugadores nuevos que buscan combos legibles, presión simple e intercambios constantes a corta distancia.",
+              "strengths": [
+                "Ideal para principiantes",
+                "Cadenas de puñetazos limpias",
+                "Fácil de practicar en PvP básico"
+              ],
+              "weaknesses": [
+                "Compromiso de corto alcance",
+                "Requiere buena disciplina de bloqueo"
+              ],
+              "practice": "Practica ataques ligeros hacia rutas de retirada seguras en lugar de lanzarte a cada pelea."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Especialista llamativo",
+          "styles": [
+            {
+              "icon": "Destellos",
+              "name": "Hakari",
+              "role": "Estilo PvP llamativo fuera del meta",
+              "bestFor": "Jugadores que prefieren la expresión de estilo, el factor sorpresa y una ruta de combate menos estándar.",
+              "strengths": [
+                "Identidad de estilo distintiva",
+                "Útil para jugadores creativos",
+                "Buen valor de sorpresa"
+              ],
+              "weaknesses": [
+                "Menos apto para principiantes",
+                "Requiere un mayor conocimiento de los enfrentamientos"
+              ],
+              "practice": "Aprende cuándo retirarte, provocar bloqueos y evitar copiar rutas de presión pura de Muay Thai o Boxeo."
+            }
+          ]
+        }
+      ],
+      "note": "El equilibrio de los estilos cambia con el tiempo. Consulta la interfaz del juego y el Trello de Gakuran para ver los conjuntos de movimientos actuales y el estado de desbloqueo."
+    },
+    "gakuranCombatGuide": {
+      "title": "Guía de Combate de Gakuran",
+      "subtitle": "Aprende control de postura, espaciado, bloqueo, castigos, práctica de combos y hábitos de supervivencia para el PvP escolar abierto en Gakuran.",
+      "faqs": [
+        {
+          "icon": "Huellas",
+          "question": "Empieza con la Postura de Combate",
+          "answer": "Entra en postura de combate antes de atacar para que tu movimiento, bloqueos y castigos estén listos.",
+          "details": [
+            "Usa la postura de combate al acercarte a una pelea en lugar de empezar con golpes al azar.",
+            "Mantén la cámara en el oponente y evita luchar de espaldas a puertas o esquinas.",
+            "Deja suficiente espacio para salir con un dash tras un ataque bloqueado."
+          ],
+          "controls": [
+            {
+              "action": "Postura de combate",
+              "pc": "R",
+              "controller": "Menú de ayuda del juego"
+            },
+            {
+              "action": "Ataque ligero",
+              "pc": "M1 / clic",
+              "controller": "R2"
+            },
+            {
+              "action": "Ataque pesado",
+              "pc": "M2",
+              "controller": "Y"
+            }
+          ]
+        },
+        {
+          "icon": "Moverse",
+          "question": "Usa el espaciamiento antes de los combos",
+          "answer": "El espaciamiento decide si tu combo comienza limpiamente o si fallas el golpe y haces un mal intercambio.",
+          "details": [
+            "Haz un dash solo cuando el oponente ya haya fallado, bloqueado demasiado pronto o movido de forma predecible.",
+            "No persigas en línea recta indefinidamente; corta ángulos en las esquinas, escaleras y entradas de la escuela.",
+            "Recupérate después de fallar un ataque pesado en lugar de volver a atacar y exponerte a un castigo."
+          ],
+          "controls": [
+            {
+              "action": "Correr / Sprint",
+              "pc": "Presionar dos veces W",
+              "controller": "L3"
+            },
+            {
+              "action": "Esquivar / Dash",
+              "pc": "Q",
+              "controller": "B"
+            }
+          ]
+        },
+        {
+          "icon": "Escudo",
+          "question": "Bloquea, haz parry y luego castiga",
+          "answer": "Bloquear te mantiene con vida lo suficiente para castigar errores en lugar de regalar derribos gratuitos.",
+          "details": [
+            "Bloquea cuando el oponente ya esté al alcance y sea probable que comience una cadena de golpes.",
+            "Castiga después de que el oponente ejecute un ataque fallido o bloqueado.",
+            "Evita bloquear por pánico desde muy lejos, ya que eso delata tu sincronización."
+          ],
+          "controls": [
+            {
+              "action": "Bloquear / Parry",
+              "pc": "F",
+              "controller": "L2"
+            }
+          ]
+        },
+        {
+          "icon": "Fijar objetivo",
+          "question": "Practica combos cortos primero",
+          "answer": "Las secuencias cortas y repetibles superan a los combos largos de fantasía que solo funcionan en videos editados.",
+          "details": [
+            "Comienza con ataques ligeros, una pausa segura y luego reposiciónate.",
+            "Añade ataques pesados solo después de poder confirmar los primeros golpes.",
+            "Practica un estilo a la vez: Boxeo para cadenas de puñetazos, Muay Thai para presionar, Hakari para el timing y el control del estilo."
+          ],
+          "controls": [
+            {
+              "action": "Cargar",
+              "pc": "B",
+              "controller": "X"
+            },
+            {
+              "action": "Ejecutar / Agarrar",
+              "pc": "V",
+              "controller": "L1 + X"
+            }
+          ]
+        },
+        {
+          "icon": "Alerta de escudo",
+          "question": "Sobrevive a peleas grupales",
+          "answer": "El RP social y el PvP se solapan en Gakuran, así que trata a las multitudes como zonas de peligro en lugar de lugares de reunión seguros.",
+          "details": [
+            "No te centres solo en un objetivo cuando varios jugadores te rodeen.",
+            "Usa los espacios abiertos para evitar que te acorralen en los pasillos.",
+            "Abandona las peleas pronto cuando la energía, la posición o el control de la cámara empeoren."
+          ],
+          "controls": [
+            {
+              "action": "Marcador del mapa",
+              "pc": "P",
+              "controller": "Menú de ayuda de la experiencia"
+            }
+          ]
+        }
+      ]
+    },
+    "gakuranMapGuide": {
+      "title": "Mapa de Gakuran y Guía de RP escolar",
+      "subtitle": "Explora el entorno de vida escolar de Gakuran, las zonas de reunión clave, las rutas de roleplay y dónde el RP pacífico se convierte en guerra de pasillos.",
+      "areas": [
+        {
+          "icon": "Escuela",
+          "name": "Edificio escolar",
+          "type": "Centro de Roleplay",
+          "risk": "Medio",
+          "description": "Usa los salones de clase y los pasillos para el RP de vida escolar, encuentros, presentaciones y exploración sin presiones.",
+          "tip": "Empieza aquí primero si quieres entender el flujo social antes de buscar peleas."
+        },
+        {
+          "icon": "Puerta abierta",
+          "name": "Pasillos y entradas",
+          "type": "Zona de tráfico",
+          "risk": "Alto",
+          "description": "Observa el movimiento de los jugadores, aprende dónde se reúnen los grupos y evita quedarte quieto cerca de los puntos críticos.",
+          "tip": "Mantén una salida detrás de ti porque las puertas se convierten en embudos de emboscada en los servidores llenos."
+        },
+        {
+          "icon": "Trofeo",
+          "name": "Cancha de baloncesto",
+          "type": "Punto de actividad",
+          "risk": "Medio",
+          "description": "Usa la cancha para reuniones casuales, actividades rápidas y para conocer a otros jugadores antes de merodear.",
+          "tip": "Ideal para jugadores sociales que aún quieren acceso rápido al PvP cercano."
+        },
+        {
+          "icon": "Mancuerna",
+          "name": "Gimnasio / Área de entrenamiento",
+          "type": "Espacio de entrenamiento",
+          "risk": "Medio",
+          "description": "Practica hábitos de movimiento, pon a prueba el espaciado y usa el área como una parada de calentamiento antes de las peleas abiertas.",
+          "tip": "Trátalo como un punto de preparación antes de pasar del RP al combate."
+        },
+        {
+          "icon": "Música",
+          "name": "Salón de música",
+          "type": "Sala social",
+          "risk": "Bajo",
+          "description": "Usa el salón para un juego de rol más tranquilo, escenas grupales y momentos más calmados de la vida escolar.",
+          "tip": "Lo mejor para los jugadores que buscan el aspecto slice-of-life antes de buscar PvP."
+        },
+        {
+          "icon": "Ruta",
+          "name": "Calles del pueblo",
+          "type": "Ruta de PvP abierto",
+          "risk": "Alto",
+          "description": "Merodea por las áreas de la escuela, sigue a los grupos y busca peleas públicas o movimiento de pandillas.",
+          "tip": "Mantente en movimiento, evita que te rodeen y no comiences una pelea sin una ruta de escape."
+        },
+        {
+          "icon": "MessageCircle",
+          "name": "Crews de Discord y rutas de pandillas",
+          "type": "Ruta comunitaria",
+          "risk": "Alto",
+          "description": "Sigue la actividad de las pandillas, el chat del servidor, los eventos y la coordinación de grupos desde el Discord oficial.",
+          "tip": "Únete a las rutas comunitarias solo después de aprender los controles básicos y la supervivencia en PvP."
+        }
+      ]
+    },
+    "gakuranUpdates": {
+      "title": "Actualizaciones de Gakuran, fecha de lanzamiento y estadísticas de jugadores",
+      "subtitle": "Consulta el estado de lanzamiento, las señales de actualización, las ID de Roblox, el género, el CCU, la calificación, las visitas y los marcadores de actividad orientados al jugador para Gakuran.",
+      "stats": [
+        {
+          "icon": "Eye",
+          "value": "828.5K+",
+          "label": "Visitas totales"
+        },
+        {
+          "icon": "Usuarios",
+          "value": "3.77K",
+          "label": "CCU actual"
+        },
+        {
+          "icon": "Heart",
+          "value": "93%",
+          "label": "Porcentaje de me gusta"
+        },
+        {
+          "icon": "Star",
+          "value": "6.252",
+          "label": "Favoritos"
+        }
+      ],
+      "info": [
+        {
+          "label": "Título oficial",
+          "value": "(学乱) Gakuran",
+          "details": "Experiencia de Roblox publicada por la comunidad de (学乱) Gakuran."
+        },
+        {
+          "label": "Place ID",
+          "value": "128736949265057",
+          "details": "Identificador principal de la página de la experiencia de Roblox."
+        },
+        {
+          "label": "Universe ID",
+          "value": "9199655655",
+          "details": "Identificador de universo utilizado por las herramientas de metadatos de Roblox."
+        },
+        {
+          "label": "Fecha de lanzamiento",
+          "value": "22 de junio de 2026",
+          "details": "RoMonitor indica esta como la fecha de lanzamiento de la experiencia."
+        },
+        {
+          "label": "Última actualización",
+          "value": "24 de junio de 2026",
+          "details": "La captura de la página de Roblox indica que la experiencia se actualizó en esta fecha."
+        },
+        {
+          "label": "Género",
+          "value": "Acción / Battlegrounds y Lucha",
+          "details": "Categorizada como una experiencia de acción y lucha."
+        },
+        {
+          "label": "Ambientación",
+          "value": "Slice-of-life escolar japonés",
+          "details": "La experiencia se ambienta en una escuela japonesa dentro de una ciudad escolar."
+        },
+        {
+          "label": "Plataforma",
+          "value": "Roblox (PC, móvil, consola)",
+          "details": "Jugable en PC, móvil y consola a través de Roblox."
+        },
+        {
+          "label": "Activos en Roblox",
+          "value": "1,886 activos",
+          "details": "Captura de la página de Roblox para jugadores activos."
+        },
+        {
+          "label": "Chat de voz",
+          "value": "No compatible",
+          "details": "La captura de la página de Roblox indica que el chat de voz no es compatible."
+        },
+        {
+          "label": "Cámara",
+          "value": "No compatible",
+          "details": "La captura de la página de Roblox indica que la cámara no es compatible."
+        },
+        {
+          "label": "Estado de los códigos",
+          "value": "Ninguno aún",
+          "details": "No hay códigos de Gakuran listados en Creator Exchange."
+        }
+      ],
+      "updateNote": "Seguimos la página oficial de Roblox, los canales de la comunidad y las publicaciones de actualización para mantener al día estas estadísticas de Gakuran."
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Gakuran",
+    "questions": [
+      {
+        "question": "¿Qué es Gakuran en Roblox?",
+        "answer": "Gakuran es una experiencia de Roblox ambientada en una ciudad escolar japonesa, que combina el juego de rol de vida escolar con acción, battlegrounds y mecánicas de lucha."
+      },
+      {
+        "question": "¿Hay algún código de Gakuran activo?",
+        "answer": "Aún no hay códigos públicos de Gakuran activos. Seguimos la página oficial de Roblox, la comunidad de Roblox y el Discord de Gakuran para encontrar nuevos códigos."
+      },
+      {
+        "question": "¿Es Gakuran gratuito?",
+        "answer": "Sí. Gakuran es gratuito en Roblox para PC, móvil y consolas compatibles."
+      },
+      {
+        "question": "¿Tiene Gakuran PvP y estilos de lucha?",
+        "answer": "Sí. Gakuran cuenta con combate entre jugadores y múltiples estilos de lucha que puedes aprender e intercambiar durante las peleas."
+      },
+      {
+        "question": "¿Dónde puedo encontrar las actualizaciones oficiales de Gakuran?",
+        "answer": "Consulta la página oficial de la experiencia Gakuran en Roblox, la página de la comunidad de Roblox y el Discord de Gakuran para ver las últimas actualizaciones y anuncios."
+      },
+      {
+        "question": "¿Qué plataformas son compatibles con Gakuran?",
+        "answer": "Gakuran se ejecuta en Roblox, por lo que está disponible en PC, dispositivos móviles y cualquier plataforma que tenga instalada la aplicación de Roblox."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para unirte a la pelea en Gakuran?",
+    "description": "Inicia Gakuran en Roblox, consulta el estado de los últimos códigos y entra de lleno en la pelea del pueblo escolar japonés.",
+    "joinCommunity": "Únete a la comunidad de Roblox",
+    "joinGame": "Juega en Roblox"
+  },
+  "footer": {
+    "title": "Wiki de Gakuran",
+    "description": "Tu centro de recursos completo para códigos de Gakuran, guía de PvP, estilos de pelea, controles, notas del mapa y actualizaciones.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "robloxGame": "Juega en Roblox",
+    "robloxCommunity": "Comunidad de Roblox",
+    "discord": "Discord (a través de Roblox)",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Gakuran Wiki. No afiliado con los desarrolladores de Gakuran.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guía de Gakuran",
+      "description": "Guías para principiantes de Gakuran que cubren tu primera sesión, conceptos básicos de los controles y cómo empezar a pelear.",
+      "metaTitle": "Guía de Gakuran: recorrido para principiantes y consejos para la primera sesión",
+      "metaDescription": "Comienza en Gakuran de la manera correcta con guías para principiantes que cubren el inicio, el entorno escolar, los controles y tu primera pelea.",
+      "categoryLabel": "GUÍA DE GAKURAN",
+      "whatIs": "¿Qué es la guía de Gakuran?",
+      "whatIsDescription": "Las guías de Gakuran ayudan a los nuevos jugadores a iniciar el juego, comprender el entorno del pueblo escolar y elegir entre juego de rol y PvP.",
+      "why": "¿Por qué leer las guías de Gakuran?",
+      "whySteps": {
+        "step1Title": "Comienza sin problemas",
+        "step1Description": "Conoce el camino de tu primera sesión antes de unirte",
+        "step2Title": "Entiende el entorno",
+        "step2Description": "Familiarízate con el pueblo escolar y sus sistemas",
+        "step3Title": "Elige tu camino",
+        "step3Description": "Elige juego de rol, PvP o una combinación que se adapte a ti"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías"
+    },
+    "controls": {
+      "title": "Controles de Gakuran",
+      "description": "Controles y asignación de teclas de Gakuran para PC, dispositivos móviles y mando, además de los ajustes dentro de la experiencia.",
+      "metaTitle": "Controles y asignación de teclas de Gakuran: PC, móvil y mando",
+      "metaDescription": "Domina los controles de Gakuran con tablas completas de asignación de teclas para teclado y ratón, dispositivos móviles y juego con mando.",
+      "categoryLabel": "CONTROLES DE GAKURAN",
+      "whatIs": "¿Cuáles son los controles de Gakuran?",
+      "whatIsDescription": "Gakuran se ejecuta dentro de Roblox, por lo que sus controles se basan en los controles estándar de la experiencia de Roblox para movimiento, cámara, chat y menús.",
+      "why": "¿Por qué aprender los controles de Gakuran?",
+      "whySteps": {
+        "step1Title": "Juega cómodamente",
+        "step1Description": "Encuentra las teclas que se adapten a tu dispositivo",
+        "step2Title": "Muévete con confianza",
+        "step2Description": "Entiende las opciones de cámara y movimiento",
+        "step3Title": "Configura los ajustes",
+        "step3Description": "Ajusta los gráficos, el audio y la accesibilidad"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de controles"
+    },
+    "styles": {
+      "title": "Estilos de pelea de Gakuran",
+      "description": "Resumen de los estilos de pelea de Gakuran, por qué destaca cada estilo y cómo cambiar entre ellos.",
+      "metaTitle": "Estilos de pelea de Gakuran: resumen de estilos y guía de niveles",
+      "metaDescription": "Compara los estilos de pelea de Gakuran, descubre por qué destaca cada uno en PvP y aprende cómo cambiar de estilo en el juego.",
+      "categoryLabel": "ESTILOS DE GAKURAN",
+      "whatIs": "¿Qué son los estilos de pelea de Gakuran?",
+      "whatIsDescription": "Los estilos de pelea en Gakuran son conjuntos de movimientos de combate que los jugadores pueden aprender y alternar, cada uno con sus propios golpes, herramientas y sensaciones.",
+      "why": "¿Por qué comparar los estilos de Gakuran?",
+      "whySteps": {
+        "step1Title": "Encuentra tu estilo",
+        "step1Description": "Elige un estilo que se adapte a tu forma de pelear",
+        "step2Title": "Conoce las herramientas",
+        "step2Description": "Entiende las fortalezas de cada estilo",
+        "step3Title": "Mantente al día",
+        "step3Description": "Sigue los cambios de equilibrio y desbloqueo"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de estilos"
+    },
+    "map": {
+      "title": "Mapa de Gakuran",
+      "description": "Guía del mapa y del RP escolar de Gakuran que cubre áreas clave, lugares de encuentro y puntos críticos de PvP.",
+      "metaTitle": "Guía del mapa de Gakuran: ubicaciones de la escuela, el pueblo y el juego de rol",
+      "metaDescription": "Explora el mapa de Gakuran con guías de la escuela, las calles del pueblo, los lugares de entrenamiento, las zonas de encuentro y los puntos críticos de PvP.",
+      "categoryLabel": "MAPA DE GAKURAN",
+      "whatIs": "¿Qué es el mapa de Gakuran?",
+      "whatIsDescription": "El mapa de Gakuran cubre el entorno de la escuela y el pueblo, incluyendo la escuela principal, las áreas sociales y los lugares donde el PvP y el juego de rol se cruzan.",
+      "why": "¿Por qué explorar el mapa de Gakuran?",
+      "whySteps": {
+        "step1Title": "Encuentra tu camino",
+        "step1Description": "Conoce las áreas y rutas clave",
+        "step2Title": "Elige tu lugar",
+        "step2Description": "Elige dónde jugar a rol o pelear",
+        "step3Title": "Mantente a salvo",
+        "step3Description": "Conoce dónde están los puntos calientes de PvP"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías del mapa"
+    },
+    "money": {
+      "title": "Dinero en Gakuran",
+      "description": "Guías de dinero y yenes de Gakuran que cubren trabajos, rutas de farmeo y las formas más rápidas de ganar dinero.",
+      "metaTitle": "Guía de dinero de Gakuran: cómo conseguir yenes, trabajos y farmeo",
+      "metaDescription": "Aprende a ganar dinero en Gakuran con guías sobre yenes, trabajos, rutas de farmeo y las formas más rápidas de ganar la moneda del juego.",
+      "categoryLabel": "DINERO EN GAKURAN",
+      "whatIs": "¿Qué es el dinero en Gakuran?",
+      "whatIsDescription": "El dinero de Gakuran (yenes) es la moneda del juego que los jugadores ganan a través de trabajos, farmeo y actividades, y que luego gastan en objetos, equipamiento y progresión.",
+      "why": "¿Por qué leer las guías de dinero de Gakuran?",
+      "whySteps": {
+        "step1Title": "Gana más rápido",
+        "step1Description": "Encuentra los mejores trabajos y rutas de farmeo para conseguir yenes",
+        "step2Title": "Gasta de forma inteligente",
+        "step2Description": "Conoce qué comprar y cuándo ahorrar",
+        "step3Title": "Sé eficiente",
+        "step3Description": "Evita farmeos poco rentables y pérdidas de tiempo"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de dinero"
+    },
+    "roleplay": {
+      "title": "Roleplay en Gakuran",
+      "description": "Guías de roleplay de Gakuran que cubren la etiqueta de RP, escenas de la vida escolar y cómo unirse al roleplay de la comunidad.",
+      "metaTitle": "Guía de roleplay de Gakuran: RP escolar, etiqueta y escenas de la comunidad",
+      "metaDescription": "Adéntrate en el roleplay de Gakuran con guías sobre escenas de la vida escolar, etiqueta de RP y cómo unirse al roleplay de la comunidad en la ciudad escolar.",
+      "categoryLabel": "ROLEPLAY EN GAKURAN",
+      "whatIs": "¿Qué es el roleplay en Gakuran?",
+      "whatIsDescription": "El roleplay de Gakuran es la faceta social de la vida escolar del juego, donde los jugadores representan la vida estudiantil, escenas e historias dentro de la ciudad escolar japonesa.",
+      "why": "¿Por qué leer las guías de roleplay de Gakuran?",
+      "whySteps": {
+        "step1Title": "Únete a escenas",
+        "step1Description": "Aprende cómo funcionan la etiqueta de RP y las escenas",
+        "step2Title": "Encuentra tu grupo",
+        "step2Description": "Conéctate con grupos y servidores de roleplay",
+        "step3Title": "Vive la historia",
+        "step3Description": "Crea historias de la vida escolar que encajen con el entorno"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de roleplay"
+    },
+    "trello": {
+      "title": "Trello de Gakuran",
+      "description": "El centro de Trello, Discord y enlaces oficiales de Gakuran, con la página de Roblox, la comunidad y los tableros de referencia en un solo lugar.",
+      "metaTitle": "Trello y enlaces oficiales de Gakuran: Discord, Roblox y comunidad",
+      "metaDescription": "Encuentra el tablero de Trello de Gakuran, el servidor de Discord, la página oficial de Roblox y los enlaces de la comunidad en un único centro verificado.",
+      "categoryLabel": "TRELLO DE GAKURAN",
+      "whatIs": "¿Qué es el Trello de Gakuran?",
+      "whatIsDescription": "El Trello de Gakuran es un tablero de referencia de la comunidad para notas del juego, mecánicas y actualizaciones, vinculado con la página oficial de Roblox, Discord y enlaces de la comunidad.",
+      "why": "¿Por qué usar el centro de Trello de Gakuran?",
+      "whySteps": {
+        "step1Title": "Leer referencias",
+        "step1Description": "Consulta el Trello para ver notas del juego organizadas",
+        "step2Title": "Seguir actualizaciones",
+        "step2Description": "Usa Discord y los canales de la comunidad",
+        "step3Title": "Acceder a enlaces oficiales",
+        "step3Description": "Encuentra la página real de Roblox y la comunidad"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de Trello"
+    }
+  }
+}
